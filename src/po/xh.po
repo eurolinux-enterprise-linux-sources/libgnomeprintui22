@@ -1,0 +1,619 @@
+# Xhosa translation of libgnomeprintui
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the libgnomeprintui package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-26 09:34-0400\n"
+"PO-Revision-Date: 2005-03-17 16:03+0200\n"
+"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
+"Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Umbhalo"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Umbhalo wokunikezela"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:148
+#: libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Uluhlu lwe-glyph"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:155
+#: libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Umbala"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Umbala wombhalo, njengoluhlu lwamagama"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Umbala wombhalo, njengenani elihlanganisiweyo eliyi R/G/B/A"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Ifonti"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Ifonti njenge GnomeFont struct"
+
+#. Family frame
+#: libgnomeprintui/gnome-font-dialog.c:164
+#: libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Udidi lwefonti"
+
+#: libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Uluhlu lweendidi zefonti luyafumaneka"
+
+#. Style frame
+#: libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Isimbo"
+
+#: libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Isimbo sefonti"
+
+#: libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Uluhlu lwezimbo olufumanekayo lusenzelwa udidi lwefonti"
+
+#: libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "Ubungaka_nani befonti:"
+
+#: libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Le fonti ayinayo isampuli"
+
+#: libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Ukujonga ifonti ngaphambi koshicilelo"
+
+#: libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Ibonisa eskrinini umzekelo othile kwifonti ekhethiweyo"
+
+#: libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Ukhetho LweFonti"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Imimiselo Emiselweyo"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Umfanekiso ubonisa amaphepha ashicilelwa kubini."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Kubini"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Amaphepha ashicilelwe kubini."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"Umfanekiso obonisa iphepha lesibini lolandelelwano loshicilelo kabini uza "
+"kushicilelwa ugqwethekile."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Qika-qikeka"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Ukuba iikopi zoxwebhu zishicilelwa kabini, iphepha lesibini liphoswa nje "
+"ligqwethekile,"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Ixesha _Lokushicilela:"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:353
+#: libgnomeprintui/gnome-print-dialog.c:148
+msgid "Error while loading printer configuration"
+msgstr "Impazamo xa ibilayisha ukumiselwa kwenkqubo yesishicileli"
+
+#: libgnomeprintui/gnome-print-copies.c:261
+msgid "Copies"
+msgstr "Iikopi"
+
+#: libgnomeprintui/gnome-print-copies.c:274
+msgid "N_umber of copies:"
+msgstr "In_ani leekopi:"
+
+#: libgnomeprintui/gnome-print-copies.c:294
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"Umfanekiso obonisa ulandelelwano loqokelelo xa iikopi zoxwebhu eziphindwe "
+"kaninzi zishicilelwa"
+
+#: libgnomeprintui/gnome-print-copies.c:296
+msgid "_Collate"
+msgstr "_Qokelela"
+
+#: libgnomeprintui/gnome-print-copies.c:302
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"Ukuba iikopi zoxwebhu zishicilelwa ngokwahlukeneyo, enye emva kwenye, "
+"endaweni yokuba kufakwe iikopi phakathi kwezinye"
+
+#: libgnomeprintui/gnome-print-dialog.c:160
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Isishicileli"
+
+#: libgnomeprintui/gnome-print-dialog.c:175
+msgid "Paper"
+msgstr "Iphepha"
+
+#. Set up the dialog
+#: libgnomeprintui/gnome-print-dialog.c:367
+#: libgnomeprintui/gnome-print-dialog.c:435
+msgid "Gnome Print Dialog"
+msgstr "Unxulumano Loshicilelo lwe-Gnome"
+
+#: libgnomeprintui/gnome-print-dialog.c:459
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Job"
+msgstr "Umsebenzi"
+
+#: libgnomeprintui/gnome-print-dialog.c:474
+#: libgnomeprintui/gnome-print-page-selector.c:712
+msgid "Print Range"
+msgstr "Uluhlu Loshicilelo"
+
+#. Expert mode
+#: libgnomeprintui/gnome-print-dialog.c:498
+msgid "Expert mode"
+msgstr ""
+
+#. All pages
+#: libgnomeprintui/gnome-print-dialog.c:545
+#: libgnomeprintui/gnome-print-page-selector.c:725
+msgid "_All"
+msgstr "_Konke"
+
+#: libgnomeprintui/gnome-print-dialog.c:569
+msgid "_Selection"
+msgstr "_Ukhetho"
+
+#: libgnomeprintui/gnome-print-dialog.c:754
+msgid "_From:"
+msgstr "I_suka ku:"
+
+#: libgnomeprintui/gnome-print-dialog.c:767
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Imisela ukuqala koluhlu lwamaphepha aza kushicilelwa"
+
+#: libgnomeprintui/gnome-print-dialog.c:769
+msgid "_To:"
+msgstr "I_ya ku:"
+
+#: libgnomeprintui/gnome-print-dialog.c:782
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Imisela ukuphela koluhlu lwamaphepha aza kushicilelwa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:537
+msgid "No visible output was created."
+msgstr "Akukho ziphumo zibonakalayo zidaliweyo."
+
+#: libgnomeprintui/gnome-print-job-preview.c:1670
+msgid "all"
+msgstr "konke"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2363
+#: libgnomeprintui/gnome-print-job-preview.c:2364
+msgid "Number of pages horizontally"
+msgstr "Inani lamaphepha ngokuthe tyaba"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2367
+#: libgnomeprintui/gnome-print-job-preview.c:2368
+msgid "Number of pages vertically"
+msgstr "Inani lamaphepha ngokuthe nkqo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Print job"
+msgstr "Umsebenzi woshicilelo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Print"
+msgstr "Shicilela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Prints the current file"
+msgstr "Ishicilela ifayili yangoku"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Close"
+msgstr "Vala"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Closes print preview window"
+msgstr "Ivala ifestile ejongwa ngaphambi koshicilelo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2474
+msgid "Cut"
+msgstr "Sika"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2475
+msgid "Copy"
+msgstr "Kopa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2476
+msgid "Paste"
+msgstr "Ncamathelisa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo"
+msgstr "Buyisela okwenziweyo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo the last action"
+msgstr "Buyisela okwenziweyo kwisenzo sokugqibela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo"
+msgstr "Yenze kwakhona"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo the undone action"
+msgstr "Yenza kwakhona isenzo esibuyiselweyo ekwenziweni"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "First"
+msgstr "Kuqala"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "Shows the first page"
+msgstr "Ibonisa iphepha lokuqala"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Previous"
+msgstr "Engaphambili"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Shows previous page"
+msgstr "Ibonisa iphepha elingaphambili"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Next"
+msgstr "Elandelayo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Shows the next page"
+msgstr "Ibonisa iphepha elilandelayo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Last"
+msgstr "Lokugqibela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Shows the last page"
+msgstr "Ibonisa iphepha lokugqibela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+#, no-c-format
+msgid "100%"
+msgstr "i-100%"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+msgid "Zooms 1:1"
+msgstr "Yandisela isi 1:1"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zoom to fit"
+msgstr "Yandisela ukulungela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zooms to fit the whole page"
+msgstr "Yandisela ukulungela iphepha lonke"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zoom in"
+msgstr "Yandisela ngaphakathi"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zooms the page in"
+msgstr "Yandisela iphepha ngaphakathi"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zoom out"
+msgstr "Yandisela ngaphandle"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zooms the page out"
+msgstr "Yandisela iphepha ngaphandle"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2522
+msgid "Show multiple pages"
+msgstr "Bonisa amaphepha aphindwe kaninzi"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2523
+msgid "Edit"
+msgstr "Hlela"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use theme"
+msgstr "Sebenzisa umxholo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use _theme colors for content"
+msgstr "Sebenzisa amabala o_mxholo usenzela okuqulathiweyo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2547
+msgid "Page Preview"
+msgstr "Iphepha Elijongwa ngaphambi koshicilelo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2548
+msgid "The preview of a page in the document to be printed"
+msgstr "Ukujongwa kwephepha ngaphambi koshicilelo kuxwebhu oluza kushicilelwa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "_Page: "
+msgstr "I_phepha: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: libgnomeprintui/gnome-print-job-preview.c:2592
+msgid "of"
+msgstr "le"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2599
+msgid "Page total"
+msgstr "Iyonke kwiphepha"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2600
+msgid "The total number of pages in the document"
+msgstr "Inani lilonke lamaphepha eluxwebhini"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Gnome Print Preview"
+msgstr "Ukujongwa kwephepha Ngaphambi Koshicilelo kwiGnome"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:438
+msgid "Paper and Layout"
+msgstr "Iphepha noBume"
+
+#. Paper size selector
+#: libgnomeprintui/gnome-print-paper-selector.c:455
+msgid "Paper _size:"
+msgstr "Ubungaka_nani bephepha:"
+
+#. Custom paper Width
+#: libgnomeprintui/gnome-print-paper-selector.c:469
+msgid "_Width:"
+msgstr "Ubu_banzi:"
+
+#. Custom paper Height
+#: libgnomeprintui/gnome-print-paper-selector.c:485
+msgid "_Height:"
+msgstr "Um_phakamo:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:508
+msgid "Metric selector"
+msgstr "Isikhethi se-Metric"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:509
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr ""
+"Ibalula i-metric ekufuneke iyisebenzise xa imisela ububanzi nomphakamo "
+"wephepha"
+
+#. Feed orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:512
+msgid "_Feed orientation:"
+msgstr "_Dlisa imbonakalo:"
+
+#. Page orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:528
+msgid "Page _orientation:"
+msgstr "Tyhila _imbonakalo:"
+
+#. Layout
+#: libgnomeprintui/gnome-print-paper-selector.c:541
+msgid "_Layout:"
+msgstr "_Ubume:"
+
+#. Paper source
+#: libgnomeprintui/gnome-print-paper-selector.c:554
+msgid "Paper _tray:"
+msgstr "I_treyi yephepha:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:570
+#: libgnomeprintui/gnome-print-paper-selector.c:584
+msgid "Preview"
+msgstr "Ukujongwa ngaphambi koshicilelo"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:585
+msgid "Preview of the page size, orientation and layout"
+msgstr ""
+"Ukujongwa ngaphambi koshicilelo kobungakanani bephepha, inkangeleko kunye "
+"nobume"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:591
+msgid "Margins"
+msgstr "Imida yephepha"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:625
+msgid "Top"
+msgstr "Umntla"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:628
+msgid "Bottom"
+msgstr "Umzantsi"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:631
+msgid "Left"
+msgstr "Ekhohlo"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:634
+msgid "Right"
+msgstr "Ekunene"
+
+#: libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "Mise_la inkqubo"
+
+#: libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Hlenga-hlengisa imimiselo yesishicileli esikhethiweyo"
+
+#: libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "I_mimiselo:"
+
+#: libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "_Indawo:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:119
+#: libgnomeprintui/gnome-print-page-selector.c:608
+#, fuzzy
+msgid "Number of pages"
+msgstr "In_ani leekopi:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:122
+#: libgnomeprintui/gnome-print-page-selector.c:605
+#, fuzzy
+msgid "Current page"
+msgstr "Uluhlu Loshicilelo"
+
+#: libgnomeprintui/gnome-print-content-selector.c:133
+#, fuzzy
+msgid "Print Content"
+msgstr "Uluhlu Loshicilelo"
+
+#: libgnomeprintui/gnome-print-page-selector.c:602
+#, fuzzy
+msgid "Configuration"
+msgstr "Mise_la inkqubo"
+
+#: libgnomeprintui/gnome-print-page-selector.c:731
+msgid "_Current"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:743
+msgid "_From page "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:755
+msgid " to "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:773
+#, fuzzy
+msgid "_Selection: "
+msgstr "_Ukhetho"
+
+#. Print only...
+#: libgnomeprintui/gnome-print-page-selector.c:785
+#, fuzzy
+msgid "Print only..."
+msgstr "Umsebenzi woshicilelo"
+
+#: libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Akukho zinto kunokukhethwa kuzo zichaziweyo"
+
+#: libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Shicilela usenzela uku_fayila"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Isimo"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Imisebenzi"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Indawo"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Akukho sishicileli sikhethiweyo"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Akukho mimiselo ifumanekayo"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Dibanisa imimiselo enitsha"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Pt"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "in"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Igama lefayili elibalulweyo eliyi \"%s\" nguvimba weefayili okhoyo."
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Ingaba kufuneka kubhalwe phezu kokubhaliweyo kwifayili i %s?"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Nceda ubalule indawo kunye negama lefayili lefayili yeziphumo:"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Zonke Iifayili"

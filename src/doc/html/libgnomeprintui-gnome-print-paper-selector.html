@@ -1,0 +1,726 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gnome-print-paper-selector</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.74.2">
+<link rel="home" href="index.html" title="GNOME Print UI Reference Manual">
+<link rel="up" href="ch02.html" title="API Reference">
+<link rel="prev" href="libgnomeprintui-gnome-print-job-preview.html" title="gnome-print-job-preview">
+<link rel="next" href="libgnomeprintui-gnome-print-preview.html" title="gnome-print-preview">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libgnomeprintui.html" title="GNOME Print UI Overview">
+<link rel="chapter" href="ch02.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgnomeprintui-gnome-print-job-preview.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GNOME Print UI Reference Manual</th>
+<td><a accesskey="n" href="libgnomeprintui-gnome-print-preview.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgnomeprintui-gnome-print-paper-selector.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-paper-selector.description" class="shortcut">Description</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-paper-selector.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-paper-selector.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-paper-selector.properties" class="shortcut">Properties</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-paper-selector.signals" class="shortcut">Signals</a>
+</td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgnomeprintui-gnome-print-paper-selector.top_of_page"></a>gnome-print-paper-selector</span></h2>
+<p>gnome-print-paper-selector</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgnomeprintui-gnome-print-paper-selector.synopsis"></a><h2>Synopsis</h2>
+<a name="GnomePaperSelector"></a><a name="GnomePrintUnitSelector"></a><pre class="synopsis">
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperPreview" title="GnomePaperPreview">GnomePaperPreview</a>;
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperPreviewClass" title="GnomePaperPreviewClass">GnomePaperPreviewClass</a>;
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-TYPE-PAPER-SELECTOR--CAPS" title="GNOME_TYPE_PAPER_SELECTOR">GNOME_TYPE_PAPER_SELECTOR</a>
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR--CAPS" title="GNOME_PAPER_SELECTOR()">GNOME_PAPER_SELECTOR</a>                (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR-CLASS--CAPS" title="GNOME_PAPER_SELECTOR_CLASS()">GNOME_PAPER_SELECTOR_CLASS</a>          (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PAPER-SELECTOR--CAPS" title="GNOME_IS_PAPER_SELECTOR()">GNOME_IS_PAPER_SELECTOR</a>             (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PAPER-SELECTOR-CLASS--CAPS" title="GNOME_IS_PAPER_SELECTOR_CLASS()">GNOME_IS_PAPER_SELECTOR_CLASS</a>       (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR-GET-CLASS--CAPS" title="GNOME_PAPER_SELECTOR_GET_CLASS()">GNOME_PAPER_SELECTOR_GET_CLASS</a>      (o)
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector-struct" title="GnomePaperSelector">GnomePaperSelector</a>;
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelectorClass" title="GnomePaperSelectorClass">GnomePaperSelectorClass</a>;
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-TYPE-PRINT-UNIT-SELECTOR--CAPS" title="GNOME_TYPE_PRINT_UNIT_SELECTOR">GNOME_TYPE_PRINT_UNIT_SELECTOR</a>
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR--CAPS" title="GNOME_PRINT_UNIT_SELECTOR()">GNOME_PRINT_UNIT_SELECTOR</a>           (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR-CLASS--CAPS" title="GNOME_PRINT_UNIT_SELECTOR_CLASS()">GNOME_PRINT_UNIT_SELECTOR_CLASS</a>     (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PRINT-UNIT-SELECTOR--CAPS" title="GNOME_IS_PRINT_UNIT_SELECTOR()">GNOME_IS_PRINT_UNIT_SELECTOR</a>        (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PRINT-UNIT-SELECTOR-CLASS--CAPS" title="GNOME_IS_PRINT_UNIT_SELECTOR_CLASS()">GNOME_IS_PRINT_UNIT_SELECTOR_CLASS</a>  (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR-GET-CLASS--CAPS" title="GNOME_PRINT_UNIT_SELECTOR_GET_CLASS()">GNOME_PRINT_UNIT_SELECTOR_GET_CLASS</a> (o)
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector-struct" title="GnomePrintUnitSelector">GnomePrintUnitSelector</a>;
+                    <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelectorClass" title="GnomePrintUnitSelectorClass">GnomePrintUnitSelectorClass</a>;
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-preview-new" title="gnome_paper_preview_new ()">gnome_paper_preview_new</a>             (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);
+<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-get-type" title="gnome_paper_selector_get_type ()">gnome_paper_selector_get_type</a>       (void);
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-new" title="gnome_paper_selector_new ()">gnome_paper_selector_new</a>            (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-new-with-flags" title="gnome_paper_selector_new_with_flags ()">gnome_paper_selector_new_with_flags</a> (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> flags);
+<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-get-type" title="gnome_print_unit_selector_get_type ()">gnome_print_unit_selector_get_type</a>  (void);
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-new" title="gnome_print_unit_selector_new ()">gnome_print_unit_selector_new</a>       (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guint"
+>guint</a> bases);
+const <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-unit.html#GnomePrintUnit"
+>GnomePrintUnit</a> * <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-get-unit" title="gnome_print_unit_selector_get_unit ()">gnome_print_unit_selector_get_unit</a>
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector);
+void                <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-set-bases" title="gnome_print_unit_selector_set_bases ()">gnome_print_unit_selector_set_bases</a> (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guint"
+>guint</a> bases);
+void                <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-set-unit" title="gnome_print_unit_selector_set_unit ()">gnome_print_unit_selector_set_unit</a>  (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         const <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-unit.html#GnomePrintUnit"
+>GnomePrintUnit</a> *unit);
+void                <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-add-adjustment" title="gnome_print_unit_selector_add_adjustment ()">gnome_print_unit_selector_add_adjustment</a>
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         GtkAdjustment *adjustment);
+void                <a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-remove-adjustment" title="gnome_print_unit_selector_remove_adjustment ()">gnome_print_unit_selector_remove_adjustment</a>
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         GtkAdjustment *adjustment);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBox
+                                 +----GtkHBox
+                                       +----GnomePaperSelector
+</pre>
+<pre class="synopsis">
+  <a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBox
+                                 +----GtkHBox
+                                       +----GnomePrintUnitSelector
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GnomePaperSelector implements
+ GtkBuildable,  GtkOrientable and  AtkImplementorIface.</p>
+<p>
+GnomePrintUnitSelector implements
+ GtkBuildable,  GtkOrientable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--config" title='The "config" property'>config</a>"                   <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a>*     : Read / Write
+  "<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--height" title='The "height" property'>height</a>"                   <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a>               : Read
+  "<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--width" title='The "width" property'>width</a>"                    <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a>               : Read
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector-modified" title='The "modified" signal'>modified</a>"                                       : Run First
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePaperPreview"></a><h3>GnomePaperPreview</h3>
+<pre class="programlisting">typedef struct {
+	GtkHBox box;
+
+	GtkWidget *canvas;
+
+	GnomeCanvasItem *item;
+
+	GnomePrintConfig *config;
+} GnomePaperPreview;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePaperPreviewClass"></a><h3>GnomePaperPreviewClass</h3>
+<pre class="programlisting">typedef struct _GnomePaperPreviewClass GnomePaperPreviewClass;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-TYPE-PAPER-SELECTOR--CAPS"></a><h3>GNOME_TYPE_PAPER_SELECTOR</h3>
+<pre class="programlisting">#define GNOME_TYPE_PAPER_SELECTOR         (gnome_paper_selector_get_type ())
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PAPER-SELECTOR--CAPS"></a><h3>GNOME_PAPER_SELECTOR()</h3>
+<pre class="programlisting">#define GNOME_PAPER_SELECTOR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), GNOME_TYPE_PAPER_SELECTOR, GnomePaperSelector))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PAPER-SELECTOR-CLASS--CAPS"></a><h3>GNOME_PAPER_SELECTOR_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PAPER_SELECTOR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST    ((k), GNOME_TYPE_PAPER_SELECTOR, GnomePaperSelectorClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PAPER-SELECTOR--CAPS"></a><h3>GNOME_IS_PAPER_SELECTOR()</h3>
+<pre class="programlisting">#define GNOME_IS_PAPER_SELECTOR(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), GNOME_TYPE_PAPER_SELECTOR))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PAPER-SELECTOR-CLASS--CAPS"></a><h3>GNOME_IS_PAPER_SELECTOR_CLASS()</h3>
+<pre class="programlisting">#define GNOME_IS_PAPER_SELECTOR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE    ((k), GNOME_TYPE_PAPER_SELECTOR))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PAPER-SELECTOR-GET-CLASS--CAPS"></a><h3>GNOME_PAPER_SELECTOR_GET_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PAPER_SELECTOR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS  ((o), GNOME_TYPE_PAPER_SELECTOR, GnomePaperSelectorClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePaperSelector-struct"></a><h3>GnomePaperSelector</h3>
+<pre class="programlisting">typedef struct _GnomePaperSelector GnomePaperSelector;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePaperSelectorClass"></a><h3>GnomePaperSelectorClass</h3>
+<pre class="programlisting">typedef struct _GnomePaperSelectorClass GnomePaperSelectorClass;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-TYPE-PRINT-UNIT-SELECTOR--CAPS"></a><h3>GNOME_TYPE_PRINT_UNIT_SELECTOR</h3>
+<pre class="programlisting">#define GNOME_TYPE_PRINT_UNIT_SELECTOR         (gnome_print_unit_selector_get_type ())
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-UNIT-SELECTOR--CAPS"></a><h3>GNOME_PRINT_UNIT_SELECTOR()</h3>
+<pre class="programlisting">#define GNOME_PRINT_UNIT_SELECTOR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), GNOME_TYPE_PRINT_UNIT_SELECTOR, GnomePrintUnitSelector))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-UNIT-SELECTOR-CLASS--CAPS"></a><h3>GNOME_PRINT_UNIT_SELECTOR_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PRINT_UNIT_SELECTOR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST ((k),    GNOME_TYPE_PRINT_UNIT_SELECTOR, GnomePrintUnitSelectorClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PRINT-UNIT-SELECTOR--CAPS"></a><h3>GNOME_IS_PRINT_UNIT_SELECTOR()</h3>
+<pre class="programlisting">#define GNOME_IS_PRINT_UNIT_SELECTOR(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), GNOME_TYPE_PRINT_UNIT_SELECTOR))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PRINT-UNIT-SELECTOR-CLASS--CAPS"></a><h3>GNOME_IS_PRINT_UNIT_SELECTOR_CLASS()</h3>
+<pre class="programlisting">#define GNOME_IS_PRINT_UNIT_SELECTOR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k),    GNOME_TYPE_PRINT_UNIT_SELECTOR))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-UNIT-SELECTOR-GET-CLASS--CAPS"></a><h3>GNOME_PRINT_UNIT_SELECTOR_GET_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PRINT_UNIT_SELECTOR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o),  GNOME_TYPE_PRINT_UNIT_SELECTOR, GnomePrintUnitSelectorClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintUnitSelector-struct"></a><h3>GnomePrintUnitSelector</h3>
+<pre class="programlisting">typedef struct _GnomePrintUnitSelector GnomePrintUnitSelector;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintUnitSelectorClass"></a><h3>GnomePrintUnitSelectorClass</h3>
+<pre class="programlisting">typedef struct _GnomePrintUnitSelectorClass GnomePrintUnitSelectorClass;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-paper-preview-new"></a><h3>gnome_paper_preview_new ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_paper_preview_new             (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-paper-selector-get-type"></a><h3>gnome_paper_selector_get_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               gnome_paper_selector_get_type       (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-paper-selector-new"></a><h3>gnome_paper_selector_new ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_paper_selector_new            (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-paper-selector-new-with-flags"></a><h3>gnome_paper_selector_new_with_flags ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_paper_selector_new_with_flags (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> flags);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>flags</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-get-type"></a><h3>gnome_print_unit_selector_get_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               gnome_print_unit_selector_get_type  (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-new"></a><h3>gnome_print_unit_selector_new ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_print_unit_selector_new       (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guint"
+>guint</a> bases);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bases</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-get-unit"></a><h3>gnome_print_unit_selector_get_unit ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-unit.html#GnomePrintUnit"
+>GnomePrintUnit</a> * gnome_print_unit_selector_get_unit
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-set-bases"></a><h3>gnome_print_unit_selector_set_bases ()</h3>
+<pre class="programlisting">void                gnome_print_unit_selector_set_bases (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guint"
+>guint</a> bases);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bases</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-set-unit"></a><h3>gnome_print_unit_selector_set_unit ()</h3>
+<pre class="programlisting">void                gnome_print_unit_selector_set_unit  (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         const <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-unit.html#GnomePrintUnit"
+>GnomePrintUnit</a> *unit);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>unit</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-add-adjustment"></a><h3>gnome_print_unit_selector_add_adjustment ()</h3>
+<pre class="programlisting">void                gnome_print_unit_selector_add_adjustment
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         GtkAdjustment *adjustment);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>adjustment</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-unit-selector-remove-adjustment"></a><h3>gnome_print_unit_selector_remove_adjustment ()</h3>
+<pre class="programlisting">void                gnome_print_unit_selector_remove_adjustment
+                                                        (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *selector,
+                                                         GtkAdjustment *adjustment);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>selector</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>adjustment</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePaperSelector--config"></a><h3>The <code class="literal">"config"</code> property</h3>
+<pre class="programlisting">  "config"                   <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a>*     : Read / Write</pre>
+<p>Configuration.</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePaperSelector--height"></a><h3>The <code class="literal">"height"</code> property</h3>
+<pre class="programlisting">  "height"                   <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a>               : Read</pre>
+<p>Height.</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 841.89</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePaperSelector--width"></a><h3>The <code class="literal">"width"</code> property</h3>
+<pre class="programlisting">  "width"                    <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a>               : Read</pre>
+<p>Width.</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 595.276</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-paper-selector.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrintUnitSelector-modified"></a><h3>The <code class="literal">"modified"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector">GnomePrintUnitSelector</a> *printunitselector,
+                                                        <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a>                user_data)              : Run First</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>printunitselector</code></em> :</span></p></td>
+<td>the object which received the signal.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

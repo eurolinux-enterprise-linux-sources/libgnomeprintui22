@@ -1,0 +1,623 @@
+# Translation into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2001-2002
+# Pablo Saratxaga <pablo@walon.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui 1.104.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-26 09:34-0400\n"
+"PO-Revision-Date: 2005-04-21 00:25+0200\n"
+"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Tecse"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Tecse a håyner"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:148
+#: libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Djivêye des imådjes"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:155
+#: libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Coleur"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Coleur do tecse, come ene tchinne di tecse"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Coleur do tecse, come on nobe etir des valixhances R/G/B/A"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Fonte"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Fonte, come ene sitructeure GnomeFont"
+
+#. Family frame
+#: libgnomeprintui/gnome-font-dialog.c:164
+#: libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Famile del fonte"
+
+#: libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Djivêye des familes di fontes k' i gn a"
+
+#. Style frame
+#: libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Stîle"
+
+#: libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Stîle del fonte"
+
+#: libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Djivêye des stîles k' i gn a pol famile di fontes tchoezeye"
+
+#: libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Grandeu del fonte:"
+
+#: libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Cisse fonte chal n' a nén d' egzimpe"
+
+#: libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Prévey li fonte"
+
+#: libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Håynêye èn egzimpe di tecse avou l' fonte di tchoezeye"
+
+#: libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Tchoezi les fontes"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Prémetous apontiaedjes"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Imådje ki mostere les pådjes imprimêyes e duplecse."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Duplecse"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Pådjes imprimêyes e duplecse"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"Imådje ki mostere li deujhinme pådje d' ene secwince imprimêye e duplecse, "
+"cou å hôt."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Cou å hôt"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Si les copeyes do documint sont-st imprimêyes e duplecse, li deujhinme pådje "
+"est metowe cou å hôt,"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Tins d' imprimaedje"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:353
+#: libgnomeprintui/gnome-print-dialog.c:148
+msgid "Error while loading printer configuration"
+msgstr "Åk n' a nén stî tot tcherdjant l' apontiaedje del sicrirece"
+
+#: libgnomeprintui/gnome-print-copies.c:261
+msgid "Copies"
+msgstr "Copeyes"
+
+#: libgnomeprintui/gnome-print-copies.c:274
+msgid "N_umber of copies:"
+msgstr "N_ombe di copeyes:"
+
+#: libgnomeprintui/gnome-print-copies.c:294
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"Imådje ki mostere li secwince di relijhaedje cwand pus d' ene copeye do "
+"documint est imprimêye"
+
+#: libgnomeprintui/gnome-print-copies.c:296
+msgid "_Collate"
+msgstr "_Relire"
+
+#: libgnomeprintui/gnome-print-copies.c:302
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"Si les copeyes d' on minme documint dvèt esse imprimeyes ene après l' ôte, "
+"purade k' etercroejhlêyes"
+
+#: libgnomeprintui/gnome-print-dialog.c:160
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Sicrirece"
+
+#: libgnomeprintui/gnome-print-dialog.c:175
+msgid "Paper"
+msgstr "Papî"
+
+#. Set up the dialog
+#: libgnomeprintui/gnome-print-dialog.c:367
+#: libgnomeprintui/gnome-print-dialog.c:435
+msgid "Gnome Print Dialog"
+msgstr "Purnea d' eprimaedje di Gnome"
+
+#: libgnomeprintui/gnome-print-dialog.c:459
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Job"
+msgstr "Bouye"
+
+#: libgnomeprintui/gnome-print-dialog.c:474
+#: libgnomeprintui/gnome-print-page-selector.c:712
+msgid "Print Range"
+msgstr "Fortchete a-z imprimer"
+
+#. Expert mode
+#: libgnomeprintui/gnome-print-dialog.c:498
+msgid "Expert mode"
+msgstr ""
+
+#. All pages
+#: libgnomeprintui/gnome-print-dialog.c:545
+#: libgnomeprintui/gnome-print-page-selector.c:725
+msgid "_All"
+msgstr "_Tot"
+
+#: libgnomeprintui/gnome-print-dialog.c:569
+msgid "_Selection"
+msgstr "_Tchuze"
+
+#: libgnomeprintui/gnome-print-dialog.c:754
+msgid "_From:"
+msgstr "_Di:"
+
+#: libgnomeprintui/gnome-print-dialog.c:767
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Definixh li cmince del fortchete di pådjes a-z imprimer"
+
+#: libgnomeprintui/gnome-print-dialog.c:769
+msgid "_To:"
+msgstr "_A:"
+
+#: libgnomeprintui/gnome-print-dialog.c:782
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Definixh li fén del fortchete di pådjes a-z imprimer"
+
+#: libgnomeprintui/gnome-print-job-preview.c:537
+msgid "No visible output was created."
+msgstr "Nole veyåve rexhowe di fwaite."
+
+#: libgnomeprintui/gnome-print-job-preview.c:1670
+msgid "all"
+msgstr "totafwait"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2363
+#: libgnomeprintui/gnome-print-job-preview.c:2364
+msgid "Number of pages horizontally"
+msgstr "Nombe di pådjes di coûtchî"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2367
+#: libgnomeprintui/gnome-print-job-preview.c:2368
+msgid "Number of pages vertically"
+msgstr "Nombe di pådjes d' astampé"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Print job"
+msgstr "Bouye d' imprimaedje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Print"
+msgstr "Imprimer"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Prints the current file"
+msgstr "Imprimer l' fitchî do moumint"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Close"
+msgstr "Clôre"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Closes print preview window"
+msgstr "Clôs l' purnea di prévoeyaedje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2474
+msgid "Cut"
+msgstr "Côper"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2475
+msgid "Copy"
+msgstr "Copyî"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2476
+msgid "Paste"
+msgstr "Claper"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo"
+msgstr "Disfé"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo the last action"
+msgstr "Disfé li dierinne accion"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo"
+msgstr "Rifé"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo the undone action"
+msgstr "Rifé l' ovraedje disfwait"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "First"
+msgstr "Prumire"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "Shows the first page"
+msgstr "Mostere li prumire pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Previous"
+msgstr "Di dvant"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Shows previous page"
+msgstr "Mostere li pådje di dvant"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Next"
+msgstr "Shuvante"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Shows the next page"
+msgstr "Mostere li pådje shuvante"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Last"
+msgstr "Dierinne"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Shows the last page"
+msgstr "Mostere li dierinne pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+msgid "Zooms 1:1"
+msgstr "Schåle 1:1"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zoom to fit"
+msgstr "Forrimpli l' pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zooms to fit the whole page"
+msgstr "Candje li grandeu po rimpli l' pådje etire"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zoom in"
+msgstr "Agrandi"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zooms the page in"
+msgstr "Agrandixh li pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zoom out"
+msgstr "Raptiti"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zooms the page out"
+msgstr "Raptitixhe li pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2522
+msgid "Show multiple pages"
+msgstr "Mostere pus d' ene pådje"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2523
+msgid "Edit"
+msgstr "Candjî"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use theme"
+msgstr "Eployî tinme"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use _theme colors for content"
+msgstr "Eployî les _tinmes di coleurs pol contnou"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2547
+msgid "Page Preview"
+msgstr "Vey divant"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2548
+msgid "The preview of a page in the document to be printed"
+msgstr "Prévoeyaedje d' ene pådje do documint a-z imprimer"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "_Page: "
+msgstr "_Pådje: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: libgnomeprintui/gnome-print-job-preview.c:2592
+msgid "of"
+msgstr "di"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2599
+msgid "Page total"
+msgstr "Totå des pådjes"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2600
+msgid "The total number of pages in the document"
+msgstr "Li nombe totå di pådjes do documint"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Gnome Print Preview"
+msgstr "Vey divant d' imprimer di Gnome"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:438
+msgid "Paper and Layout"
+msgstr "Papî eyet plaeçmint"
+
+#. Paper size selector
+#: libgnomeprintui/gnome-print-paper-selector.c:455
+msgid "Paper _size:"
+msgstr "_Grandeu do papî:"
+
+#. Custom paper Width
+#: libgnomeprintui/gnome-print-paper-selector.c:469
+msgid "_Width:"
+msgstr "_Lårdjeu:"
+
+#. Custom paper Height
+#: libgnomeprintui/gnome-print-paper-selector.c:485
+msgid "_Height:"
+msgstr "_Hôteur:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:508
+msgid "Metric selector"
+msgstr "Tchoezi l' unité"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:509
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr ""
+"Tchoezixhaedje des unités a-z eployî po defini l' lårdjeu eyet hôteur do papî"
+
+#. Feed orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:512
+msgid "_Feed orientation:"
+msgstr "Plaeçmint d' l' arivêye do papî:"
+
+#. Page orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:528
+msgid "Page _orientation:"
+msgstr "_Plaeçmint del pådje:"
+
+#. Layout
+#: libgnomeprintui/gnome-print-paper-selector.c:541
+msgid "_Layout:"
+msgstr "_Adjinçmint:"
+
+#. Paper source
+#: libgnomeprintui/gnome-print-paper-selector.c:554
+msgid "Paper _tray:"
+msgstr "_Ridant pol papî:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:570
+#: libgnomeprintui/gnome-print-paper-selector.c:584
+msgid "Preview"
+msgstr "Vey divant"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:585
+msgid "Preview of the page size, orientation and layout"
+msgstr "Prévoeyaedje del grandeu, li plaeçmint eyet l' adjinçmint del pådje"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:591
+msgid "Margins"
+msgstr "Mådjes"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:625
+msgid "Top"
+msgstr "Al copete"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:628
+msgid "Bottom"
+msgstr "Al valeye"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:631
+msgid "Left"
+msgstr "Hintche"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:634
+msgid "Right"
+msgstr "Droete"
+
+#: libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "A_pontyî"
+
+#: libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Apontiaedjes pol sicrirece di tchoezeye"
+
+#: libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "A_pontiaedjes:"
+
+#: libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "_Eplaeçmint:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:119
+#: libgnomeprintui/gnome-print-page-selector.c:608
+#, fuzzy
+msgid "Number of pages"
+msgstr "N_ombe di copeyes:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:122
+#: libgnomeprintui/gnome-print-page-selector.c:605
+#, fuzzy
+msgid "Current page"
+msgstr "Fortchete a-z imprimer"
+
+#: libgnomeprintui/gnome-print-content-selector.c:133
+#, fuzzy
+msgid "Print Content"
+msgstr "Fortchete a-z imprimer"
+
+#: libgnomeprintui/gnome-print-page-selector.c:602
+#, fuzzy
+msgid "Configuration"
+msgstr "A_pontyî"
+
+#: libgnomeprintui/gnome-print-page-selector.c:731
+msgid "_Current"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:743
+msgid "_From page "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:755
+msgid " to "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:773
+#, fuzzy
+msgid "_Selection: "
+msgstr "_Tchuze"
+
+#. Print only...
+#: libgnomeprintui/gnome-print-page-selector.c:785
+#, fuzzy
+msgid "Print only..."
+msgstr "Bouye d' imprimaedje"
+
+#: libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Nole tchuze di defineye"
+
+#: libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Rexhe en on _fitchî"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Estat"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Bouyes"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Eplaeçmint"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Nole sicrirece di tchoezeye"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Nou apontiaedje di disponibe"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Radjouter noveas apontiaedjes"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Pt"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "in"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "I gn a ddja on ridant avou l' minme no ki l' no d' fitchî dné «%s»."
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Fåt i spotchî l' fitchî %s?"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr ""
+"Dinez l' eplaeçmint eyet l' no d' fitchî pol fitchî a-z î rexhe divins:"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Tos les fitchîs"

@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gnome-print-job-preview</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.74.2">
+<link rel="home" href="index.html" title="GNOME Print UI Reference Manual">
+<link rel="up" href="ch02.html" title="API Reference">
+<link rel="prev" href="libgnomeprintui-gnome-printer-selector.html" title="gnome-printer-selector">
+<link rel="next" href="libgnomeprintui-gnome-print-paper-selector.html" title="gnome-print-paper-selector">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libgnomeprintui.html" title="GNOME Print UI Overview">
+<link rel="chapter" href="ch02.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgnomeprintui-gnome-printer-selector.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GNOME Print UI Reference Manual</th>
+<td><a accesskey="n" href="libgnomeprintui-gnome-print-paper-selector.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgnomeprintui-gnome-print-job-preview.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-job-preview.description" class="shortcut">Description</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-job-preview.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-job-preview.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-job-preview.properties" class="shortcut">Properties</a>
+</td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgnomeprintui-gnome-print-job-preview.top_of_page"></a>gnome-print-job-preview</span></h2>
+<p>gnome-print-job-preview</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgnomeprintui-gnome-print-job-preview.synopsis"></a><h2>Synopsis</h2>
+<a name="GnomePrintJobPreview"></a><pre class="synopsis">
+                    <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview-struct" title="GnomePrintJobPreview">GnomePrintJobPreview</a>;
+                    <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreviewClass" title="GnomePrintJobPreviewClass">GnomePrintJobPreviewClass</a>;
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-TYPE-PRINT-JOB-PREVIEW--CAPS" title="GNOME_TYPE_PRINT_JOB_PREVIEW">GNOME_TYPE_PRINT_JOB_PREVIEW</a>
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW--CAPS" title="GNOME_PRINT_JOB_PREVIEW()">GNOME_PRINT_JOB_PREVIEW</a>             (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW-CLASS--CAPS" title="GNOME_PRINT_JOB_PREVIEW_CLASS()">GNOME_PRINT_JOB_PREVIEW_CLASS</a>       (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-IS-PRINT-JOB-PREVIEW--CAPS" title="GNOME_IS_PRINT_JOB_PREVIEW()">GNOME_IS_PRINT_JOB_PREVIEW</a>          (o)
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-IS-PRINT-JOB-PREVIEW-CLASS--CAPS" title="GNOME_IS_PRINT_JOB_PREVIEW_CLASS()">GNOME_IS_PRINT_JOB_PREVIEW_CLASS</a>    (k)
+#define             <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW-GET-CLASS--CAPS" title="GNOME_PRINT_JOB_PREVIEW_GET_CLASS()">GNOME_PRINT_JOB_PREVIEW_GET_CLASS</a>   (o)
+<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#gnome-print-job-preview-get-type" title="gnome_print_job_preview_get_type ()">gnome_print_job_preview_get_type</a>    (void);
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-print-job-preview.html#gnome-print-job-preview-new" title="gnome_print_job_preview_new ()">gnome_print_job_preview_new</a>         (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-job.html#GnomePrintJob"
+>GnomePrintJob</a> *gpm,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guchar"
+>guchar</a> *title);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBin
+                                 +----GtkWindow
+                                       +----GnomePrintJobPreview
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GnomePrintJobPreview implements
+ GtkBuildable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--job" title='The "job" property'>job</a>"                      <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-job.html#GnomePrintJob"
+>GnomePrintJob</a>*        : Read / Write / Construct Only
+  "<a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--nx" title='The "nx" property'>nx</a>"                       <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gulong"
+>gulong</a>                : Read / Write
+  "<a class="link" href="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--ny" title='The "ny" property'>ny</a>"                       <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gulong"
+>gulong</a>                : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrintJobPreview-struct"></a><h3>GnomePrintJobPreview</h3>
+<pre class="programlisting">typedef struct _GnomePrintJobPreview GnomePrintJobPreview;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintJobPreviewClass"></a><h3>GnomePrintJobPreviewClass</h3>
+<pre class="programlisting">typedef struct _GnomePrintJobPreviewClass GnomePrintJobPreviewClass;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-TYPE-PRINT-JOB-PREVIEW--CAPS"></a><h3>GNOME_TYPE_PRINT_JOB_PREVIEW</h3>
+<pre class="programlisting">#define GNOME_TYPE_PRINT_JOB_PREVIEW         (gnome_print_job_preview_get_type ())
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-JOB-PREVIEW--CAPS"></a><h3>GNOME_PRINT_JOB_PREVIEW()</h3>
+<pre class="programlisting">#define GNOME_PRINT_JOB_PREVIEW(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), GNOME_TYPE_PRINT_JOB_PREVIEW, GnomePrintJobPreview))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-JOB-PREVIEW-CLASS--CAPS"></a><h3>GNOME_PRINT_JOB_PREVIEW_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PRINT_JOB_PREVIEW_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST ((k),    GNOME_TYPE_PRINT_JOB_PREVIEW, GnomePrintJobPreviewClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PRINT-JOB-PREVIEW--CAPS"></a><h3>GNOME_IS_PRINT_JOB_PREVIEW()</h3>
+<pre class="programlisting">#define GNOME_IS_PRINT_JOB_PREVIEW(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), GNOME_TYPE_PRINT_JOB_PREVIEW))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-IS-PRINT-JOB-PREVIEW-CLASS--CAPS"></a><h3>GNOME_IS_PRINT_JOB_PREVIEW_CLASS()</h3>
+<pre class="programlisting">#define GNOME_IS_PRINT_JOB_PREVIEW_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k),    GNOME_TYPE_PRINT_JOB_PREVIEW))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GNOME-PRINT-JOB-PREVIEW-GET-CLASS--CAPS"></a><h3>GNOME_PRINT_JOB_PREVIEW_GET_CLASS()</h3>
+<pre class="programlisting">#define GNOME_PRINT_JOB_PREVIEW_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o),  GNOME_TYPE_PRINT_JOB_PREVIEW, GnomePrintJobPreviewClass))
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>o</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-job-preview-get-type"></a><h3>gnome_print_job_preview_get_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               gnome_print_job_preview_get_type    (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-job-preview-new"></a><h3>gnome_print_job_preview_new ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_print_job_preview_new         (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-job.html#GnomePrintJob"
+>GnomePrintJob</a> *gpm,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#guchar"
+>guchar</a> *title);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>gpm</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>title</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-job-preview.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrintJobPreview--job"></a><h3>The <code class="literal">"job"</code> property</h3>
+<pre class="programlisting">  "job"                      <a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-job.html#GnomePrintJob"
+>GnomePrintJob</a>*        : Read / Write / Construct Only</pre>
+<p>Print job.</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintJobPreview--nx"></a><h3>The <code class="literal">"nx"</code> property</h3>
+<pre class="programlisting">  "nx"                       <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gulong"
+>gulong</a>                : Read / Write</pre>
+<p>Number of pages horizontally.</p>
+<p>Allowed values: &lt;= 65535</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintJobPreview--ny"></a><h3>The <code class="literal">"ny"</code> property</h3>
+<pre class="programlisting">  "ny"                       <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gulong"
+>gulong</a>                : Read / Write</pre>
+<p>Number of pages vertically.</p>
+<p>Allowed values: &lt;= 65535</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

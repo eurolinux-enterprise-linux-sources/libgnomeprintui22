@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="GNOME Print UI Reference Manual" link="index.html" author="" name="libgnomeprintui" version="2" language="c">
+  <chapters>
+    <sub name="GNOME Print UI Overview" link="libgnomeprintui.html"/>
+    <sub name="API Reference" link="ch02.html">
+      <sub name="gnome-font-dialog" link="libgnomeprintui-gnome-font-dialog.html"/>
+      <sub name="gnome-print-copies" link="libgnomeprintui-gnome-print-copies.html"/>
+      <sub name="gnome-print-dialog" link="libgnomeprintui-gnome-print-dialog.html"/>
+      <sub name="gnome-printer-selector" link="libgnomeprintui-gnome-printer-selector.html"/>
+      <sub name="gnome-print-job-preview" link="libgnomeprintui-gnome-print-job-preview.html"/>
+      <sub name="gnome-print-paper-selector" link="libgnomeprintui-gnome-print-paper-selector.html"/>
+      <sub name="gnome-print-preview" link="libgnomeprintui-gnome-print-preview.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="macro" name="GNOME_TYPE_FONT_SELECTION" link="libgnomeprintui-gnome-font-dialog.html#GNOME-TYPE-FONT-SELECTION--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_SELECTION()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-SELECTION--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_SELECTION_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-SELECTION-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_FONT_SELECTION()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-IS-FONT-SELECTION--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_FONT_SELECTION_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-IS-FONT-SELECTION-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_SELECTION_GET_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-SELECTION-GET-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_TYPE_FONT_DIALOG" link="libgnomeprintui-gnome-font-dialog.html#GNOME-TYPE-FONT-DIALOG--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_DIALOG()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-DIALOG--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_DIALOG_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-DIALOG-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_FONT_DIALOG()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-IS-FONT-DIALOG--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_FONT_DIALOG_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-IS-FONT-DIALOG-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_FONT_DIALOG_GET_CLASS()" link="libgnomeprintui-gnome-font-dialog.html#GNOME-FONT-DIALOG-GET-CLASS--CAPS"/>
+    <keyword type="struct" name="GnomeFontSelection" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontSelection-struct"/>
+    <keyword type="struct" name="GnomeFontSelectionClass" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontSelectionClass"/>
+    <keyword type="struct" name="GnomeFontPreview" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontPreview-struct"/>
+    <keyword type="struct" name="GnomeFontPreviewClass" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontPreviewClass"/>
+    <keyword type="struct" name="GnomeFontDialog" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontDialog-struct"/>
+    <keyword type="struct" name="GnomeFontDialogClass" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontDialogClass"/>
+    <keyword type="function" name="gnome_font_selection_new ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-selection-new"/>
+    <keyword type="function" name="gnome_font_selection_get_face ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-selection-get-face"/>
+    <keyword type="function" name="gnome_font_selection_get_size ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-selection-get-size"/>
+    <keyword type="function" name="gnome_font_selection_get_font ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-selection-get-font"/>
+    <keyword type="function" name="gnome_font_selection_set_font ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-selection-set-font"/>
+    <keyword type="function" name="gnome_font_preview_get_type ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-preview-get-type"/>
+    <keyword type="function" name="gnome_font_preview_new ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-preview-new"/>
+    <keyword type="function" name="gnome_font_preview_set_phrase ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-preview-set-phrase"/>
+    <keyword type="function" name="gnome_font_preview_set_font ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-preview-set-font"/>
+    <keyword type="function" name="gnome_font_preview_set_color ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-preview-set-color"/>
+    <keyword type="function" name="gnome_font_dialog_get_type ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-dialog-get-type"/>
+    <keyword type="function" name="gnome_font_dialog_new ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-dialog-new"/>
+    <keyword type="function" name="gnome_font_dialog_get_fontsel ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-dialog-get-fontsel"/>
+    <keyword type="function" name="gnome_font_dialog_get_preview ()" link="libgnomeprintui-gnome-font-dialog.html#gnome-font-dialog-get-preview"/>
+    <keyword type="signal" name="The &quot;font-set&quot; signal" link="libgnomeprintui-gnome-font-dialog.html#GnomeFontSelection-font-set"/>
+    <keyword type="struct" name="GnomePrintCopiesSelector" link="libgnomeprintui-gnome-print-copies.html#GnomePrintCopiesSelector-struct"/>
+    <keyword type="struct" name="GnomePrintCopiesSelectorClass" link="libgnomeprintui-gnome-print-copies.html#GnomePrintCopiesSelectorClass"/>
+    <keyword type="function" name="gnome_print_copies_selector_new ()" link="libgnomeprintui-gnome-print-copies.html#gnome-print-copies-selector-new"/>
+    <keyword type="function" name="gnome_print_copies_selector_set_copies ()" link="libgnomeprintui-gnome-print-copies.html#gnome-print-copies-selector-set-copies"/>
+    <keyword type="function" name="gnome_print_copies_selector_get_copies ()" link="libgnomeprintui-gnome-print-copies.html#gnome-print-copies-selector-get-copies"/>
+    <keyword type="function" name="gnome_print_copies_selector_get_collate ()" link="libgnomeprintui-gnome-print-copies.html#gnome-print-copies-selector-get-collate"/>
+    <keyword type="property" name="The &quot;filter&quot; property" link="libgnomeprintui-gnome-print-copies.html#GnomePrintCopiesSelector--filter"/>
+    <keyword type="signal" name="The &quot;collate-set&quot; signal" link="libgnomeprintui-gnome-print-copies.html#GnomePrintCopiesSelector-collate-set"/>
+    <keyword type="signal" name="The &quot;copies-set&quot; signal" link="libgnomeprintui-gnome-print-copies.html#GnomePrintCopiesSelector-copies-set"/>
+    <keyword type="struct" name="GnomePrintDialog" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog-struct"/>
+    <keyword type="struct" name="GnomePrintDialogClass" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialogClass"/>
+    <keyword type="enum" name="enum GnomePrintRangeType" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintRangeType"/>
+    <keyword type="function" name="gnome_print_dialog_new ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-new"/>
+    <keyword type="function" name="gnome_print_dialog_construct ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-construct"/>
+    <keyword type="function" name="gnome_print_dialog_construct_range_custom ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-construct-range-custom"/>
+    <keyword type="function" name="gnome_print_dialog_construct_range_any ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-construct-range-any"/>
+    <keyword type="function" name="gnome_print_dialog_construct_range_page ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-construct-range-page"/>
+    <keyword type="function" name="gnome_print_dialog_get_range ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-get-range"/>
+    <keyword type="function" name="gnome_print_dialog_get_range_page ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-get-range-page"/>
+    <keyword type="function" name="gnome_print_dialog_get_copies ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-get-copies"/>
+    <keyword type="function" name="gnome_print_dialog_set_copies ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-set-copies"/>
+    <keyword type="function" name="gnome_print_dialog_get_config ()" link="libgnomeprintui-gnome-print-dialog.html#gnome-print-dialog-get-config"/>
+    <keyword type="property" name="The &quot;content-selector&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--content-selector"/>
+    <keyword type="property" name="The &quot;flags&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--flags"/>
+    <keyword type="property" name="The &quot;notebook&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--notebook"/>
+    <keyword type="property" name="The &quot;page-selector&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--page-selector"/>
+    <keyword type="property" name="The &quot;print-config&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--print-config"/>
+    <keyword type="property" name="The &quot;printer-selector&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--printer-selector"/>
+    <keyword type="property" name="The &quot;title&quot; property" link="libgnomeprintui-gnome-print-dialog.html#GnomePrintDialog--title"/>
+    <keyword type="struct" name="GnomePrinterSelector" link="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelector-struct"/>
+    <keyword type="struct" name="GnomePrinterSelectorClass" link="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelectorClass"/>
+    <keyword type="function" name="gnome_printer_selector_new_default ()" link="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-new-default"/>
+    <keyword type="function" name="gnome_printer_selector_new ()" link="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-new"/>
+    <keyword type="function" name="gnome_printer_selector_get_config ()" link="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-get-config"/>
+    <keyword type="struct" name="GnomePrintJobPreview" link="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview-struct"/>
+    <keyword type="struct" name="GnomePrintJobPreviewClass" link="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreviewClass"/>
+    <keyword type="macro" name="GNOME_TYPE_PRINT_JOB_PREVIEW" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-TYPE-PRINT-JOB-PREVIEW--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_JOB_PREVIEW()" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_JOB_PREVIEW_CLASS()" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PRINT_JOB_PREVIEW()" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-IS-PRINT-JOB-PREVIEW--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PRINT_JOB_PREVIEW_CLASS()" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-IS-PRINT-JOB-PREVIEW-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_JOB_PREVIEW_GET_CLASS()" link="libgnomeprintui-gnome-print-job-preview.html#GNOME-PRINT-JOB-PREVIEW-GET-CLASS--CAPS"/>
+    <keyword type="function" name="gnome_print_job_preview_get_type ()" link="libgnomeprintui-gnome-print-job-preview.html#gnome-print-job-preview-get-type"/>
+    <keyword type="function" name="gnome_print_job_preview_new ()" link="libgnomeprintui-gnome-print-job-preview.html#gnome-print-job-preview-new"/>
+    <keyword type="property" name="The &quot;job&quot; property" link="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--job"/>
+    <keyword type="property" name="The &quot;nx&quot; property" link="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--nx"/>
+    <keyword type="property" name="The &quot;ny&quot; property" link="libgnomeprintui-gnome-print-job-preview.html#GnomePrintJobPreview--ny"/>
+    <keyword type="struct" name="GnomePaperPreview" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperPreview"/>
+    <keyword type="struct" name="GnomePaperPreviewClass" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperPreviewClass"/>
+    <keyword type="macro" name="GNOME_TYPE_PAPER_SELECTOR" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-TYPE-PAPER-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_PAPER_SELECTOR()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_PAPER_SELECTOR_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PAPER_SELECTOR()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PAPER-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PAPER_SELECTOR_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PAPER-SELECTOR-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_PAPER_SELECTOR_GET_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PAPER-SELECTOR-GET-CLASS--CAPS"/>
+    <keyword type="struct" name="GnomePaperSelector" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector-struct"/>
+    <keyword type="struct" name="GnomePaperSelectorClass" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelectorClass"/>
+    <keyword type="macro" name="GNOME_TYPE_PRINT_UNIT_SELECTOR" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-TYPE-PRINT-UNIT-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_UNIT_SELECTOR()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_UNIT_SELECTOR_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PRINT_UNIT_SELECTOR()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PRINT-UNIT-SELECTOR--CAPS"/>
+    <keyword type="macro" name="GNOME_IS_PRINT_UNIT_SELECTOR_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-IS-PRINT-UNIT-SELECTOR-CLASS--CAPS"/>
+    <keyword type="macro" name="GNOME_PRINT_UNIT_SELECTOR_GET_CLASS()" link="libgnomeprintui-gnome-print-paper-selector.html#GNOME-PRINT-UNIT-SELECTOR-GET-CLASS--CAPS"/>
+    <keyword type="struct" name="GnomePrintUnitSelector" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector-struct"/>
+    <keyword type="struct" name="GnomePrintUnitSelectorClass" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelectorClass"/>
+    <keyword type="function" name="gnome_paper_preview_new ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-preview-new"/>
+    <keyword type="function" name="gnome_paper_selector_get_type ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-get-type"/>
+    <keyword type="function" name="gnome_paper_selector_new ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-new"/>
+    <keyword type="function" name="gnome_paper_selector_new_with_flags ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-paper-selector-new-with-flags"/>
+    <keyword type="function" name="gnome_print_unit_selector_get_type ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-get-type"/>
+    <keyword type="function" name="gnome_print_unit_selector_new ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-new"/>
+    <keyword type="function" name="gnome_print_unit_selector_get_unit ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-get-unit"/>
+    <keyword type="function" name="gnome_print_unit_selector_set_bases ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-set-bases"/>
+    <keyword type="function" name="gnome_print_unit_selector_set_unit ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-set-unit"/>
+    <keyword type="function" name="gnome_print_unit_selector_add_adjustment ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-add-adjustment"/>
+    <keyword type="function" name="gnome_print_unit_selector_remove_adjustment ()" link="libgnomeprintui-gnome-print-paper-selector.html#gnome-print-unit-selector-remove-adjustment"/>
+    <keyword type="property" name="The &quot;config&quot; property" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--config"/>
+    <keyword type="property" name="The &quot;height&quot; property" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--height"/>
+    <keyword type="property" name="The &quot;width&quot; property" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePaperSelector--width"/>
+    <keyword type="signal" name="The &quot;modified&quot; signal" link="libgnomeprintui-gnome-print-paper-selector.html#GnomePrintUnitSelector-modified"/>
+    <keyword type="struct" name="GnomePrintPreview" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview-struct"/>
+    <keyword type="struct" name="GnomePrintPreviewClass" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreviewClass"/>
+    <keyword type="function" name="gnome_print_preview_new ()" link="libgnomeprintui-gnome-print-preview.html#gnome-print-preview-new"/>
+    <keyword type="function" name="gnome_print_preview_new_full ()" link="libgnomeprintui-gnome-print-preview.html#gnome-print-preview-new-full"/>
+    <keyword type="property" name="The &quot;group&quot; property" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--group"/>
+    <keyword type="property" name="The &quot;only-first&quot; property" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--only-first"/>
+    <keyword type="property" name="The &quot;theme-compliance&quot; property" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--theme-compliance"/>
+    <keyword type="property" name="The &quot;use-theme&quot; property" link="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--use-theme"/>
+  </functions>
+</book>

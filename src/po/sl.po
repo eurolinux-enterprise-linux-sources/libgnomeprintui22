@@ -1,0 +1,918 @@
+# This file is distributed under the same license as the libgnomeprintui package.
+#
+# Andraz Tori <andraz.tori1@guest.arnes.si>, 2000.
+# Matjaž Horvat <m@owca.info>, 2006.
+# Matic Žgur <mr.zgur@gmail.com>, 2007.
+# Matej Urbančič <matej.urban@gmail.com>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-18 03:15+0100\n"
+"PO-Revision-Date: 2007-10-18 16:14+0100\n"
+"Last-Translator: Matej Urbančič <matej.urban@gmail.com>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Language: Slovenian\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Besedilo"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Besedilo za izris"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Seznam pismenk"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Barva"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Barva besedila (kot niz)"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Barva besedila (kot kombinirana številka R/G/B/A)"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Pisava"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Pisava kot struktura GnomeFont"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Družina pisav"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Seznam družin pisav, ki so na voljo"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Slog"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Slog pisave"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Seznam slogov, ki so za izbrano družino pisav na voljo"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Velikost pisave:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Ta pisava nima vzorca"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Predogled pisave"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Prikaže primer besedila v izbrani pisavi"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Izbira Pisave"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Privzete nastavitve"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Slika strani, ki bodo natisnjene obojestransko."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Obojestransko"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Strani se tiskajo obojestransko."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid "Image showing the second page of a duplex printed sequence to be printed upside down."
+msgstr "Slika druge strani zaporedja obojestranskih izpisov, ki bo natisnjena obrnjeno narobe."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Obrni navzdol"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid "If copies of the document are printed in duplex, the second page is flipped upside down,"
+msgstr "Če so kopije dokumenta natisnjene obojestransko, je druga stran obrnjena narobe"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Čas _tiskanja:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "Napaka ob nalaganju nastavitev tiskalnika"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:877
+#: ../libgnomeprintui/gnome-print-page-selector.c:511
+msgid "Filter"
+msgstr "Filter"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Izvodi"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "_število izvodov:"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid "Image showing the collation sequence when multiple copies of the document are printed"
+msgstr "Slika, ki pokaže zaporedje združevanj, kadar je natisnjenih več kopij dokumenta"
+
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "C_ollate"
+msgstr "_Združi enake strani"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid "If copies of the document are printed separately, one after another, rather than being interleaved"
+msgstr "Ali naj bodo kopije dokumenta natisnjene ločeno, ena za drugo, namesto prepleteno"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "_Obratno"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Obraten vrstni red tiskanja"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Tiskalnik"
+
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "Dialog tiskanja Gnome"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Job"
+msgstr "Posel"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:590
+msgid "Print Range"
+msgstr "Obseg tiskanja"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Papir"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "Postavitev"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "_Vse"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Izbor"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_Od:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Nastavi začetek intervala strani, ki naj bodo natisnjene"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_Do:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Nastavi konec intervala strani, ki naj bodo natisnjene"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "Vidni izhod ni bil ustvarjen."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1638
+msgid "all"
+msgstr "vse"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2448
+#: ../libgnomeprintui/gnome-print-job-preview.c:2449
+msgid "Number of pages horizontally"
+msgstr "Število strani vodoravno"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2452
+#: ../libgnomeprintui/gnome-print-job-preview.c:2453
+msgid "Number of pages vertically"
+msgstr "Število strani navpično"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Print job"
+msgstr "Tiskalni posel"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Print"
+msgstr "Natisni"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Prints the current file"
+msgstr "Natisne trenutno datoteko"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Close"
+msgstr "Zapri"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Closes print preview window"
+msgstr "Zapre okno predogleda tiskanja"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2559
+msgid "Cut"
+msgstr "Izreži"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2560
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2561
+msgid "Paste"
+msgstr "Prilepi"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo"
+msgstr "Razveljavi"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo the last action"
+msgstr "Razveljavi zadnje dejanje"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo"
+msgstr "Ponovi"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo the undone action"
+msgstr "Ponovi razveljavljeno dejanje"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "First"
+msgstr "Prva"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "Show the first page"
+msgstr "Pokaže prvo stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Previous"
+msgstr "Prejšnji"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Show previous page"
+msgstr "Prikaže prejšnjo stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Next"
+msgstr "Naslednji"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Show the next page"
+msgstr "Pokaže naslednjo stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Last"
+msgstr "Zadnja"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Show the last page"
+msgstr "Pokaže zadnjo stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Zoom 1:1"
+msgstr "Poveča na 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit"
+msgstr "Prilagodi velikosti, da ustreza"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit the whole page"
+msgstr "Poveča, da se ujema s celo stranjo"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom in"
+msgstr "Povečaj"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom the page in"
+msgstr "Poveča stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom out"
+msgstr "Pomanjšaj"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom the page out"
+msgstr "Pomanjša stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2607
+msgid "Show multiple pages"
+msgstr "Prikaži več strani"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2608
+msgid "Edit"
+msgstr "Uredi"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use theme"
+msgstr "Uporabi temo"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use _theme colors for content"
+msgstr "Uporabi barve _teme za vsebino"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2632
+msgid "Page Preview"
+msgstr "Predogled strani"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2633
+msgid "The preview of a page in the document to be printed"
+msgstr "Predogled strani dokumenta, ki bo natisnjen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2669
+msgid "_Page: "
+msgstr "S_tran: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "of"
+msgstr "od"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Page total"
+msgstr "Skupaj strani"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2685
+msgid "The total number of pages in the document"
+msgstr "Skupno število strani v dokumentu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2769
+msgid "Gnome Print Preview"
+msgstr "Predogled tiskanja Gnome"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:853
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Število strani"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:856
+#: ../libgnomeprintui/gnome-print-layout-selector.c:857
+msgid "Output width"
+msgstr "Širina izhoda"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:860
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+msgid "Output height"
+msgstr "Višina izhoda"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:864
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+msgid "Input width"
+msgstr "Širina vhoda"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:868
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+msgid "Input height"
+msgstr "Višina vhoda"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:961
+msgid "_Plain"
+msgstr "_Običajno"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:971
+msgid "_Handout: "
+msgstr "_Izroček:"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:984
+msgid " pages on 1 page"
+msgstr "strani na 1 strani"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:991
+msgid "1 page _spread on "
+msgstr "1 stran _razširi na"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1004
+msgid " pages"
+msgstr "strani"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1008
+msgid "Leaflet, folded once and _stapled"
+msgstr "Listič, enkrat zložen in _spet"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1012
+msgid "Leaflet, _folded twice"
+msgstr "Listič, dvakrat _zložen"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Trenutna stran"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:518
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+msgid "Number of pages to select from"
+msgstr "Število strani na izbiro"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:522
+#: ../libgnomeprintui/gnome-print-page-selector.c:523
+msgid "Number of selected pages"
+msgstr "Število izbranih strani"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:605
+msgid "_All pages"
+msgstr "_Vse strani"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:611
+msgid "_Even pages"
+msgstr "_Sode strani"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:615
+msgid "_Odd pages"
+msgstr "_Lihe strani"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:624
+msgid "_Current page"
+msgstr "_Trenutna stran"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:632
+msgid "_Page range: "
+msgstr "_Obseg strani:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Predogled"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Predogled velikosti strani, usmerjenosti in postavitve"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Širina"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Višina"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Nastavitve"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "Velikost _papirja:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "Š_irina:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "_Višina:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Izbira enot"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid "Specifies the metric to use when setting the width and height of the paper"
+msgstr "Določa enote, ki bodo uporabljene ob nastavljanju širine in višine papirja"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "Usmerjenost _podajalnika:"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "_Usmerjenost strani:"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "Predal s papirjem:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Odmiki"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Zgoraj"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Spodaj"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Levo"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "Desno"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "Vsebina tiskanja"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "Nas_tavi"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Prilagodi nastavitve izbranega tiskalnika"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:185
+msgid "Define a new local printer"
+msgstr "Določitev novega privzetega tiskalnika"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:194
+msgid "_Settings:"
+msgstr "_Nastavitve:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:203
+msgid "_Location:"
+msgstr "_Lega:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Navedena ni nobena možnost"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Natisni v _datoteko"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Stanje"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Posli"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Lokacija"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Tiskalnik ni izbran"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Nastavitve niso na voljo"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Dodaj nove nastavitve"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Ot"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "palec"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Navedeno ime datoteke \"%s\" je obstoječa mapa."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Ali želite zamenjati datoteko %s?"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Navedite lokacijo in ime izhodne datoteke:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:262
+msgid "PDF Files"
+msgstr "PDF datoteke"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:267
+msgid "Postscript Files"
+msgstr "Postscript datoteke"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Vse datoteke"
+
+#, fuzzy
+#~ msgid "Paper and Layout"
+#~ msgstr "Papir in postavitev"
+
+#, fuzzy
+#~ msgid "_Selection: "
+#~ msgstr "_Izbor"
+
+#, fuzzy
+#~ msgid "Print only..."
+#~ msgstr "Natisni"
+#~ msgid "Type:"
+#~ msgstr "Vrsta:"
+#~ msgid "Comment:"
+#~ msgstr "Komentar:"
+#~ msgid "Pr_inter:"
+#~ msgstr "_Tiskalnik:"
+#~ msgid "No printers could be loaded"
+#~ msgstr "Nisem mogel naložiti nobenega tiskalnika"
+#~ msgid ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">No visible output was created.</span></markup>"
+#~ msgstr ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">Ustvarjen ni bil noben viden izpis.</span></markup>"
+#~ msgid "P_rinter"
+#~ msgstr "_Tiskalnik"
+#~ msgid "No papers defined"
+#~ msgstr "Papir ni naveden"
+#~ msgid "No layouts defined"
+#~ msgstr "Postavitev ni navedena"
+#~ msgid "Select Printer"
+#~ msgstr "Izberi tiskalnik"
+#~ msgid "Select printer model"
+#~ msgstr "Izberi model tiskalnika"
+#~ msgid "Manufacturer"
+#~ msgstr "Proizvajalec"
+#~ msgid "Model"
+#~ msgstr "Model"
+#~ msgid "Name"
+#~ msgstr "Ime"
+#~ msgid "Add printer"
+#~ msgstr "Dodaj tiskalnik"
+#~ msgid "From PPD..."
+#~ msgstr "Iz PPD..."
+#~ msgid "Portrait"
+#~ msgstr "Pokončna"
+#~ msgid "Landscape"
+#~ msgstr "Ležeča"
+#~ msgid "Rotate 180"
+#~ msgstr "Obrni za 180"
+#~ msgid "Manage printers"
+#~ msgstr "Upravljaj tiskalnike"
+#~ msgid "Add new printer"
+#~ msgstr "Dodaj nov tiskalnik"
+#~ msgid "My App Print Preview"
+#~ msgstr "Predogled tiskanja mojega programa"
+#~ msgid "extracts the first font from output.pdf and places it in font.dump."
+#~ msgstr "izloči prvo pisavo iz output.pdf in jo postavi v font.dump."
+#~ msgid "extracts the font header from font.dump"
+#~ msgstr "izloči glavo pisave iz font.dump"
+#~ msgid "extracts the font body "
+#~ msgstr "izloči telo pisave "
+#~ msgid "decrypts the font body "
+#~ msgstr "dešifrira telo pisave "
+#~ msgid "Render from metafile"
+#~ msgstr "Izriši iz meta datoteke"
+#~ msgid "PATH"
+#~ msgstr "POT"
+#~ msgid "Bring up font dialog"
+#~ msgstr "Pokaži dialog pisav"
+#~ msgid "Bring up printer dialog"
+#~ msgstr "Pokaži dialog tiskalnikov"
+#~ msgid "Bring up print dialog"
+#~ msgstr "Pokaži dialog tiskanja"
+#~ msgid "Use GnomePrintMasterPreview"
+#~ msgstr "Uporabi GnomePrintMasterPreview"
+#~ msgid "Show paper dialog"
+#~ msgstr "Kaži dialog papirja"
+#~ msgid "from:"
+#~ msgstr "od:"
+#~ msgid "to:"
+#~ msgstr "do:"
+#~ msgid "Toggle preview"
+#~ msgstr "Preklopi predogled"
+#~ msgid "Paper Size"
+#~ msgstr "Velikost papirja"
+#~ msgid "Orientation"
+#~ msgstr "Usmerjenost"
+#~ msgid "Scaling"
+#~ msgstr "Povečava"
+#~ msgid "Fit to Page"
+#~ msgstr "Prilagodi strani"
+#~ msgid "%0.3g%s x %0.3g%s"
+#~ msgstr "%0.3g%s x %0.3g%s"
+#~ msgid "Printer default location"
+#~ msgstr "Privzeta lokacija tiskalnika"
+#~ msgid "Line printer: %s"
+#~ msgstr "Linijski tiskalnik: %s"
+#~ msgid "Print out debugging information"
+#~ msgstr "Izpiši podatke za razhroščevanje"
+#~ msgid "Do not try to read existing fontmaps"
+#~ msgstr "Ne poskušaj prebrati obstoječe datoteke fontmap"
+#~ msgid "Search directories recursively"
+#~ msgstr "Rekurzivno išči po imenikih"
+#~ msgid "Output file name"
+#~ msgstr "Ime izhodne datoteke"
+#~ msgid "Search this path for .alias files."
+#~ msgstr "Išči v tej poti za za datoteke .alias."
+#~ msgid "The quick brown fox jumps over the lazy dog."
+#~ msgstr "Piškur molče grabi fižol iz dna cezijeve hoste."
+#~ msgid "status loading %s = %d\n"
+#~ msgstr "stanje nalaganja %s = %d\n"
+#~ msgid "f_rom:"
+#~ msgstr "_od:"
+#~ msgid "_to:"
+#~ msgstr "_do:"
+#~ msgid ""
+#~ "'%s' is about to be overwritten.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Datoteka `%s' bo prepisana.\n"
+#~ "\n"
+#~ "Želite nadaljevati ?"
+#~ msgid "Select output file"
+#~ msgstr "Izberi izhodno datoteko"
+#~ msgid "Zoom _in"
+#~ msgstr "P_ovečaj"
+#~ msgid "Zoom _out"
+#~ msgstr "Pomanjšaj"
+#~ msgid "Zooms out"
+#~ msgstr "Pomanjša"
+#~ msgid "_View"
+#~ msgstr "_Poglej"
+#~ msgid "Back"
+#~ msgstr "Nazaj"
+#~ msgid "Fit"
+#~ msgstr "Prilagodi"
+#~ msgid "Fit Wide"
+#~ msgstr "Prilagodi po širini"
+#~ msgid "Zooms to fit the width of the page"
+#~ msgstr "Povečaj, da bo ustrezalo širini strani"
+#~ msgid "Fit Tall"
+#~ msgstr "Prilagodi po višini"
+#~ msgid "Zooms to fit the height of the page"
+#~ msgstr "Povečaj, da bo ustrezalo višini strani"
+#~ msgid ""
+#~ "gnome-print-admin was not found.\n"
+#~ "\n"
+#~ "Please install gnome-print-admin to configure this printer"
+#~ msgstr ""
+#~ "gnome-print-admin ni bil najden.\n"
+#~ "\n"
+#~ "Prosim namestite gnome-print-admin za nastavitev tega tiskalnika"
+#~ msgid "Generic Postscript"
+#~ msgstr "Gneričen Postscript"
+#~ msgid "Printer is ready to print"
+#~ msgstr "Tiskalnik je pripravljen na tisk"
+#~ msgid "Printer is off-line"
+#~ msgstr "Tiskalnik ni vključen"
+#~ msgid "Can not communicate with printer"
+#~ msgstr "Ne morem komunicirati s tiskalnikom"
+#~ msgid "Unknown status"
+#~ msgstr "Neznano stanje"
+#~ msgid "Gnome-print test page, rotated"
+#~ msgstr "Gnome-tisk testna stran, zasukana"
+#~ msgid "Gnome-print test page, slanted"
+#~ msgstr "Gnome-tisk testna stran, nagnjena"
+#~ msgid "Gnome-print test page, slanted. Small"
+#~ msgstr "Gnome-tisk testna stran, nagnjena. Majhna"
+#~ msgid "Base for relative afm file names."
+#~ msgstr "Osnovna pot za relativna imena datotek afm."
+#~ msgid "Base for relative pfb file names."
+#~ msgstr "Osnnovna pot za relativna imena datotek pfb."
+#~ msgid "Use this to set up a key/value pair for font files."
+#~ msgstr "Uporabi to za nastavitev para ključ/vrednost za datoteke pisav."
+#~ msgid "Couldn't open font file %s\n"
+#~ msgstr "Ne morem odpreti datoteke s pisavo %s\n"
+#~ msgid "Generic Postscript (Hardcoded)"
+#~ msgstr "Gneričen Postskript (vgrajen)"
+#~ msgid "GENERIC-POSTSCRIPT-HARDCODED"
+#~ msgstr "GENERIČEN-POSTSCRIPT-VGRAJEN"
+#~ msgid "0"
+#~ msgstr "0"
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+#~ msgid "0.0.0"
+#~ msgstr "0.0.0"
+#~ msgid "Unknown"
+#~ msgstr "Neznano"
+#~ msgid "gnome-print-ps2"
+#~ msgstr "gnome-tisk-ps2"
+#~ msgid "Generic PostScript"
+#~ msgstr "Gneričen PostScript"
+#~ msgid "Options"
+#~ msgstr "Možnosti"
+#~ msgid "Does nothing yet."
+#~ msgstr "Zaenkrat še ne naredi ničesar."
+#~ msgid "Use this to set up a key/value pair for pfb files."
+#~ msgstr "Uporabi to za nastavitev parov ključ/vrednost pri pfb datotekah."
+#~ msgid "Sample text"
+#~ msgstr "Vzorčno besedilo"
+#~ msgid "Extra Light"
+#~ msgstr "Zelo lahko"
+#~ msgid "Regular"
+#~ msgstr "Običajno"
+#~ msgid "Medium"
+#~ msgstr "Srednje"
+#~ msgid "Semibold"
+#~ msgstr "Polpoudarjeno"
+#~ msgid "Bold"
+#~ msgstr "Polkrepko"
+#~ msgid "Heavy"
+#~ msgstr "Močno"
+#~ msgid "Extra Bold"
+#~ msgstr "Močno poudarjeno"
+#~ msgid "Black"
+#~ msgstr "Črno"
+#~ msgid "Extra Black"
+#~ msgstr "Močno črno"
+#~ msgid "_Italic"
+#~ msgstr "_Ležeče"
+#~ msgid "This is a 2-byte font and may not be displayed correctly."
+#~ msgstr ""
+#~ "Ta pisava uporablja dvobajtni zapis in morda ne bo prikazana pravilno."
+#~ msgid "Select font"
+#~ msgstr "Izberi pisavo"
+#~ msgid "gnome_font_new: font %s not found\n"
+#~ msgstr "gnome_font_new: pisava %s ni bila najdena\n"
+#~ msgid "gnome_font_unsized_closest: font family %s not found\n"
+#~ msgstr "gnome_font_unsized_closest: družina pisav %s ni bila najdena\n"
+#~ msgid "gnome_font_new_closest: font family %s not found\n"
+#~ msgstr "gnome_font_new_closest: družina pisav %s ni bila najdena\n"
+#~ msgid "scanning dir %s\n"
+#~ msgstr "preiskujem imenik %s\n"
+#~ msgid "checking file %s\n"
+#~ msgstr "preverjam datoteko %s\n"
+#~ msgid "%s/%s"
+#~ msgstr "%s/%s"
+

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Build zipfiles for libgnomeprintui on Win32. Separate runtime and
+# developer ones. Run after make install.
+
+ZIP=/tmp/libgnomeprintui-@VERSION@.zip
+DEVZIP=/tmp/libgnomeprintui-dev-@VERSION@.zip
+
+cd @prefix@
+rm $ZIP
+
+zip $ZIP -@ <<EOF
+bin/libgnomeprintui-2-2-0.dll
+share/libgnomeprintui/@VERSION@/gnome-print-job-preview.xml
+EOF
+
+zip $ZIP lib/locale/*/LC_MESSAGES/libgnomeprintui-2.2.mo
+
+rm $DEVZIP
+zip -r $DEVZIP -@ <<EOF
+lib/libgnomeprintui-2-2.dll.a
+include/libgnomeprintui-2.2
+lib/pkgconfig/libgnomeprintui-2.2.pc
+share/gtk-doc/html/libgnomeprintui
+EOF

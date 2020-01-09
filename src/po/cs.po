@@ -1,0 +1,691 @@
+# Czech translation of libgnomeprintui.
+# Copyright (C) 2002 Free Software Foundation.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the libgnomeprintui package.
+# Michal Bukovjan <bukm@centrum.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-16 16:40+0100\n"
+"PO-Revision-Date: 2008-02-14 02:40+0100\n"
+"Last-Translator: Lucas Lommer <llommer@svn.gnome.org>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Text"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Text k vykreslení"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Seznam glyphů"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Barva"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Barva textu, jako řetězec"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Barva textu, jako celé číslo kombinující R/G/B/A"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Písmo"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Písmo jako struct GnomeFont"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Rodina písma"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Seznam dostupných rodin písma"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Styl"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Styl písma"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Seznam dostupných stylů pro vybranou rodinu písma"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "Veliko_st písma:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Toto písmo nemá vzorek"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Náhled písma"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Zobrazí ukázku textu ve vybraném písmu"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Výběr písma"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Implicitní nastavení"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Obrázek zobrazující strany tisknuté oboustranně."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Oboustranně"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Strany jsou tisknuty oboustranně."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"Obrázek zobrazující druhou stranu oboustranně tisknuté posloupnosti "
+"vytištěnou vzhůru nohama."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Převrátit"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Jestli mají být kopie dokumentu tištěny oboustranně, druhá strana otočená "
+"vzhůru nohama,"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Č_as tisku:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "Chyba při načítání nastavení tiskárny"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:882
+#: ../libgnomeprintui/gnome-print-page-selector.c:511
+msgid "Filter"
+msgstr "Filtr"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Kopie"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "Počet _kopií"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr "Obrázek ukazující způsob řazení, pokud je tištěno více kopií dokumentu"
+
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "C_ollate"
+msgstr "P_orovnání"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"Jestli mají být kopie dokumentu tištěny odděleně, jedna po druhé, místo aby "
+"byly promíchány"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "_Obráceně"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Obrátit pořadí stran při tisku"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Tiskárna"
+
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "Dialog pro tisk z prostředí GNOME"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Job"
+msgstr "Úloha"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:590
+msgid "Print Range"
+msgstr "Rozsah tisku"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Papír"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "Vš_e"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Výběr"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_Od:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Nastaví počátek rozsahu stránek k tisku"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_Do:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Nastaví konec rozsahu stránek k tisku"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "Nebyl vytvořen žádný viditelný výstup."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1638
+msgid "all"
+msgstr "vše"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2448
+#: ../libgnomeprintui/gnome-print-job-preview.c:2449
+msgid "Number of pages horizontally"
+msgstr "Počet stran vodorovně"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2452
+#: ../libgnomeprintui/gnome-print-job-preview.c:2453
+msgid "Number of pages vertically"
+msgstr "Počet stran svisle"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Print job"
+msgstr "Vytisknout úlohu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Print"
+msgstr "Vytisknout"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Prints the current file"
+msgstr "Vytiskne aktuální soubor"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Close"
+msgstr "Zavřít"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Closes print preview window"
+msgstr "Zavře okno s náhledem tisku"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2559
+msgid "Cut"
+msgstr "Vyjnout"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2560
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2561
+msgid "Paste"
+msgstr "Vložit"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo"
+msgstr "Zpět"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo the last action"
+msgstr "Vrátit zpět poslední akci"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo"
+msgstr "Znovu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo the undone action"
+msgstr "Zopakovat vrácenou akci"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "First"
+msgstr "První"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "Show the first page"
+msgstr "Zobrazit první stranu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Previous"
+msgstr "Předchozí"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Show previous page"
+msgstr "Zobrazit předchozí stranu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Next"
+msgstr "Následující"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Show the next page"
+msgstr "Zobrazit následující stranu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Last"
+msgstr "Poslední"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Show the last page"
+msgstr "Zobrazit poslední stranu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Zoom 1:1"
+msgstr "Zvětšit na poměr 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit"
+msgstr "Přizpůsobit zvětšení"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit the whole page"
+msgstr "Přizpůsobit náhled velikosti stránky"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom in"
+msgstr "Zvětšit"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom the page in"
+msgstr "Přiblížit stránku"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom out"
+msgstr "Zmenšit"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom the page out"
+msgstr "Oddálit stránku"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2607
+msgid "Show multiple pages"
+msgstr "Zobrazovat více stran"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2608
+msgid "Edit"
+msgstr "Upravit"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use theme"
+msgstr "Používat motiv"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use _theme colors for content"
+msgstr "Používat barvy _motivu pro obsah"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2632
+msgid "Page Preview"
+msgstr "Náhled stránky"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2633
+msgid "The preview of a page in the document to be printed"
+msgstr "Náhled stránky v dokumentu k tisku"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2669
+msgid "_Page: "
+msgstr "Stránk_a: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "of"
+msgstr "z"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Page total"
+msgstr "Celkem stránek"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2685
+msgid "The total number of pages in the document"
+msgstr "Celkový počet stránek v dokumentu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2769
+msgid "Gnome Print Preview"
+msgstr "Náhled tisku z prostředí GNOME"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:858
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Počet stran"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+#: ../libgnomeprintui/gnome-print-layout-selector.c:862
+msgid "Output width"
+msgstr "Šířka výstupu"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+#: ../libgnomeprintui/gnome-print-layout-selector.c:866
+msgid "Output height"
+msgstr "Výška výstupu"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+#: ../libgnomeprintui/gnome-print-layout-selector.c:870
+msgid "Input width"
+msgstr "Šířka vstupu"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:873
+#: ../libgnomeprintui/gnome-print-layout-selector.c:874
+msgid "Input height"
+msgstr "Výška vstupu"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:966
+msgid "_Plain"
+msgstr "_Jednoduché"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:976
+msgid "_Handout: "
+msgstr "_Rozložení: "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:989
+msgid " pages on 1 page"
+msgstr " stran na 1 straně"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:996
+msgid "1 page _spread on "
+msgstr "1 strana _rozložená na "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1009
+msgid " pages"
+msgstr " stran"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1013
+msgid "Leaflet, folded once and _stapled"
+msgstr "Letáček, jednou přeložen a _sešit"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1017
+msgid "Leaflet, _folded twice"
+msgstr "Letáček, _dvakrát přeložen"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Aktuální strana"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:518
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+msgid "Number of pages to select from"
+msgstr "Počet stran, ze kterých vybírat"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:522
+#: ../libgnomeprintui/gnome-print-page-selector.c:523
+msgid "Number of selected pages"
+msgstr "Počet vybraných stran"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:605
+msgid "_All pages"
+msgstr "_Všechny strany"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:611
+msgid "_Even pages"
+msgstr "_Sudé strany"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:615
+msgid "_Odd pages"
+msgstr "_Liché strany"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:624
+msgid "_Current page"
+msgstr "_Aktuální strana"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:632
+msgid "_Page range: "
+msgstr "_Rozsah stran: "
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Náhled"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Náhled velikosti, orientace a rozvržení stránky"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Šířka"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Výška"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Nastavení"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "_Formát papíru:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "Šíř_ka:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "_Výška:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Výběr metriky"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "Udává, jakou metriku použít při stanovení šířky a výšky papíru"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "Orientace po_davače:"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "_Orientace stránky:"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "_Podavač papíru:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Okraje"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Nahoře"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Dole"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Vlevo"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "Vpravo"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "Obsah tisku"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "_Nastavit"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Upravit nastavení vybrané tiskárny"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:185
+msgid "Define a new local printer"
+msgstr "Vytvořit novou místní tiskárnu"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:194
+msgid "_Settings:"
+msgstr "Na_stavení:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:203
+msgid "_Location:"
+msgstr "_Umístění:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Nejsou definovány žádné volby"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Tisknout do _souboru"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Stav"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Úlohy"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Umístění"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Není vybrána žádná tiskárna"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Není k dispozici žádné nastavení"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Přidat nové nastavení"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "bodů"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "palců"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Zadaný název souboru \"%s\" je existující adresář."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Má být soubor %s přepsán?"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Zadejte prosím umístění a název souboru výstupu:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:262
+msgid "PDF Files"
+msgstr "PDF soubory"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:267
+msgid "Postscript Files"
+msgstr "Soubory Postscriptu"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Všechny soubory"

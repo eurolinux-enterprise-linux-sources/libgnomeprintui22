@@ -1,0 +1,109 @@
+<refentry id="libgnomeprintui-gnome-printer-selector">
+<refmeta>
+<refentrytitle role="top_of_page" id="libgnomeprintui-gnome-printer-selector.top_of_page">gnome-printer-selector</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBGNOMEPRINTUI Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gnome-printer-selector</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="libgnomeprintui-gnome-printer-selector.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+<anchor id="GnomePrinterSelector"/>
+<synopsis>
+                    <link linkend="GnomePrinterSelector-struct">GnomePrinterSelector</link>;
+                    <link linkend="GnomePrinterSelectorClass">GnomePrinterSelectorClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-printer-selector-new-default">gnome_printer_selector_new_default</link>  (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-printer-selector-new">gnome_printer_selector_new</link>          (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config);
+<link linkend="GnomePrintConfig">GnomePrintConfig</link> *  <link linkend="gnome-printer-selector-get-config">gnome_printer_selector_get_config</link>   (<link linkend="GnomePrinterSelector">GnomePrinterSelector</link> *psel);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="libgnomeprintui-gnome-printer-selector.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBin">GtkBin</link>
+                                 +----<link linkend="GPAWidget">GPAWidget</link>
+                                       +----GnomePrinterSelector
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="libgnomeprintui-gnome-printer-selector.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GnomePrinterSelector implements
+ <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="AtkImplementorIface">AtkImplementorIface</link>.</para>
+</refsect1>
+
+
+
+
+
+<refsect1 id="libgnomeprintui-gnome-printer-selector.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="libgnomeprintui-gnome-printer-selector.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GnomePrinterSelector-struct" role="struct">
+<title>GnomePrinterSelector</title>
+<indexterm zone="GnomePrinterSelector-struct"><primary sortas="GnomePrinterSelector">GnomePrinterSelector</primary></indexterm><programlisting>typedef struct _GnomePrinterSelector GnomePrinterSelector;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomePrinterSelectorClass" role="struct">
+<title>GnomePrinterSelectorClass</title>
+<indexterm zone="GnomePrinterSelectorClass"><primary sortas="GnomePrinterSelectorClass">GnomePrinterSelectorClass</primary></indexterm><programlisting>typedef struct {
+	GPAWidgetClass gpa_widget_class;
+} GnomePrinterSelectorClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gnome-printer-selector-new-default" role="function">
+<title>gnome_printer_selector_new_default ()</title>
+<indexterm zone="gnome-printer-selector-new-default"><primary sortas="gnome_printer_selector_new_default">gnome_printer_selector_new_default</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_printer_selector_new_default  (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-printer-selector-new" role="function">
+<title>gnome_printer_selector_new ()</title>
+<indexterm zone="gnome-printer-selector-new"><primary sortas="gnome_printer_selector_new">gnome_printer_selector_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_printer_selector_new          (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>config</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-printer-selector-get-config" role="function">
+<title>gnome_printer_selector_get_config ()</title>
+<indexterm zone="gnome-printer-selector-get-config"><primary sortas="gnome_printer_selector_get_config">gnome_printer_selector_get_config</primary></indexterm><programlisting><link linkend="GnomePrintConfig">GnomePrintConfig</link> *  gnome_printer_selector_get_config   (<link linkend="GnomePrinterSelector">GnomePrinterSelector</link> *psel);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>psel</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

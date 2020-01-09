@@ -1,0 +1,100 @@
+libgnomeprintui 2.18.4
+----------------------
+
+	* Make this work with deprecations and single includes
+	  in glib/gtk+
+	* Updated translations
+	  (ar, bg, dz, it, kn, ko, la, lv, or, pt_BR, zh_HK, zh_TW)
+
+libgnomeprintui 2.18.3
+----------------------
+
+	* Fix build with latest gtk+ (Kjartan)
+	* Build fix (Kjartan)
+	* Updated translations
+	  (ar, cs, el, es, fi, fur, gl, he, hr, hu, ml, mr, 
+           ne, nn, ps, sq, sk, sr, tr, zh_HK, zh_TW)
+
+libgnomeprintui 2.18.2
+----------------------
+
+	* Fix a crash in gedit (Ghee Teo)
+	* Remove unneeded popt usage (dmacks at netspace org)
+	* Cleanups (Kjartan)
+
+libgnomeprintui 2.18.1
+----------------------
+
+	* L10N fixes (Takao Fujiwara)
+	* Updated translations:
+	  - Bengali Indian (Runa Bhattacharjee)
+	  - Canadian English (Adam Weinberger)
+	  - Danish (Kenneth Nielsen)
+	  - French (Stéphane Raimbault)
+	  - Gujarati (Ankit Patel)
+	  - Macedonian (Jovan Naumovski)
+	  - Polish (GNOME PL team)
+
+libgnomeprintui 2.18.0
+----------------------
+
+	* Code cleanups (Kjartan)
+	* Updated translations
+	* Updated translations
+	  - Albanian (Laurent Dhima)
+	  - Belarusian (Ales Navicki)
+	  - Bengali Indian (Runa Bhattacharjee)
+	  - Brazilian Portugese (Leonardo Ferreira Fontenelle)
+	  - Danish (Peter Bach)
+	  - Dutch (Timo Meinen)
+	  - Dzongkha (Pema Geyleg)
+	  - Greek (Simos Xenitellis)
+	  - Gujarati (Ankit Patel)
+	  - Hungarian (Gabor Kelemen)
+	  - Italian (Francesco Marletta)
+	  - Japanese (Takeshi AIHANA)
+	  - Lithuanian (Gintautas Miliauskas)
+	  - Macedonian (Jovan Naumovski)
+	  - Romanian (Mişu Moldovan)
+	  - Russian (Nikolay Shmyrev)
+	  - Serbian (Goran Rakić)
+	  - Simplified Chinese (Funda Wang)
+	  - Tamil (I Felix)
+ 
+libgnomeprintui 2.17.92
+-----------------------
+
+Kjartan Maraas
+	* Dist MAINTAINERS
+	
+libgnomeprintui 2.17.91
+-----------------------
+
+Kjartan Maraas
+	* Compiler warning fixes
+	* Mark a string for translation.
+
+libgnomeprintui 2.17.0
+----------------------
+
+Ghee Teo:
+	* Zooming fixes in preview
+
+Kjartan Maraas
+	* Build and compiler warning fixes
+	* po/LINGUAS support
+
+Lutz Mueller:
+	* Lots of work on filters, layout, preview
+
+Michael Terry:
+	* Port to GOption
+
+Morten Welinder:
+	* Build fixes
+	* Chain up to parent in gnome-page-selector.c
+
+Ole Laursen:
+	* String fixes
+
+

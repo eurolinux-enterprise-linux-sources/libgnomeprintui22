@@ -1,0 +1,136 @@
+<refentry id="libgnomeprintui-gnome-print-preview">
+<refmeta>
+<refentrytitle role="top_of_page" id="libgnomeprintui-gnome-print-preview.top_of_page">gnome-print-preview</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBGNOMEPRINTUI Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gnome-print-preview</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="libgnomeprintui-gnome-print-preview.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+<anchor id="GnomePrintPreview"/>
+<synopsis>
+                    <link linkend="GnomePrintPreview-struct">GnomePrintPreview</link>;
+                    <link linkend="GnomePrintPreviewClass">GnomePrintPreviewClass</link>;
+<link linkend="GnomePrintContext">GnomePrintContext</link> * <link linkend="gnome-print-preview-new">gnome_print_preview_new</link>             (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config,
+                                                         <link linkend="GnomeCanvas">GnomeCanvas</link> *canvas);
+<link linkend="GnomePrintContext">GnomePrintContext</link> * <link linkend="gnome-print-preview-new-full">gnome_print_preview_new_full</link>        (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config,
+                                                         <link linkend="GnomeCanvas">GnomeCanvas</link> *canvas,
+                                                         const <link linkend="gdouble">gdouble</link> *transform,
+                                                         const <link linkend="ArtDRect">ArtDRect</link> *region);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="libgnomeprintui-gnome-print-preview.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GnomePrintContext">GnomePrintContext</link>
+         +----GnomePrintPreview
+</synopsis>
+</refsect1>
+
+
+
+
+
+<refsect1 id="libgnomeprintui-gnome-print-preview.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GnomePrintPreview--group">group</link>&quot;                    <link linkend="GnomeCanvasGroup">GnomeCanvasGroup</link>*     : Read / Write / Construct Only
+  &quot;<link linkend="GnomePrintPreview--only-first">only-first</link>&quot;               <link linkend="gboolean">gboolean</link>              : Read / Write
+  &quot;<link linkend="GnomePrintPreview--theme-compliance">theme-compliance</link>&quot;         <link linkend="gboolean">gboolean</link>              : Read / Write
+  &quot;<link linkend="GnomePrintPreview--use-theme">use-theme</link>&quot;                <link linkend="gboolean">gboolean</link>              : Read / Write
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="libgnomeprintui-gnome-print-preview.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="libgnomeprintui-gnome-print-preview.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GnomePrintPreview-struct" role="struct">
+<title>GnomePrintPreview</title>
+<indexterm zone="GnomePrintPreview-struct"><primary sortas="GnomePrintPreview">GnomePrintPreview</primary></indexterm><programlisting>typedef struct _GnomePrintPreview GnomePrintPreview;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomePrintPreviewClass" role="struct">
+<title>GnomePrintPreviewClass</title>
+<indexterm zone="GnomePrintPreviewClass"><primary sortas="GnomePrintPreviewClass">GnomePrintPreviewClass</primary></indexterm><programlisting>typedef struct _GnomePrintPreviewClass GnomePrintPreviewClass;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gnome-print-preview-new" role="function">
+<title>gnome_print_preview_new ()</title>
+<indexterm zone="gnome-print-preview-new"><primary sortas="gnome_print_preview_new">gnome_print_preview_new</primary></indexterm><programlisting><link linkend="GnomePrintContext">GnomePrintContext</link> * gnome_print_preview_new             (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config,
+                                                         <link linkend="GnomeCanvas">GnomeCanvas</link> *canvas);</programlisting>
+<para>
+Creates a new PrintPreview object that use the <parameter>canvas</parameter> GnomeCanvas 
+as its rendering backend.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>config</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>canvas</parameter>&#160;:</term>
+<listitem><simpara> Canvas on which we display the print preview
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A GnomePrintContext suitable for using with the GNOME print API.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-print-preview-new-full" role="function">
+<title>gnome_print_preview_new_full ()</title>
+<indexterm zone="gnome-print-preview-new-full"><primary sortas="gnome_print_preview_new_full">gnome_print_preview_new_full</primary></indexterm><programlisting><link linkend="GnomePrintContext">GnomePrintContext</link> * gnome_print_preview_new_full        (<link linkend="GnomePrintConfig">GnomePrintConfig</link> *config,
+                                                         <link linkend="GnomeCanvas">GnomeCanvas</link> *canvas,
+                                                         const <link linkend="gdouble">gdouble</link> *transform,
+                                                         const <link linkend="ArtDRect">ArtDRect</link> *region);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>config</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>canvas</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>transform</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>region</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+<refsect1 id="libgnomeprintui-gnome-print-preview.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GnomePrintPreview--group" role="property"><title>The <literal>&quot;group&quot;</literal> property</title>
+<indexterm zone="GnomePrintPreview--group"><primary sortas="GnomePrintPreview:group">GnomePrintPreview:group</primary></indexterm><programlisting>  &quot;group&quot;                    <link linkend="GnomeCanvasGroup">GnomeCanvasGroup</link>*     : Read / Write / Construct Only</programlisting>
+<para>Group.</para></refsect2>
+<refsect2 id="GnomePrintPreview--only-first" role="property"><title>The <literal>&quot;only-first&quot;</literal> property</title>
+<indexterm zone="GnomePrintPreview--only-first"><primary sortas="GnomePrintPreview:only-first">GnomePrintPreview:only-first</primary></indexterm><programlisting>  &quot;only-first&quot;               <link linkend="gboolean">gboolean</link>              : Read / Write</programlisting>
+<para>Show only first page.</para><para>Default value: FALSE</para>
+</refsect2>
+<refsect2 id="GnomePrintPreview--theme-compliance" role="property"><title>The <literal>&quot;theme-compliance&quot;</literal> property</title>
+<indexterm zone="GnomePrintPreview--theme-compliance"><primary sortas="GnomePrintPreview:theme-compliance">GnomePrintPreview:theme-compliance</primary></indexterm><programlisting>  &quot;theme-compliance&quot;         <link linkend="gboolean">gboolean</link>              : Read / Write</programlisting>
+<para>Theme compliance.</para><para>Default value: TRUE</para>
+</refsect2>
+<refsect2 id="GnomePrintPreview--use-theme" role="property"><title>The <literal>&quot;use-theme&quot;</literal> property</title>
+<indexterm zone="GnomePrintPreview--use-theme"><primary sortas="GnomePrintPreview:use-theme">GnomePrintPreview:use-theme</primary></indexterm><programlisting>  &quot;use-theme&quot;                <link linkend="gboolean">gboolean</link>              : Read / Write</programlisting>
+<para>Use theme.</para><para>Default value: FALSE</para>
+</refsect2>
+</refsect1>
+
+
+
+
+</refentry>

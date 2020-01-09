@@ -1,0 +1,948 @@
+# libgnomeprintui translation to Catalan.
+# Copyright © 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007
+#    Free Software Foundation, Inc.
+# Softcatalà <info@softcatala.org>, 2000, 2001.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui 2.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-16 22:29+0200\n"
+"PO-Revision-Date: 2007-01-26 00:19+0100\n"
+"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Text"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Text a representar"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Llista de glyphs"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Color"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Color del text, com una cadena"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Color del text, com un nombre sencer R/G/B/A combinat"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Tipus de lletra"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Tipus de lletra com un struct GnomeFont"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Família del tipus de lletra"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "La llista de famílies de tipus de lletra disponibles"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Estil"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Estil del tipus de lletra"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr ""
+"La llista d'estils disponibles per a la família del tipus de lletra "
+"seleccionada"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Mida de la lletra:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Aquest tipus de lletra no té cap mostra"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Vista prèvia del tipus de lletra"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Mostra un text d'exemple amb el tipus de lletra seleccionat"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Selecció del tipus de lletra"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Paràmetres per defecte"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Imatge que mostra pàgines imprimint-se en dúplex."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Dúplex"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Les pàgines s'imprimeixen en dúplex."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"Imatge que mostra la segona pàgina d'una seqüència imprimida en dúplex que "
+"s'imprimirà capgirada."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Capgira"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Si les còpies del document s'imprimeixen en dúplex, es capgira la segona "
+"pàgina."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Tem_ps d'impressió:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "S'ha produït un error en carregar la configuració de la impressora"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:877
+#: ../libgnomeprintui/gnome-print-page-selector.c:511
+msgid "Filter"
+msgstr "Fitre"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Còpies"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "N_ombre de còpies:"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"Imatge que mostra la seqüència de compaginació quan s'imprimeixen múltiples "
+"còpies del document"
+
+# Del Termcat:
+# Collate, to: Fer alçada, Reunir i disposar en l'ordre corresponent els fulls
+# o plecs impresos que han de constituir un exemplar d'una publicació abans de
+# fer-ne l'enquadernació. (josep)
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "C_ollate"
+msgstr "Fes _alçada"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"Si les còpies del document s'imprimeixen per separat, una darrere de "
+"l'altra, en comptes d'intercaladament"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "Inve_rteix"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Inverteix l'ordre de les pàgines quan s'imprimeixi"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Impressora"
+
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "Diàleg del Gnome Print"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Job"
+msgstr "Treball"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:590
+msgid "Print Range"
+msgstr "Rang de la impressió"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Paper"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "Disposició"
+
+# Les pàgines (josep)
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "_Totes"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Selecció"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_Des de:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Estableix el principi del rang de pàgines a imprimir"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_A:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Estableix el final del rang de pàgines a imprimir"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "No s'ha creat cap sortida visible."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1638
+msgid "all"
+msgstr "tot"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2448
+#: ../libgnomeprintui/gnome-print-job-preview.c:2449
+msgid "Number of pages horizontally"
+msgstr "Nombre de pàgines horitzontalment"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2452
+#: ../libgnomeprintui/gnome-print-job-preview.c:2453
+msgid "Number of pages vertically"
+msgstr "Nombre de pàgines verticalment"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Print job"
+msgstr "Imprimeix el treball"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Print"
+msgstr "Imprimeix"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Prints the current file"
+msgstr "Imprimeix el fitxer actual"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Close"
+msgstr "Tanca"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Closes print preview window"
+msgstr "Tanca la finestra de vista prèvia de la impressió"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2559
+msgid "Cut"
+msgstr "Talla"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2560
+msgid "Copy"
+msgstr "Copia"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2561
+msgid "Paste"
+msgstr "Enganxa"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo"
+msgstr "Desfés"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo the last action"
+msgstr "Desfés l'última acció"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo"
+msgstr "Torna a fer"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo the undone action"
+msgstr "Torna a fer l'acció desfeta"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "First"
+msgstr "Primer"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "Show the first page"
+msgstr "Mostra la primera pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Show previous page"
+msgstr "Mostra la pàgina anterior"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Next"
+msgstr "Següent"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Show the next page"
+msgstr "Mostra la pàgina següent"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Last"
+msgstr "Última"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Show the last page"
+msgstr "Mostra la darrera pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Zoom 1:1"
+msgstr "Amplia a 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit"
+msgstr "Millor ajust"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit the whole page"
+msgstr "Ajusta l'ampliació per encabir-la a tota la pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom in"
+msgstr "Apropa"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom the page in"
+msgstr "Apropa la pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom out"
+msgstr "Allunya"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom the page out"
+msgstr "Allunya la pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2607
+msgid "Show multiple pages"
+msgstr "Visualitza múltiples pàgines"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2608
+msgid "Edit"
+msgstr "Edita"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use theme"
+msgstr "Empra el tema"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use _theme colors for content"
+msgstr "Empra els colors del _tema per al contingut"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2632
+msgid "Page Preview"
+msgstr "Vista prèvia de la pàgina"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2633
+msgid "The preview of a page in the document to be printed"
+msgstr "La vista prèvia d'una pàgina del document a imprimir"
+
+# Potser no havia d'haver tocat la drecera
+#: ../libgnomeprintui/gnome-print-job-preview.c:2669
+msgid "_Page: "
+msgstr "_Pàgina: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "of"
+msgstr "de"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Page total"
+msgstr "Total de pàgines"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2685
+msgid "The total number of pages in the document"
+msgstr "El nombre total de pàgines del document"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2769
+msgid "Gnome Print Preview"
+msgstr "Exemple d'impressió del GNOME"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:853
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Nombre de pàgines"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:856
+#: ../libgnomeprintui/gnome-print-layout-selector.c:857
+msgid "Output width"
+msgstr "Amplada de la sortida"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:860
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+msgid "Output height"
+msgstr "Alçada de la sortida"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:864
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+msgid "Input width"
+msgstr "Amplada de l'entrada"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:868
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+msgid "Input height"
+msgstr "Alçada de l'entrada"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:961
+msgid "_Plain"
+msgstr "_Senzill"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:971
+msgid "_Handout: "
+msgstr "_Prospecte: "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:984
+msgid " pages on 1 page"
+msgstr " pàgines en una pàgina"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:991
+msgid "1 page _spread on "
+msgstr "Una pàgina _repartida en "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1004
+msgid " pages"
+msgstr " pàgines"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1008
+msgid "Leaflet, folded once and _stapled"
+msgstr "Llibret, doblat una vegada i _grapat"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1012
+msgid "Leaflet, _folded twice"
+msgstr "Llibret, _doblat dos vegades"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Pàgina actual"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:518
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+msgid "Number of pages to select from"
+msgstr "N_ombre de pàgines d'on seleccionar"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:522
+#: ../libgnomeprintui/gnome-print-page-selector.c:523
+msgid "Number of selected pages"
+msgstr "Nombre de pàgines seleccionades"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:605
+msgid "_All pages"
+msgstr "_Totes les pàgines"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:611
+msgid "_Even pages"
+msgstr "_Pàgines parell"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:615
+msgid "_Odd pages"
+msgstr "Pàgines _senars"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:624
+msgid "_Current page"
+msgstr "Pàgina a_ctual"
+
+# Potser no havia d'haver tocat la drecera
+#: ../libgnomeprintui/gnome-print-page-selector.c:632
+msgid "_Page range: "
+msgstr "Rang de _pàgines: "
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Vista prèvia"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Previsualització de la mida, orientació i disposició de la pàgina"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Amplada"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Alçària"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Configuració"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "_Mida del paper:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "_Amplada:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "A_lçària:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Selector de sistema mètric"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr ""
+"Especifica el sistema mètric a utilitzar quan es configura l'amplada i "
+"l'alçària del paper"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "Orientació de l'al_imentació:"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "_Orientació de la pàgina:"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "Safa_ta del paper:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Marges"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Superior"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Inferior"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Esquerre"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "Dret"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "Contingut de la impressió"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "Co_nfigura"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Ajusta la configuració de la impressora seleccionada"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:185
+msgid "Define a new local printer"
+msgstr "Defineix un impressora local nova"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:194
+msgid "_Settings:"
+msgstr "_Paràmetres:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:203
+msgid "_Location:"
+msgstr "_Ubicació:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "No hi ha opcions definides"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Imprimeix en un _fitxer"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Estat"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Treballs"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Ubicació"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "No hi ha cap impressora seleccionada"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "No hi ha configuracions disponibles"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Afegeix una nova configuració"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Pt"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "po"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "El nom de fitxer «%s» especificat és un directori existent."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "S'hauria de sobreescriure el fitxer %s?"
+
+# Volen dir name, no filename, és que són així de burros (josep)
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Especifiqueu la ubicació i el nom del fitxer de sortida:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:262
+msgid "PDF Files"
+msgstr "Fitxers PDF"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:267
+msgid "Postscript Files"
+msgstr "Fitxers Postscript"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Tots els fitxers"
+
+#~ msgid "Expert mode"
+#~ msgstr "Mode expert"
+
+#~ msgid "Paper and Layout"
+#~ msgstr "Paper i disposició"
+
+#~ msgid "Other"
+#~ msgstr "Altres"
+
+#~ msgid "Type:"
+#~ msgstr "Tipus:"
+
+#~ msgid "Comment:"
+#~ msgstr "Comentari:"
+
+#~ msgid "Pr_inter:"
+#~ msgstr "_Impressora:"
+
+#~ msgid "No printers could be loaded"
+#~ msgstr "No s'ha pogut carregar cap impressora"
+
+#~ msgid ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">No visible output was created.</span></markup>"
+#~ msgstr ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">No s'ha creat cap eixida visible.</span></markup>"
+
+#~ msgid "Portrait"
+#~ msgstr "Retrat"
+
+#~ msgid "Landscape"
+#~ msgstr "Paisatge"
+
+#~ msgid "Rotate 180"
+#~ msgstr "Rota 180"
+
+#~ msgid "Manage printers"
+#~ msgstr "Gestió de impressores"
+
+#~ msgid "Add new printer"
+#~ msgstr "Afegeix una nova impressora"
+
+#~ msgid "Select Printer"
+#~ msgstr "Seleccioneu una impressora"
+
+#~ msgid "P_rinter"
+#~ msgstr "Imp_ressora"
+
+#~ msgid "/_Preview"
+#~ msgstr "/Vista _prèvia"
+
+#~ msgid "/Preview/_Print"
+#~ msgstr "/Vista prèvia/Im_primeix"
+
+#~ msgid "/Preview/_Close"
+#~ msgstr "/Vista prèvia/Tan_ca"
+
+#~ msgid "/_View"
+#~ msgstr "/_Visualitza"
+
+#~ msgid "/View/Zoom _1:1"
+#~ msgstr "/Visualitza/Zoom _1:1"
+
+#~ msgid "/View/Zoom to _Fit"
+#~ msgstr "/Visualitza/Zoom a_justat"
+
+#~ msgid "/View/Zoom _In"
+#~ msgstr "/Visualitza/_Amplia el zoom"
+
+#~ msgid "/View/Zoom _Out"
+#~ msgstr "/Visualitza/_Redueix el zoom"
+
+#~ msgid "/_Go"
+#~ msgstr "/Vé_s"
+
+#~ msgid "/Go/_First Page"
+#~ msgstr "/Vés/_Primera pàgina"
+
+#~ msgid "/Go/_Previous Page"
+#~ msgstr "/Vés/Pàgina _anterior"
+
+#~ msgid "/Go/_Next Page"
+#~ msgstr "/Vés/Pàgina _següent"
+
+#~ msgid "/Go/_Last Page"
+#~ msgstr "/Vés/Ú_ltima pàgina"
+
+#~ msgid "No papers defined"
+#~ msgstr "No hi ha papers definits"
+
+#~ msgid "No layouts defined"
+#~ msgstr "No hi ha disposicions definides"
+
+#~ msgid "Select printer model"
+#~ msgstr "Seleccioneu una impressora"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Fabricant"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Add printer"
+#~ msgstr "Afegeix una impressora"
+
+#~ msgid "From PPD..."
+#~ msgstr "Des de PPD..."
+
+#~ msgid "My App Print Preview"
+#~ msgstr "Vista prèvia d'impressió de la meua aplicació"
+
+#~ msgid "extracts the first font from output.pdf and places it in font.dump."
+#~ msgstr ""
+#~ "extrau el primer tipus de lletra de output.pdf i ho fica en font.dump."
+
+#~ msgid "extracts the font header from font.dump"
+#~ msgstr "extrau la capçalera del tipus de lletra de font.dump"
+
+#~ msgid "extracts the font body "
+#~ msgstr "extrau el cos del tipus de lletra"
+
+#~ msgid "decrypts the font body "
+#~ msgstr "desxifra el cos del tipus de lletra"
+
+#~ msgid "Render from metafile"
+#~ msgstr "Representa des de un metafitxer"
+
+#~ msgid "PATH"
+#~ msgstr "CAMÍ"
+
+#~ msgid "Bring up font dialog"
+#~ msgstr "Mostra el diàleg de tipus de lletres"
+
+#~ msgid "Bring up printer dialog"
+#~ msgstr "Mostra el diàleg de impressores"
+
+#~ msgid "Bring up print dialog"
+#~ msgstr "Mostra el diàleg d'impressió"
+
+#~ msgid "Use GnomePrintMasterPreview"
+#~ msgstr "Utilitza GnomePrintMasterPreview"
+
+#~ msgid "Show paper dialog"
+#~ msgstr "Mostra el diàleg de paper"
+
+#~ msgid "from:"
+#~ msgstr "des de:"
+
+#~ msgid "to:"
+#~ msgstr "a:"
+
+#~ msgid "f_rom:"
+#~ msgstr "d_es de:"
+
+#~ msgid "_to:"
+#~ msgstr "_a:"
+
+#~ msgid "Zooms out"
+#~ msgstr "Redueix el zoom"
+
+#~ msgid "Back"
+#~ msgstr "Endarrere"
+
+#~ msgid "Fit"
+#~ msgstr "Ajusta"
+
+#~ msgid "Fit Wide"
+#~ msgstr "Ajusta horitzontalment"
+
+#~ msgid "Zooms to fit the width of the page"
+#~ msgstr "Ajusta el zoom per encabir l'amplada de la pàgina"
+
+#~ msgid "Fit Tall"
+#~ msgstr "Ajusta verticalment"
+
+#~ msgid "Zooms to fit the height of the page"
+#~ msgstr "Ajusta el zoom per encabir tota l'alçària de la pàgina"
+
+#~ msgid "Print out debugging information"
+#~ msgstr "Imprimeix la informació de depuració"
+
+#~ msgid "Couldn't open font file %s\n"
+#~ msgstr "No s'ha pogut obrir el fitxer de tipus de lletra %s\n"
+
+#~ msgid "status loading %s = %d\n"
+#~ msgstr "estat de la càrrega de %s = %d\n"
+
+#~ msgid "_Printer"
+#~ msgstr "_Impressora"
+
+#~ msgid "Printer is ready to print"
+#~ msgstr "La impressora està preparada per imprimir"
+
+#~ msgid "Printer is off-line"
+#~ msgstr "La impressora és fora de línia"
+
+#~ msgid "Can not communicate with printer"
+#~ msgstr "No és possible comunicar-se amb la impressora"
+
+#~ msgid "Unknown status"
+#~ msgstr "Estat desconegut"
+
+#~ msgid "Does nothing yet."
+#~ msgstr "Encara no fa res."
+
+#~ msgid "Use this to set up a key/value pair for pfb files."
+#~ msgstr ""
+#~ "Utilitza això per configurar una parella de clau/valor per als fitxers "
+#~ "pfb."
+
+#~ msgid "_Italic"
+#~ msgstr "_Cursiva"
+
+#~ msgid "This is a 2-byte font and may not be displayed correctly."
+#~ msgstr ""
+#~ "Aquest tipus de lletra és de 2 octets i és possible que no es visualitzi "
+#~ "correctament"
+
+#~ msgid "Select font"
+#~ msgstr "Seleccioneu el tipus de lletra"
+
+#~ msgid "scanning dir %s\n"
+#~ msgstr "s'està explorant el directori %s\n"
+
+#~ msgid "checking file %s\n"
+#~ msgstr "s'està comprovant el fitxer %s\n"
+
+#~ msgid "%s/%s"
+#~ msgstr "%s/%s"
+
+#~ msgid "gnome_font_new: font %s not found\n"
+#~ msgstr "gnome_font_new: no s'ha trobat el tipus de lletra %s\n"
+
+#~ msgid "gnome_font_unsized_closest: font family %s not found\n"
+#~ msgstr ""
+#~ "gnome_font_unsized_closest: no s'ha trobat la família del tipus de lletra "
+#~ "%s\n"
+
+#~ msgid "gnome_font_new_closest: font family %s not found\n"
+#~ msgstr ""
+#~ "gnome_font_new_closest: no s'ha trobat la família del tipus de lletra %s\n"

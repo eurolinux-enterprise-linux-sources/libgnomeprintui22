@@ -1,0 +1,686 @@
+# Vietnamese translation for LibGnomePrintUI
+# Copyright © 2007 Gnome i18n Project for Vietnamese.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
+# Phạm Thành Long <lngt@ngonngu.net>, 2007.
+# Clytie Siddall <clytie@riverland.net.au>, 2007.
+msgid ""
+""
+msgstr "Project-Id-Version: libgnomeprintui 2.18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-18 03:15+0100\n"
+"PO-Revision-Date: 2007-03-20 17:21+0700\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.6.4a5\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Văn bản"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Văn bản cần vẽ"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Danh sách hình tượng"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Màu"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Màu chữ, dạng chuỗi"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Màu chữ, dạng tổ hợp số nguyên R/G/B/A"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Phông chữ"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Phông chữ ở dạng cấu trúc GnomeFont"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+#. Family frame
+msgid "Font family"
+msgstr "Họ phông chữ"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Danh sách các họ phông chữ hiện có"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+#. Style frame
+msgid "Style"
+msgstr "Kiểu dạng"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Kiểu dạng phông chữ"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Danh sách kiểu dạng phông chữ hiện có đối với nhóm phông chữ được chọn"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Cỡ phông:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Phông chữ này không có mẫu"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Xem thử phông chữ"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Hiển thị đoạn văn bản dùng phông chữ được chọn"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Phần chọn phông"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Thiết lập mặc định"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Ảnh hiển thị trang đang được in hai mặt"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Hai mặt"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Mọi trang được in hai mặt"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr "Ảnh hiển thị trang thứ hai của một loạt in hai mặt sẽ được in từ trên xuống."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Lật"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr "Nếu bản sao tài liệu được in hai mặt, trang thứ hai bị lật từ trên xuống."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "_Thời gian in:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "Gặp lỗi khi tải cấu hình máy in"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:877
+#: ../libgnomeprintui/gnome-print-page-selector.c:511
+msgid "Filter"
+msgstr "Lọc"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Bản sao"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "_Số bản sao:"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr "Ảnh hiển thị loạt đối chiếu khi in nhiều bản sao tài liệu."
+
+#: ../libgnomeprintui/gnome-print-copies.c:583
+#. Collate
+msgid "C_ollate"
+msgstr "Đố_i chiếu"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr "Bản sao tài liệu được in riêng biệt, cái này sau cái kia, thay vì in xen kẽ"
+
+#: ../libgnomeprintui/gnome-print-copies.c:591
+#. Reverse
+msgid "_Reverse"
+msgstr "_Đảo"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Đảo lại thứ tự sắp xếp trang khi in"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Máy in"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+#. Set up the dialog
+msgid "Gnome Print Dialog"
+msgstr "Hộp thoại in Gnome"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Job"
+msgstr "Công việc"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:590
+msgid "Print Range"
+msgstr "Phạm vi in"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Giấy"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+#. Layout page
+msgid "Layout"
+msgstr "Bố cục"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "_Tất cả"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Vùng chọn"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_Từ:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Chọn điểm đầu của phạm vi trang cần in"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_Tới:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Chọn điểm cuối của phạm vi trang cần in"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "Chưa tạo đầu ra có thể thấy."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1638
+msgid "all"
+msgstr "tất cả"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2448
+#: ../libgnomeprintui/gnome-print-job-preview.c:2449
+msgid "Number of pages horizontally"
+msgstr "Số trang hàng ngang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2452
+#: ../libgnomeprintui/gnome-print-job-preview.c:2453
+msgid "Number of pages vertically"
+msgstr "Số trang hàng dọc"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Print job"
+msgstr "Công việc in"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Print"
+msgstr "In"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Prints the current file"
+msgstr "In tập tin hiện thời"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Close"
+msgstr "Đóng"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Closes print preview window"
+msgstr "Đóng cửa sổ xem thử bản in"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2559
+msgid "Cut"
+msgstr "Cắt"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2560
+msgid "Copy"
+msgstr "Chép"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2561
+msgid "Paste"
+msgstr "Dán"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo the last action"
+msgstr "Hoàn tác hành động mới làm"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo"
+msgstr "Làm lại"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo the undone action"
+msgstr "Huỷ hành động mới hoàn tác"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "First"
+msgstr "Xem đầu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "Show the first page"
+msgstr "Hiện trang đầu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Previous"
+msgstr "Trước"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Show previous page"
+msgstr "Hiện trang trước"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Next"
+msgstr "Tiếp"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Show the next page"
+msgstr "Hiện trang sau"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Last"
+msgstr "Cuối cùng"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Show the last page"
+msgstr "Hiện trang cuối"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Zoom 1:1"
+msgstr "Phóng 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit"
+msgstr "Phóng vừa khít"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit the whole page"
+msgstr "Phóng vừa khít toàn bộ trang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom in"
+msgstr "Phóng to"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom the page in"
+msgstr "Phóng to trang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom out"
+msgstr "Thu nhỏ"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom the page out"
+msgstr "Thu nhỏ trang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2607
+msgid "Show multiple pages"
+msgstr "Hiện nhiều trang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2608
+msgid "Edit"
+msgstr "Hiệu chỉnh"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use theme"
+msgstr "Dùng sắc thái"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use _theme colors for content"
+msgstr "Dùng màu sắc thái cho nội dung"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2632
+msgid "Page Preview"
+msgstr "Xem thử trang in"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2633
+msgid "The preview of a page in the document to be printed"
+msgstr "Xem thử một trang cần in"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2669
+msgid "_Page: "
+msgstr "T_rang: "
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+msgid "of"
+msgstr "trên"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Page total"
+msgstr "Tổng số trang"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2685
+msgid "The total number of pages in the document"
+msgstr "Tổng sổ trang của tài liệu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2769
+msgid "Gnome Print Preview"
+msgstr "Xem thử bản in Gnome"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:853
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Tổng số trang"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:856
+#: ../libgnomeprintui/gnome-print-layout-selector.c:857
+msgid "Output width"
+msgstr "Bề rộng đầu ra"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:860
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+msgid "Output height"
+msgstr "Chiều cao đầu ra"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:864
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+msgid "Input width"
+msgstr "Bề rộng đầu vào"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:868
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+msgid "Input height"
+msgstr "Chiều cao đầu vào"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:961
+msgid "_Plain"
+msgstr "_Thô"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:971
+msgid "_Handout: "
+msgstr "_Trao tay: "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:984
+msgid " pages on 1 page"
+msgstr " trang trên 1 trang"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:991
+msgid "1 page _spread on "
+msgstr "1 trang _căng ra trên "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1004
+msgid " pages"
+msgstr " trang"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1008
+msgid "Leaflet, folded once and _stapled"
+msgstr "Tờ rơi, đã gấp một lần và đã _rập"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1012
+msgid "Leaflet, _folded twice"
+msgstr "Tờ rơi, đã _gấp hai lần"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Trang hiện thời"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:518
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+msgid "Number of pages to select from"
+msgstr "Số trang cần chọn từ"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:522
+#: ../libgnomeprintui/gnome-print-page-selector.c:523
+msgid "Number of selected pages"
+msgstr "Số trang đã chọn"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:605
+msgid "_All pages"
+msgstr "_Mọi trang"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:611
+msgid "_Even pages"
+msgstr "Trang _chẵn"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:615
+msgid "_Odd pages"
+msgstr "Trang _lẻ"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:624
+msgid "_Current page"
+msgstr "Trang _hiện thời"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:632
+msgid "_Page range: "
+msgstr "_Phạm vi trang: "
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Xem thử"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Xem thử cỡ giấy, hướng giấy và bố trí"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Rộng"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Cao"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+#. Paper size selector
+msgid "Paper _size:"
+msgstr "_Cỡ giấy:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "_Rộng:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "_Cao:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Bộ chọn đơn vị đo"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "Xác định đơn vị đo lường cần dùng khi thiết lập cỡ giấy"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+#. Feed orientation
+msgid "_Feed orientation:"
+msgstr "_Hướng nạp giấy:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+#. Page orientation
+msgid "Page _orientation:"
+msgstr "_Hướng giấy:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+#. Paper source
+msgid "Paper _tray:"
+msgstr "_Khay giấy:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Lề"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Trên"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Dưới"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Trái"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "Phải"
+
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+msgid "Print Content"
+msgstr "In nội dung"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "_Cấu hình"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Chỉnh thiết lập của máy in được chọn"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:185
+msgid "Define a new local printer"
+msgstr "Định nghĩa máy in cục bộ mới"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:194
+msgid "_Settings:"
+msgstr "_Thông số:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:203
+msgid "_Location:"
+msgstr "_Vị trí:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Chưa định nghĩa tuỳ chọn nào"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "In vào _tập tin"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Tình trạng"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Công việc"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Vị trí"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Chưa chọn máy in"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Chưa thiết lập thông số"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Thêm thông số mới"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+#. Percent must be first
+msgid "Pt"
+msgstr "Pt"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "in"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Tên tập tin được chọn \"%s\" là một thư mục đã có."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Bạn có muốn ghi đè lên tập tin %s không?"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Hãy ghi rõ vị trí và tên của tập tin xuất:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:262
+msgid "PDF Files"
+msgstr "Tập tin PDF"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:267
+msgid "Postscript Files"
+msgstr "Tập tin PostScript"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Mọi tập tin"
+
+#~ msgid "Expert mode"
+#~ msgstr "Chế độ cấp cao"

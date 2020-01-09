@@ -1,0 +1,439 @@
+<refentry id="libgnomeprintui-gnome-font-dialog">
+<refmeta>
+<refentrytitle role="top_of_page" id="libgnomeprintui-gnome-font-dialog.top_of_page">gnome-font-dialog</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBGNOMEPRINTUI Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gnome-font-dialog</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="libgnomeprintui-gnome-font-dialog.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+<anchor id="GnomeFontSelection"/><anchor id="GnomeFontPreview"/><anchor id="GnomeFontDialog"/>
+<synopsis>
+#define             <link linkend="GNOME-TYPE-FONT-SELECTION--CAPS">GNOME_TYPE_FONT_SELECTION</link>
+#define             <link linkend="GNOME-FONT-SELECTION--CAPS">GNOME_FONT_SELECTION</link>                (o)
+#define             <link linkend="GNOME-FONT-SELECTION-CLASS--CAPS">GNOME_FONT_SELECTION_CLASS</link>          (k)
+#define             <link linkend="GNOME-IS-FONT-SELECTION--CAPS">GNOME_IS_FONT_SELECTION</link>             (o)
+#define             <link linkend="GNOME-IS-FONT-SELECTION-CLASS--CAPS">GNOME_IS_FONT_SELECTION_CLASS</link>       (k)
+#define             <link linkend="GNOME-FONT-SELECTION-GET-CLASS--CAPS">GNOME_FONT_SELECTION_GET_CLASS</link>      (o)
+#define             <link linkend="GNOME-TYPE-FONT-DIALOG--CAPS">GNOME_TYPE_FONT_DIALOG</link>
+#define             <link linkend="GNOME-FONT-DIALOG--CAPS">GNOME_FONT_DIALOG</link>                   (o)
+#define             <link linkend="GNOME-FONT-DIALOG-CLASS--CAPS">GNOME_FONT_DIALOG_CLASS</link>             (k)
+#define             <link linkend="GNOME-IS-FONT-DIALOG--CAPS">GNOME_IS_FONT_DIALOG</link>                (o)
+#define             <link linkend="GNOME-IS-FONT-DIALOG-CLASS--CAPS">GNOME_IS_FONT_DIALOG_CLASS</link>          (k)
+#define             <link linkend="GNOME-FONT-DIALOG-GET-CLASS--CAPS">GNOME_FONT_DIALOG_GET_CLASS</link>         (o)
+                    <link linkend="GnomeFontSelection-struct">GnomeFontSelection</link>;
+                    <link linkend="GnomeFontSelectionClass">GnomeFontSelectionClass</link>;
+                    <link linkend="GnomeFontPreview-struct">GnomeFontPreview</link>;
+                    <link linkend="GnomeFontPreviewClass">GnomeFontPreviewClass</link>;
+                    <link linkend="GnomeFontDialog-struct">GnomeFontDialog</link>;
+                    <link linkend="GnomeFontDialogClass">GnomeFontDialogClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-font-selection-new">gnome_font_selection_new</link>            (void);
+<link linkend="GnomeFontFace">GnomeFontFace</link> *     <link linkend="gnome-font-selection-get-face">gnome_font_selection_get_face</link>       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);
+<link linkend="gdouble">gdouble</link>             <link linkend="gnome-font-selection-get-size">gnome_font_selection_get_size</link>       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);
+<link linkend="GnomeFont">GnomeFont</link> *         <link linkend="gnome-font-selection-get-font">gnome_font_selection_get_font</link>       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);
+<link linkend="void">void</link>                <link linkend="gnome-font-selection-set-font">gnome_font_selection_set_font</link>       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel,
+                                                         <link linkend="GnomeFont">GnomeFont</link> *font);
+<link linkend="GType">GType</link>               <link linkend="gnome-font-preview-get-type">gnome_font_preview_get_type</link>         (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-font-preview-new">gnome_font_preview_new</link>              (void);
+<link linkend="void">void</link>                <link linkend="gnome-font-preview-set-phrase">gnome_font_preview_set_phrase</link>       (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         const <link linkend="guchar">guchar</link> *phrase);
+<link linkend="void">void</link>                <link linkend="gnome-font-preview-set-font">gnome_font_preview_set_font</link>         (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         <link linkend="GnomeFont">GnomeFont</link> *font);
+<link linkend="void">void</link>                <link linkend="gnome-font-preview-set-color">gnome_font_preview_set_color</link>        (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         <link linkend="guint32">guint32</link> color);
+<link linkend="GType">GType</link>               <link linkend="gnome-font-dialog-get-type">gnome_font_dialog_get_type</link>          (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-font-dialog-new">gnome_font_dialog_new</link>               (const <link linkend="gchar">gchar</link> *title);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-font-dialog-get-fontsel">gnome_font_dialog_get_fontsel</link>       (<link linkend="GnomeFontDialog">GnomeFontDialog</link> *gfsd);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gnome-font-dialog-get-preview">gnome_font_dialog_get_preview</link>       (<link linkend="GnomeFontDialog">GnomeFontDialog</link> *gfsd);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkHBox">GtkHBox</link>
+                                       +----GnomeFontSelection
+</synopsis>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkMisc">GtkMisc</link>
+                           +----<link linkend="GtkImage">GtkImage</link>
+                                 +----GnomeFontPreview
+</synopsis>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBin">GtkBin</link>
+                                 +----<link linkend="GtkWindow">GtkWindow</link>
+                                       +----<link linkend="GtkDialog">GtkDialog</link>
+                                             +----GnomeFontDialog
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GnomeFontSelection implements
+ <link linkend="GtkBuildable">GtkBuildable</link>,  <link linkend="GtkOrientable">GtkOrientable</link> and  <link linkend="AtkImplementorIface">AtkImplementorIface</link>.</para>
+<para>
+GnomeFontPreview implements
+ <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="AtkImplementorIface">AtkImplementorIface</link>.</para>
+<para>
+GnomeFontDialog implements
+ <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="AtkImplementorIface">AtkImplementorIface</link>.</para>
+</refsect1>
+
+
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GnomeFontSelection-font-set">font-set</link>&quot;                                       : Run First
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GNOME-TYPE-FONT-SELECTION--CAPS" role="macro">
+<title>GNOME_TYPE_FONT_SELECTION</title>
+<indexterm zone="GNOME-TYPE-FONT-SELECTION--CAPS"><primary sortas="GNOME_TYPE_FONT_SELECTION">GNOME_TYPE_FONT_SELECTION</primary></indexterm><programlisting>#define GNOME_TYPE_FONT_SELECTION         (gnome_font_selection_get_type ())
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GNOME-FONT-SELECTION--CAPS" role="macro">
+<title>GNOME_FONT_SELECTION()</title>
+<indexterm zone="GNOME-FONT-SELECTION--CAPS"><primary sortas="GNOME_FONT_SELECTION">GNOME_FONT_SELECTION</primary></indexterm><programlisting>#define GNOME_FONT_SELECTION(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), GNOME_TYPE_FONT_SELECTION, GnomeFontSelection))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-FONT-SELECTION-CLASS--CAPS" role="macro">
+<title>GNOME_FONT_SELECTION_CLASS()</title>
+<indexterm zone="GNOME-FONT-SELECTION-CLASS--CAPS"><primary sortas="GNOME_FONT_SELECTION_CLASS">GNOME_FONT_SELECTION_CLASS</primary></indexterm><programlisting>#define GNOME_FONT_SELECTION_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST    ((k), GNOME_TYPE_FONT_SELECTION, GnomeFontSelectionClass))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>k</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-IS-FONT-SELECTION--CAPS" role="macro">
+<title>GNOME_IS_FONT_SELECTION()</title>
+<indexterm zone="GNOME-IS-FONT-SELECTION--CAPS"><primary sortas="GNOME_IS_FONT_SELECTION">GNOME_IS_FONT_SELECTION</primary></indexterm><programlisting>#define GNOME_IS_FONT_SELECTION(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), GNOME_TYPE_FONT_SELECTION))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-IS-FONT-SELECTION-CLASS--CAPS" role="macro">
+<title>GNOME_IS_FONT_SELECTION_CLASS()</title>
+<indexterm zone="GNOME-IS-FONT-SELECTION-CLASS--CAPS"><primary sortas="GNOME_IS_FONT_SELECTION_CLASS">GNOME_IS_FONT_SELECTION_CLASS</primary></indexterm><programlisting>#define GNOME_IS_FONT_SELECTION_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE    ((k), GNOME_TYPE_FONT_SELECTION))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>k</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-FONT-SELECTION-GET-CLASS--CAPS" role="macro">
+<title>GNOME_FONT_SELECTION_GET_CLASS()</title>
+<indexterm zone="GNOME-FONT-SELECTION-GET-CLASS--CAPS"><primary sortas="GNOME_FONT_SELECTION_GET_CLASS">GNOME_FONT_SELECTION_GET_CLASS</primary></indexterm><programlisting>#define GNOME_FONT_SELECTION_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS  ((o), GNOME_TYPE_FONT_SELECTION, GnomeFontSelectionClass))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-TYPE-FONT-DIALOG--CAPS" role="macro">
+<title>GNOME_TYPE_FONT_DIALOG</title>
+<indexterm zone="GNOME-TYPE-FONT-DIALOG--CAPS"><primary sortas="GNOME_TYPE_FONT_DIALOG">GNOME_TYPE_FONT_DIALOG</primary></indexterm><programlisting>#define GNOME_TYPE_FONT_DIALOG         (gnome_font_dialog_get_type ())
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GNOME-FONT-DIALOG--CAPS" role="macro">
+<title>GNOME_FONT_DIALOG()</title>
+<indexterm zone="GNOME-FONT-DIALOG--CAPS"><primary sortas="GNOME_FONT_DIALOG">GNOME_FONT_DIALOG</primary></indexterm><programlisting>#define GNOME_FONT_DIALOG(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), GNOME_TYPE_FONT_DIALOG, GnomeFontDialog))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-FONT-DIALOG-CLASS--CAPS" role="macro">
+<title>GNOME_FONT_DIALOG_CLASS()</title>
+<indexterm zone="GNOME-FONT-DIALOG-CLASS--CAPS"><primary sortas="GNOME_FONT_DIALOG_CLASS">GNOME_FONT_DIALOG_CLASS</primary></indexterm><programlisting>#define GNOME_FONT_DIALOG_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST    ((k), GNOME_TYPE_FONT_DIALOG, GnomeFontDialogClass))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>k</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-IS-FONT-DIALOG--CAPS" role="macro">
+<title>GNOME_IS_FONT_DIALOG()</title>
+<indexterm zone="GNOME-IS-FONT-DIALOG--CAPS"><primary sortas="GNOME_IS_FONT_DIALOG">GNOME_IS_FONT_DIALOG</primary></indexterm><programlisting>#define GNOME_IS_FONT_DIALOG(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), GNOME_TYPE_FONT_DIALOG))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-IS-FONT-DIALOG-CLASS--CAPS" role="macro">
+<title>GNOME_IS_FONT_DIALOG_CLASS()</title>
+<indexterm zone="GNOME-IS-FONT-DIALOG-CLASS--CAPS"><primary sortas="GNOME_IS_FONT_DIALOG_CLASS">GNOME_IS_FONT_DIALOG_CLASS</primary></indexterm><programlisting>#define GNOME_IS_FONT_DIALOG_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE    ((k), GNOME_TYPE_FONT_DIALOG))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>k</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GNOME-FONT-DIALOG-GET-CLASS--CAPS" role="macro">
+<title>GNOME_FONT_DIALOG_GET_CLASS()</title>
+<indexterm zone="GNOME-FONT-DIALOG-GET-CLASS--CAPS"><primary sortas="GNOME_FONT_DIALOG_GET_CLASS">GNOME_FONT_DIALOG_GET_CLASS</primary></indexterm><programlisting>#define GNOME_FONT_DIALOG_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS  ((o), GNOME_TYPE_FONT_DIALOG, GnomeFontDialogClass))
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>o</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="GnomeFontSelection-struct" role="struct">
+<title>GnomeFontSelection</title>
+<indexterm zone="GnomeFontSelection-struct"><primary sortas="GnomeFontSelection">GnomeFontSelection</primary></indexterm><programlisting>typedef struct _GnomeFontSelection GnomeFontSelection;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomeFontSelectionClass" role="struct">
+<title>GnomeFontSelectionClass</title>
+<indexterm zone="GnomeFontSelectionClass"><primary sortas="GnomeFontSelectionClass">GnomeFontSelectionClass</primary></indexterm><programlisting>typedef struct _GnomeFontSelectionClass GnomeFontSelectionClass;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomeFontPreview-struct" role="struct">
+<title>GnomeFontPreview</title>
+<indexterm zone="GnomeFontPreview-struct"><primary sortas="GnomeFontPreview">GnomeFontPreview</primary></indexterm><programlisting>typedef struct _GnomeFontPreview GnomeFontPreview;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomeFontPreviewClass" role="struct">
+<title>GnomeFontPreviewClass</title>
+<indexterm zone="GnomeFontPreviewClass"><primary sortas="GnomeFontPreviewClass">GnomeFontPreviewClass</primary></indexterm><programlisting>typedef struct _GnomeFontPreviewClass GnomeFontPreviewClass;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomeFontDialog-struct" role="struct">
+<title>GnomeFontDialog</title>
+<indexterm zone="GnomeFontDialog-struct"><primary sortas="GnomeFontDialog">GnomeFontDialog</primary></indexterm><programlisting>typedef struct _GnomeFontDialog GnomeFontDialog;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GnomeFontDialogClass" role="struct">
+<title>GnomeFontDialogClass</title>
+<indexterm zone="GnomeFontDialogClass"><primary sortas="GnomeFontDialogClass">GnomeFontDialogClass</primary></indexterm><programlisting>typedef struct _GnomeFontDialogClass GnomeFontDialogClass;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gnome-font-selection-new" role="function">
+<title>gnome_font_selection_new ()</title>
+<indexterm zone="gnome-font-selection-new"><primary sortas="gnome_font_selection_new">gnome_font_selection_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_font_selection_new            (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-selection-get-face" role="function">
+<title>gnome_font_selection_get_face ()</title>
+<indexterm zone="gnome-font-selection-get-face"><primary sortas="gnome_font_selection_get_face">gnome_font_selection_get_face</primary></indexterm><programlisting><link linkend="GnomeFontFace">GnomeFontFace</link> *     gnome_font_selection_get_face       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>fontsel</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-selection-get-size" role="function">
+<title>gnome_font_selection_get_size ()</title>
+<indexterm zone="gnome-font-selection-get-size"><primary sortas="gnome_font_selection_get_size">gnome_font_selection_get_size</primary></indexterm><programlisting><link linkend="gdouble">gdouble</link>             gnome_font_selection_get_size       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>fontsel</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-selection-get-font" role="function">
+<title>gnome_font_selection_get_font ()</title>
+<indexterm zone="gnome-font-selection-get-font"><primary sortas="gnome_font_selection_get_font">gnome_font_selection_get_font</primary></indexterm><programlisting><link linkend="GnomeFont">GnomeFont</link> *         gnome_font_selection_get_font       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>fontsel</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-selection-set-font" role="function">
+<title>gnome_font_selection_set_font ()</title>
+<indexterm zone="gnome-font-selection-set-font"><primary sortas="gnome_font_selection_set_font">gnome_font_selection_set_font</primary></indexterm><programlisting><link linkend="void">void</link>                gnome_font_selection_set_font       (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontsel,
+                                                         <link linkend="GnomeFont">GnomeFont</link> *font);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>fontsel</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>font</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-preview-get-type" role="function">
+<title>gnome_font_preview_get_type ()</title>
+<indexterm zone="gnome-font-preview-get-type"><primary sortas="gnome_font_preview_get_type">gnome_font_preview_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               gnome_font_preview_get_type         (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-preview-new" role="function">
+<title>gnome_font_preview_new ()</title>
+<indexterm zone="gnome-font-preview-new"><primary sortas="gnome_font_preview_new">gnome_font_preview_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_font_preview_new              (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-preview-set-phrase" role="function">
+<title>gnome_font_preview_set_phrase ()</title>
+<indexterm zone="gnome-font-preview-set-phrase"><primary sortas="gnome_font_preview_set_phrase">gnome_font_preview_set_phrase</primary></indexterm><programlisting><link linkend="void">void</link>                gnome_font_preview_set_phrase       (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         const <link linkend="guchar">guchar</link> *phrase);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>preview</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>phrase</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-preview-set-font" role="function">
+<title>gnome_font_preview_set_font ()</title>
+<indexterm zone="gnome-font-preview-set-font"><primary sortas="gnome_font_preview_set_font">gnome_font_preview_set_font</primary></indexterm><programlisting><link linkend="void">void</link>                gnome_font_preview_set_font         (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         <link linkend="GnomeFont">GnomeFont</link> *font);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>preview</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>font</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-preview-set-color" role="function">
+<title>gnome_font_preview_set_color ()</title>
+<indexterm zone="gnome-font-preview-set-color"><primary sortas="gnome_font_preview_set_color">gnome_font_preview_set_color</primary></indexterm><programlisting><link linkend="void">void</link>                gnome_font_preview_set_color        (<link linkend="GnomeFontPreview">GnomeFontPreview</link> *preview,
+                                                         <link linkend="guint32">guint32</link> color);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>preview</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>color</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-dialog-get-type" role="function">
+<title>gnome_font_dialog_get_type ()</title>
+<indexterm zone="gnome-font-dialog-get-type"><primary sortas="gnome_font_dialog_get_type">gnome_font_dialog_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               gnome_font_dialog_get_type          (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-dialog-new" role="function">
+<title>gnome_font_dialog_new ()</title>
+<indexterm zone="gnome-font-dialog-new"><primary sortas="gnome_font_dialog_new">gnome_font_dialog_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_font_dialog_new               (const <link linkend="gchar">gchar</link> *title);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>title</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-dialog-get-fontsel" role="function">
+<title>gnome_font_dialog_get_fontsel ()</title>
+<indexterm zone="gnome-font-dialog-get-fontsel"><primary sortas="gnome_font_dialog_get_fontsel">gnome_font_dialog_get_fontsel</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_font_dialog_get_fontsel       (<link linkend="GnomeFontDialog">GnomeFontDialog</link> *gfsd);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gfsd</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gnome-font-dialog-get-preview" role="function">
+<title>gnome_font_dialog_get_preview ()</title>
+<indexterm zone="gnome-font-dialog-get-preview"><primary sortas="gnome_font_dialog_get_preview">gnome_font_dialog_get_preview</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gnome_font_dialog_get_preview       (<link linkend="GnomeFontDialog">GnomeFontDialog</link> *gfsd);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gfsd</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+<refsect1 id="libgnomeprintui-gnome-font-dialog.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GnomeFontSelection-font-set" role="signal"><title>The <literal>&quot;font-set&quot;</literal> signal</title>
+<indexterm zone="GnomeFontSelection-font-set"><primary sortas="GnomeFontSelection::font-set">GnomeFontSelection::font-set</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GnomeFontSelection">GnomeFontSelection</link> *fontselection,
+                                                        <link linkend="gpointer">gpointer</link>            arg1,
+                                                        <link linkend="gpointer">gpointer</link>            user_data)          : Run First</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>fontselection</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

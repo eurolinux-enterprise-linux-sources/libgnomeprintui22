@@ -1,0 +1,627 @@
+# Persian translation of libgnomeprintui.
+# Copyright (C) 2003, 2005 Sharif FarsiWeb, Inc.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003.
+# Niousha Blandzadeh <bolandzadeh@cs.sharif.edu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-26 09:34-0400\n"
+"PO-Revision-Date: 2005-02-16 13:40+0330\n"
+"Last-Translator: Niousha Bolandzadeh <bolandzadeh@cs.sharif.edu>\n"
+"Language-Team: Persian <farsi@lists.sharif.edu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "متن"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "متن نمایشی"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:148
+#: libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "فهرست شکل‌ها"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:155
+#: libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "رنگ"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "رنگ متن، به شکل رشته"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "رنگ متن، به شکل یک عدد صحیح سرهم R/G/B/A"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "قلم"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "قلم به شکل یک ساختار GnomeFont"
+
+#. Family frame
+#: libgnomeprintui/gnome-font-dialog.c:164
+#: libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "خانواده‌ی قلم"
+
+#: libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "فهرست خانواده‌های قلم موجود"
+
+#. Style frame
+#: libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "سبک"
+
+#: libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "سبک قلم"
+
+#: libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "فهرست سبک‌های موجود برای خانواده‌ی قلم انتخاب‌شده"
+
+#: libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "اندازه‌ی قلم:"
+
+#: libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "این قلم نمونه ندارد"
+
+#: libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "پیش‌نمایش قلم"
+
+#: libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "یک متن نمونه را با قلم انتخاب‌شده نمایش می‌دهد"
+
+#: libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "انتخاب قلم"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "تنظیمات پیش‌فرض"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "تصویر نمایش دهنده‌ی صفحاتی که به صورت دوتایی چاپ می‌شوند."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "دو_تایی"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "صفحه‌ها به صورت دو‌تایی چاپ شده‌اند"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"تصویر نمایش دهنده‌ی صفحه‌ی دوم یک دنباله‌ی چاپ دوتایی که سر و ته چاپ می‌شود."
+
+#: libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "روی هم ریختن"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"اگر نسخه‌‌های نوشتار به صورت دوتایی چاپ شوند ، دومین صفحه ورق می‌خورد و سر و ته "
+"قرار می‌گیرد،"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "زمان_ چاپ:"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:353
+#: libgnomeprintui/gnome-print-dialog.c:148
+msgid "Error while loading printer configuration"
+msgstr "خطا در حین بار کردن پیکربندی چاپگر"
+
+#: libgnomeprintui/gnome-print-copies.c:261
+msgid "Copies"
+msgstr "نسخه‌ها"
+
+#: libgnomeprintui/gnome-print-copies.c:274
+msgid "N_umber of copies:"
+msgstr "تعداد نسخه‌ها:"
+
+#: libgnomeprintui/gnome-print-copies.c:294
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"تصویر نمایش دهنده‌ی دنباله‌ی تلفیقی هنگامی که چندین نسخه از نوشتار چاپ می‌شوند"
+
+#: libgnomeprintui/gnome-print-copies.c:296
+msgid "_Collate"
+msgstr "تلفیق_"
+
+#: libgnomeprintui/gnome-print-copies.c:302
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"که نسخه‌های نوشتار به جای چند در میان شدن، جداگانه، یکی بعد از دیگری چاپ شوند"
+
+#: libgnomeprintui/gnome-print-dialog.c:160
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "چاپگر"
+
+#: libgnomeprintui/gnome-print-dialog.c:175
+msgid "Paper"
+msgstr "کاغذ"
+
+#. Set up the dialog
+#: libgnomeprintui/gnome-print-dialog.c:367
+#: libgnomeprintui/gnome-print-dialog.c:435
+msgid "Gnome Print Dialog"
+msgstr "محاوره‌ی چاپ گنوم"
+
+#: libgnomeprintui/gnome-print-dialog.c:459
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Job"
+msgstr "کار"
+
+#: libgnomeprintui/gnome-print-dialog.c:474
+#: libgnomeprintui/gnome-print-page-selector.c:712
+msgid "Print Range"
+msgstr "محدوده‌ی چاپ"
+
+#. Expert mode
+#: libgnomeprintui/gnome-print-dialog.c:498
+msgid "Expert mode"
+msgstr ""
+
+#. All pages
+#: libgnomeprintui/gnome-print-dialog.c:545
+#: libgnomeprintui/gnome-print-page-selector.c:725
+msgid "_All"
+msgstr "_همه"
+
+#: libgnomeprintui/gnome-print-dialog.c:569
+msgid "_Selection"
+msgstr "_انتخاب"
+
+#: libgnomeprintui/gnome-print-dialog.c:754
+msgid "_From:"
+msgstr "_از:"
+
+#: libgnomeprintui/gnome-print-dialog.c:767
+msgid "Sets the start of the range of pages to be printed"
+msgstr "آغاز محدوده‌ی صفحات چاپی را تنظیم می‌کند"
+
+#: libgnomeprintui/gnome-print-dialog.c:769
+msgid "_To:"
+msgstr "_تا:"
+
+#: libgnomeprintui/gnome-print-dialog.c:782
+msgid "Sets the end of the range of pages to be printed"
+msgstr "پایان  محدوده‌ی صفحات چاپی را تنظیم می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:537
+msgid "No visible output was created."
+msgstr "هیچ خروجی قابل دیدنی ایجاد نشد."
+
+#: libgnomeprintui/gnome-print-job-preview.c:1670
+msgid "all"
+msgstr "همه"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2363
+#: libgnomeprintui/gnome-print-job-preview.c:2364
+msgid "Number of pages horizontally"
+msgstr "تعداد صفحات به صورت افقی "
+
+#: libgnomeprintui/gnome-print-job-preview.c:2367
+#: libgnomeprintui/gnome-print-job-preview.c:2368
+msgid "Number of pages vertically"
+msgstr "تعداد صفحات به صورت عمودی"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Print job"
+msgstr "کار چاپی"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Print"
+msgstr "چاپ"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Prints the current file"
+msgstr "پرونده‌ی فعلی را چاپ می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Close"
+msgstr "بستن"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Closes print preview window"
+msgstr "پنجره‌ی پیش‌نمایش چاپ را می‌بندد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2474
+msgid "Cut"
+msgstr "برش"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2475
+msgid "Copy"
+msgstr "نسخه‌برداری"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2476
+msgid "Paste"
+msgstr "چسباندن"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo"
+msgstr "برگردان"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo the last action"
+msgstr "برگرداندن آخرین عمل "
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo"
+msgstr "دوباره"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo the undone action"
+msgstr "انجام دوباره‌ی عمل برگردانده شده"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "First"
+msgstr "اول"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "Shows the first page"
+msgstr "صفحه‌ی اول را نمایش می‌دهد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Previous"
+msgstr "قبلی"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Shows previous page"
+msgstr "صفحه‌ی قبل را نمایش می‌دهد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Next"
+msgstr "بعدی"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Shows the next page"
+msgstr "صفحه‌ی بعد را نمایش می‌دهد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Last"
+msgstr "آخر"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Shows the last page"
+msgstr "صفحه‌ی آخر را نمایش می‌دهد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+#, no-c-format
+msgid "100%"
+msgstr "۱۰۰٪"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+msgid "Zooms 1:1"
+msgstr "۱:۱ زوم می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zoom to fit"
+msgstr "زوم به اندازه‌ی صفحه"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+msgid "Zooms to fit the whole page"
+msgstr "به اندازه‌ای که تمام صفحه جا شود زوم می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zoom in"
+msgstr "زوم به داخل"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zooms the page in"
+msgstr "صفحه را به داخل زوم می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zoom out"
+msgstr "زوم به خارج"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zooms the page out"
+msgstr "صفحه را به خارج زوم می‌کند"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2522
+msgid "Show multiple pages"
+msgstr "نشان دادن صفحات متعدد"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2523
+msgid "Edit"
+msgstr "ویرایش"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use theme"
+msgstr "استفاده از تم"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use _theme colors for content"
+msgstr "استفاده از رنگ‌های _تم برای محتوا"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2547
+msgid "Page Preview"
+msgstr "پیش‌نمایش صفحه"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2548
+msgid "The preview of a page in the document to be printed"
+msgstr "پیش‌نمایش صفحه‌ای از نوشتار که باید چاپ شود"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "_Page: "
+msgstr "_‌صفحه‌ی: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: libgnomeprintui/gnome-print-job-preview.c:2592
+msgid "of"
+msgstr "از"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2599
+msgid "Page total"
+msgstr "کل صفحات"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2600
+msgid "The total number of pages in the document"
+msgstr "تعداد کل صفحات موجود در نوشتار"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Gnome Print Preview"
+msgstr "پیش‌نمایش چاپ گنوم"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:438
+msgid "Paper and Layout"
+msgstr "کاغذ و صفحه‌بندی"
+
+#. Paper size selector
+#: libgnomeprintui/gnome-print-paper-selector.c:455
+msgid "Paper _size:"
+msgstr "اندازه‌ی _کاغذ:"
+
+#. Custom paper Width
+#: libgnomeprintui/gnome-print-paper-selector.c:469
+msgid "_Width:"
+msgstr "_عرض:"
+
+#. Custom paper Height
+#: libgnomeprintui/gnome-print-paper-selector.c:485
+msgid "_Height:"
+msgstr "_ارتفاع:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:508
+msgid "Metric selector"
+msgstr "انتخاب‌کننده‌ی واحد اندازه‌گیری"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:509
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "واحد اندازه‌گیری مورد استفاده هنگام تنظیم طول و عرض کاغذ را تعیین می‌کند"
+
+#. Feed orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:512
+msgid "_Feed orientation:"
+msgstr "جهت ورود کاغذ:"
+
+#. Page orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:528
+msgid "Page _orientation:"
+msgstr "جهت_ صفحه:"
+
+#. Layout
+#: libgnomeprintui/gnome-print-paper-selector.c:541
+msgid "_Layout:"
+msgstr "_صفحه‌بندی:"
+
+#. Paper source
+#: libgnomeprintui/gnome-print-paper-selector.c:554
+msgid "Paper _tray:"
+msgstr "_سینی کاغذ:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:570
+#: libgnomeprintui/gnome-print-paper-selector.c:584
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:585
+msgid "Preview of the page size, orientation and layout"
+msgstr "پیش‌نمایش اندازه‌ی صفحه، جهت و صفحه‌بندی"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:591
+msgid "Margins"
+msgstr "حاشیه‌ها"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:625
+msgid "Top"
+msgstr "بالا"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:628
+msgid "Bottom"
+msgstr "پایین"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:631
+msgid "Left"
+msgstr "چپ"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:634
+msgid "Right"
+msgstr "راست"
+
+#: libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "_پیکربندی"
+
+#: libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "میزان کردن تنظیمات چا‍گر انتخاب‌شده"
+
+#: libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "_تنظیمات:"
+
+#: libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "_مکان:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:119
+#: libgnomeprintui/gnome-print-page-selector.c:608
+#, fuzzy
+msgid "Number of pages"
+msgstr "تعداد نسخه‌ها:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:122
+#: libgnomeprintui/gnome-print-page-selector.c:605
+#, fuzzy
+msgid "Current page"
+msgstr "محدوده‌ی چاپ"
+
+#: libgnomeprintui/gnome-print-content-selector.c:133
+#, fuzzy
+msgid "Print Content"
+msgstr "محدوده‌ی چاپ"
+
+#: libgnomeprintui/gnome-print-page-selector.c:602
+#, fuzzy
+msgid "Configuration"
+msgstr "_پیکربندی"
+
+#: libgnomeprintui/gnome-print-page-selector.c:731
+msgid "_Current"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:743
+msgid "_From page "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:755
+msgid " to "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:773
+#, fuzzy
+msgid "_Selection: "
+msgstr "_انتخاب"
+
+#. Print only...
+#: libgnomeprintui/gnome-print-page-selector.c:785
+#, fuzzy
+msgid "Print only..."
+msgstr "کار چاپی"
+
+#: libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "گزینه‌ای تعریف نشده است"
+
+#: libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "چاپ در _پرونده"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "وضعیت"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "کارها"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "مکان"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "چاپگری انتخاب نشده است"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "تنظیمی موجود نیست"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "افزودن تنظیمات جدید"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "٪"
+
+#. Percent must be first
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "پونت"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "میل"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "سانت"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "متر"
+
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "اینچ"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "نام پرونده‌ی مشخص شده «%s» یک شاخه‌ی موجود است."
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "آیا پرونده‌ی %sدوباره نویسی شود؟"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "لطفاً مکان و نام پرونده‌ی خروجی را مشخص کنید:"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "همه‌ی پرونده‌ها"
+
+#~ msgid "Type:"
+#~ msgstr "نوع:"
+
+#~ msgid "Comment:"
+#~ msgstr "توضیح:"
+
+#~ msgid "Pr_inter:"
+#~ msgstr "_چاپگر:"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>پیش‌نمایش</b>"
+
+#~ msgid "<b>Printer</b>"
+#~ msgstr "<b>چاپگر</b>"

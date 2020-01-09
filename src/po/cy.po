@@ -1,0 +1,718 @@
+# libgnomeprintui yn Gymraeg.
+# This file is distributed under the same license as the libgnomeprintui
+# package.
+# Dafydd Harries <daf@muse.19inch.net>, 2003 2004.
+# Chris Jackson <chriscf@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-25 14:28+0000\n"
+"PO-Revision-Date: 2006-02-22 23:03-0000\n"
+"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
+"Language-Team: Cymraeg <gnome-cy@www.linux.org.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Testun"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Testun i'w lunio"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Glyffrestr"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Lliw"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Lliw testun, fel llinyn"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Lliw testun, fel cyfanrif cyfunedig R/G/B/A"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Ffont"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Ffont fel strwythur GnomeFont"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Teulu ffont"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Y rhestr o deuluoedd ffont sydd ar gael"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Arddull"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Arddull ffont"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Y rhestr o arddullion ar gael ar gyfer y teulu ffont a ddewiswyd"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Maint ffont:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Nid oes sampl gan y ffont hwn"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Rhagolwg Ffont"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Dangosir peth testun enghreifftiol yn y ffont a ddewiswyd"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Dewis Ffont"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Rhagosodiadau"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Delwedd yn dangos tudalennau yn cael eu hargraffu mewn dwplecs."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Dwplecs"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Argraffir tudalennau mewn dwplecs."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr ""
+"Delwedd yn dangos ail dudalen cyfres argraffu dwplecs i'w argraffu wyneb i "
+"waered."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "_Troelli"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Os argraffir copïau o'r ddogfen mewn dwplecs, troellir yr ail dudalen wyneb "
+"i waered."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "Amser _Argraffu:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "Gwall wrth lwytho cyfluniad argraffydd"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:877
+#: ../libgnomeprintui/gnome-print-page-selector.c:508
+msgid "Filter"
+msgstr "Hidlydd"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Copïau"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "_Nifer o gopïau:"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"Delwedd yn dangos y dilyniant coladu pan argraffir sawl copi o'r ddogfen"
+
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "_Collate"
+msgstr "_Coladu"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"A ydy copïau o'r ddogfen yn cael eu hargraffu ar wahân, un ar ôl y llall, yn "
+"hytrach na chael eu rhyngddalennu"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "_Gwrthdroi"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Gwrthdroi trefn tudalennau wrth brintio"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Argraffydd"
+
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "Deialog Argraffu Gnome"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Job"
+msgstr "Tasg"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:587
+msgid "Print Range"
+msgstr "Amrediad Argraffu"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Papur"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "Llunwedd"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "_Popeth"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Dewis"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_O:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Gosod dechrau'r amrediad o dudalennau i'w argraffu"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_I:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Gosod diwedd yr amrediad o dudalennau i'w argraffu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "Ni chrëwyd unrhyw allbwn gweladwy."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1682
+msgid "all"
+msgstr "pob un"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2492
+#: ../libgnomeprintui/gnome-print-job-preview.c:2493
+msgid "Number of pages horizontally"
+msgstr "Nifer y tudalennau yn llorweddol"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2496
+#: ../libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "Number of pages vertically"
+msgstr "Nifer y tudalennau yn fertigol"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Print job"
+msgstr "Tasg argraffu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Print"
+msgstr "Argraffu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Prints the current file"
+msgstr "Argraffir y ffeil gyfredol"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Close"
+msgstr "Cau"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Closes print preview window"
+msgstr "Cau'r ffenest rhagolwg argraffu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2603
+msgid "Cut"
+msgstr "Torri"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2604
+msgid "Copy"
+msgstr "Copïo"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2605
+msgid "Paste"
+msgstr "Gludo"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2616
+msgid "Undo"
+msgstr "Dadwneud"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2616
+msgid "Undo the last action"
+msgstr "Dadwneud y weithred ddiwethaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2617
+msgid "Redo"
+msgstr "Ail-wneud"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2617
+msgid "Redo the undone action"
+msgstr "Ail-wneud y weithred gafodd ei dadwneud"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2626
+msgid "First"
+msgstr "Cyntaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2626
+msgid "Shows the first page"
+msgstr "Dangosir y dudalen gyntaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2627
+msgid "Previous"
+msgstr "Cynt"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2627
+msgid "Shows previous page"
+msgstr "Dangosir y dudalen gynt"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2628
+msgid "Next"
+msgstr "Nesaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2628
+msgid "Shows the next page"
+msgstr "Dangosir y dudalen nesaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2629
+msgid "Last"
+msgstr "Olaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2629
+msgid "Shows the last page"
+msgstr "Dangosir y dudalen olaf"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2639
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2639
+msgid "Zooms 1:1"
+msgstr "Chwyddo 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2640
+msgid "Zoom to fit"
+msgstr "Ffitio"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2640
+msgid "Zooms to fit the whole page"
+msgstr "Chwyddo er mwyn ffitio'r holl dudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2641
+msgid "Zoom in"
+msgstr "Chwyddo'r dudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2641
+msgid "Zooms the page in"
+msgstr "Chwyddo'r dudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2642
+msgid "Zoom out"
+msgstr "Crebachu'r dudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2642
+msgid "Zooms the page out"
+msgstr "Crebachu'r dudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2651
+msgid "Show multiple pages"
+msgstr "Gweld mwy nag un tudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2652
+msgid "Edit"
+msgstr "Golygu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2653
+msgid "Use theme"
+msgstr "Defnyddio thema"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2653
+msgid "Use _theme colors for content"
+msgstr "Defnyddio lliwiau'r _thema ar gyfer y cynnwys"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2676
+msgid "Page Preview"
+msgstr "Rhagolwg Tudalen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "The preview of a page in the document to be printed"
+msgstr "Rhagolwg o dudalen yn y ddogfen i'w argraffu"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2713
+msgid "_Page: "
+msgstr "_Tudalen: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2721
+msgid "of"
+msgstr "o"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2728
+msgid "Page total"
+msgstr "Cyfanswm y tudalennau"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2729
+msgid "The total number of pages in the document"
+msgstr "Cyfanswm nifer y tudalennau yn y ddogfen"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2813
+msgid "Gnome Print Preview"
+msgstr "Rhagolwg Argraffu Gnome"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:853
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Nifer o dudalennau"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:856
+#: ../libgnomeprintui/gnome-print-layout-selector.c:857
+msgid "Output width"
+msgstr "Lled yr allbwn"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:860
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+msgid "Output height"
+msgstr "Uchder yr allbwn"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:864
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+msgid "Input width"
+msgstr "Lled y mewnbwn"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:868
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+msgid "Input height"
+msgstr "Uchder y mewnbwn"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:961
+msgid "_Plain"
+msgstr "_Plaen"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:971
+msgid "_Handout: "
+msgstr "_Taflen i'w rhannu: "
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:984
+msgid " pages on 1 page"
+msgstr " tudalen ar 1 dudalen"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:991
+msgid "1 page _spread on "
+msgstr "1 dudalen wedi'i _lledaenu ar"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1004
+msgid " pages"
+msgstr " tudalen"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1008
+msgid "Leaflet, folded once and _stapled"
+msgstr "Taflen, wedi'i phlygu unwaith a'i _staplu"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1012
+msgid "Leaflet, _folded twice"
+msgstr "Taflen, wedi'i phlygu _ddwywaith"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:512
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Tudalen bresennol"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-page-selector.c:516
+msgid "Number of pages to select from"
+msgstr "Y nifer o dudalennau i ddewis ohonynt"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+#: ../libgnomeprintui/gnome-print-page-selector.c:520
+msgid "Number of selected pages"
+msgstr "Y nifer o dudalennau a ddewiswyd"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:602
+msgid "_All pages"
+msgstr "_Pob tudalen"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:608
+msgid "_Even pages"
+msgstr "Tudalennau _eilrif"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:612
+msgid "_Odd pages"
+msgstr "Tudalennau _odrif"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:621
+msgid "_Current page"
+msgstr "_Tudalen bresennol"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:629
+msgid "_Page range: "
+msgstr "_Amrediad tudalennau:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Rhagolwg"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Rhagolwg o faint y dudalen, y gogwydd a'r llunwedd"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Lled"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Uchder"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Cyfluniad"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "_Maint papur:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "_Lled:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "_Uchder:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Dewiswr Metrig"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "Penodi'r metrig i'w ddefnyddio wrth osod lled ac uchder y papur"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "Gogwydd _bwydo:"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "Gogwydd _tudalen:"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "_Hambwrdd papur:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Ymylon"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Brig"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Gwaelod"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Chwith"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "De"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "Cynnwys Argraffu"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "_Cyflunio"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Addasu gosodiadau'r argraffydd a ddewiswyd"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "_Gosodiadau:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "_Lleoliad:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Does dim opsiynau wedi eu diffinio"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Argraffu at _ffeil"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Cyflwr"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Tasgau"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Lleoliad"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Dim argraffydd wedi ei ddewis"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Dim gosodiadau ar gael"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Ychwanegu gosodiadau newydd"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Pt"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "modfedd"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Mae'r enw ffeil a benodwyd \"%s\" yn gyfeiriadur sy'n bodoli."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "A ddylai'r ffeil %s gael ei drosysgrifo?"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Os gwelwch yn dda, penodwch leoliad ac enw ffeil y ffeil allbwn:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Pob Ffeil"
+
+#~ msgid "Expert mode"
+#~ msgstr "Modd arbenigwr"
+
+#~ msgid "Paper and Layout"
+#~ msgstr "Papur a Llunwedd"
+
+#, fuzzy
+#~ msgid "_Selection: "
+#~ msgstr "_Dewis"
+
+#, fuzzy
+#~ msgid "Print only..."
+#~ msgstr "Tasg argraffu"
+
+#~ msgid "Other"
+#~ msgstr "Arall"
+
+#~ msgid "Type:"
+#~ msgstr "Math:"
+
+#~ msgid "Comment:"
+#~ msgstr "Sylw:"
+
+#~ msgid "Pr_inter:"
+#~ msgstr "_Argraffydd:"
+
+#~ msgid "No printers could be loaded"
+#~ msgstr "Ni allwyd llwytho unrhyw argraffydd"
+
+#~ msgid ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">No visible output was created.</span></markup>"
+#~ msgstr ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">Ni chrëwyd unrhyw allbwn gweladwy.</span></markup>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Rhagolwg</b>"
+
+#~ msgid "<b>Printer</b>"
+#~ msgstr "<b>Argraffydd</b>"

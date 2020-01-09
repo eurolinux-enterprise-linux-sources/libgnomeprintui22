@@ -1,0 +1,792 @@
+# translation of libgnomeprintui to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomeprintui package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-26 09:34-0400\n"
+"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"ULL NAME <EMAIL@ADDRESS>\n"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Umwandiko"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:129
+#, fuzzy
+msgid "Text to render"
+msgstr "Kuri"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:148
+#: libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Calc.xcs:....Layout.Line.GridLineColor.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Impress.xcs:....Misc.Preview..0.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Impress.xcs:....Print.Other.Quality..0.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Draw.xcs:....Misc.Preview..0.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Draw.xcs:....Print.Other.Quality..0.text
+#: libgnomeprintui/gnome-canvas-hacktext.c:155
+#: libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Ibara"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:156
+#, fuzzy
+msgid "Text color, as string"
+msgstr "Ibara Nka Ikurikiranyanyuguti"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:164
+#, fuzzy
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Ibara Nka A Umubare wuzuye"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Intego-nyuguti"
+
+#: libgnomeprintui/gnome-canvas-hacktext.c:172
+#, fuzzy
+msgid "Font as a GnomeFont struct"
+msgstr "Nka a"
+
+#. Family frame
+#: libgnomeprintui/gnome-font-dialog.c:164
+#: libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr ""
+
+#: libgnomeprintui/gnome-font-dialog.c:200
+#, fuzzy
+msgid "The list of font families available"
+msgstr "Urutonde Bya Intego- nyuguti Bihari"
+
+# sc/source\ui\src\scfuncs.src:RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_STYLE.2.text
+#. Style frame
+#: libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Umususire"
+
+#: libgnomeprintui/gnome-font-dialog.c:250
+#, fuzzy
+msgid "Font style"
+msgstr "IMISUSIRE"
+
+#: libgnomeprintui/gnome-font-dialog.c:251
+#, fuzzy
+msgid "The list of styles available for the selected font family"
+msgstr "Urutonde Bya Imisusire Bihari kugirango i Byahiswemo Intego- nyuguti"
+
+# #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
+# starmath/source\menu.src:RID_SMMENU.~Format.SID_FONTSIZE.text
+# #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
+# starmath/source\menu.src:RID_SMPLUGINMENU.~Format.SID_FONTSIZE.text
+#: libgnomeprintui/gnome-font-dialog.c:281
+#, fuzzy
+msgid "Font _size:"
+msgstr "Ingano y'Imyandikire"
+
+#: libgnomeprintui/gnome-font-dialog.c:773
+#, fuzzy
+msgid "This font does not have sample"
+msgstr "Intego- nyuguti OYA Urugero"
+
+#: libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr ""
+
+#: libgnomeprintui/gnome-font-dialog.c:881
+#, fuzzy
+msgid "Displays some example text in the selected font"
+msgstr "Urugero Umwandiko in i Byahiswemo Intego- nyuguti"
+
+#: libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr ""
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\solvrdlg.src:RID_SCDLG_SOLVER.FL_VARIABLES.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\tabopdlg.src:RID_SCDLG_TABOP.FL_VARIABLES.text
+#: libgnomeprintui/gnome-print-config-dialog.c:252
+#, fuzzy
+msgid "Default Settings"
+msgstr "Amaboneza mburabuzi"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:278
+#, fuzzy
+msgid "Image showing pages being printed in duplex."
+msgstr "Amapaji Byacapwe in Inyabubiri"
+
+# padmin/source\rtsetup.src:RID_RTS_PAPERPAGE.RID_RTS_PAPER_DUPLEX_TXT.text
+#: libgnomeprintui/gnome-print-config-dialog.c:282
+#, fuzzy
+msgid "_Duplex"
+msgstr "Inyabubiri"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:288
+#, fuzzy
+msgid "Pages are printed in duplex."
+msgstr "Byacapwe in Inyabubiri"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:296
+#, fuzzy
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr "i ISEGONDA Ipaji Bya a Inyabubiri Byacapwe Kuri Byacapwe Hasi"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-config-dialog.c:307
+#, fuzzy
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Amakopi Bya i Inyandiko Byacapwe in Inyabubiri i ISEGONDA Ipaji ni Hasi"
+
+#: libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-config-dialog.c:353
+#: libgnomeprintui/gnome-print-dialog.c:148
+#, fuzzy
+msgid "Error while loading printer configuration"
+msgstr "Itangira... Mucapyi Iboneza"
+
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Memo.Elements.Copy.text
+#: libgnomeprintui/gnome-print-copies.c:261
+msgid "Copies"
+msgstr "Amakopi"
+
+#: libgnomeprintui/gnome-print-copies.c:274
+#, fuzzy
+msgid "N_umber of copies:"
+msgstr "Umubare wa ma kopi:"
+
+#: libgnomeprintui/gnome-print-copies.c:294
+#, fuzzy
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr "i Ryari: Igikubo Amakopi Bya i Inyandiko Byacapwe"
+
+# svtools/source\dialogs\printdlg.src:DLG_SVT_PRNDLG_PRINTDLG.CBX_COLLATE.text
+#: libgnomeprintui/gnome-print-copies.c:296
+#, fuzzy
+msgid "_Collate"
+msgstr "Guteranya"
+
+#: libgnomeprintui/gnome-print-copies.c:302
+#, fuzzy
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr "Amakopi Bya i Inyandiko Byacapwe Nyuma"
+
+# #-#-#-#-#  padmin.pot (PACKAGE VERSION)  #-#-#-#-#
+# padmin/source\rtsetup.src:RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_CONFIGURE_PRINTER.text
+# #-#-#-#-#  padmin.pot (PACKAGE VERSION)  #-#-#-#-#
+# padmin/source\rtsetup.src:RID_RTS_COMMANDPAGE.RID_RTS_CMD_FL_DEFAULT.text
+#: libgnomeprintui/gnome-print-dialog.c:160
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Mucapyi"
+
+# padmin/source\rtsetup.src:RID_RTS_RTSDIALOG.RID_RTS_RTSDIALOG_TABCONTROL.RID_RTS_PAPERPAGE.text
+#: libgnomeprintui/gnome-print-dialog.c:175
+msgid "Paper"
+msgstr "urupapuro"
+
+#. Set up the dialog
+#: libgnomeprintui/gnome-print-dialog.c:367
+#: libgnomeprintui/gnome-print-dialog.c:435
+msgid "Gnome Print Dialog"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-dialog.c:459
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Job"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-dialog.c:474
+#: libgnomeprintui/gnome-print-page-selector.c:712
+msgid "Print Range"
+msgstr "Intondeke y'ishyira ku rupapuro"
+
+#. Expert mode
+#: libgnomeprintui/gnome-print-dialog.c:498
+msgid "Expert mode"
+msgstr ""
+
+# basctl/source\basicide\basidesh.src:RID_STR_ALL.text
+#. All pages
+#: libgnomeprintui/gnome-print-dialog.c:545
+#: libgnomeprintui/gnome-print-page-selector.c:725
+#, fuzzy
+msgid "_All"
+msgstr "Byose"
+
+# filter/source\pdf\impdialog.src:RID_PDF_EXPORT_DLG.RB_SELECTION.text
+#: libgnomeprintui/gnome-print-dialog.c:569
+#, fuzzy
+msgid "_Selection"
+msgstr "Ihitamo"
+
+#: libgnomeprintui/gnome-print-dialog.c:754
+#, fuzzy
+msgid "_From:"
+msgstr "Kuva:"
+
+#: libgnomeprintui/gnome-print-dialog.c:767
+#, fuzzy
+msgid "Sets the start of the range of pages to be printed"
+msgstr "i Gutangira Bya i Urutonde Bya Amapaji Kuri Byacapwe"
+
+# sw/source\ui\envelp\mailmrge.src:DLG_MAILMERGE.FT_BIS.text
+#: libgnomeprintui/gnome-print-dialog.c:769
+#, fuzzy
+msgid "_To:"
+msgstr "Kuri:"
+
+#: libgnomeprintui/gnome-print-dialog.c:782
+#, fuzzy
+msgid "Sets the end of the range of pages to be printed"
+msgstr "i Impera Bya i Urutonde Bya Amapaji Kuri Byacapwe"
+
+#: libgnomeprintui/gnome-print-job-preview.c:537
+#, fuzzy
+msgid "No visible output was created."
+msgstr "Kigaragara Ibisohoka Byaremwe"
+
+# basctl/source\basicide\basidesh.src:RID_STR_ALL.text
+#: libgnomeprintui/gnome-print-job-preview.c:1670
+#, fuzzy
+msgid "all"
+msgstr "Byose"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2363
+#: libgnomeprintui/gnome-print-job-preview.c:2364
+#, fuzzy
+msgid "Number of pages horizontally"
+msgstr "Bya Amapaji Mu buryo Butambitse"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2367
+#: libgnomeprintui/gnome-print-job-preview.c:2368
+#, fuzzy
+msgid "Number of pages vertically"
+msgstr "Bya Amapaji Mu buryo buhagaze"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2371
+msgid "Print job"
+msgstr ""
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+msgid "Print"
+msgstr "Gucapa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2466
+#, fuzzy
+msgid "Prints the current file"
+msgstr "i KIGEZWEHO IDOSIYE"
+
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_CLOSE.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\macrodlg.src:RID_STR_CLOSE.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_CLOSE.text
+# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
+# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_CLOSE.text
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+msgid "Close"
+msgstr "Gufunga"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2467
+#, fuzzy
+msgid "Closes print preview window"
+msgstr "Gucapa Igaragazambere Idirishya"
+
+# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_CUT.text
+#: libgnomeprintui/gnome-print-job-preview.c:2474
+msgid "Cut"
+msgstr "Gukata"
+
+# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_COPY.text
+#: libgnomeprintui/gnome-print-job-preview.c:2475
+msgid "Copy"
+msgstr "Gukoporora"
+
+# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_PASTE.text
+#: libgnomeprintui/gnome-print-job-preview.c:2476
+msgid "Paste"
+msgstr "Komeka"
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# dbaccess/source/ui/inc/toolbox.hrc:MID_UNDO.text
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+msgid "Undo"
+msgstr "Isubiranyuma"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2487
+#, fuzzy
+msgid "Undo the last action"
+msgstr "i Iheruka Igikorwa"
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# dbaccess/source/ui/inc/toolbox.hrc:MID_REDO.text
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+msgid "Redo"
+msgstr "Isubiramo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2488
+#, fuzzy
+msgid "Redo the undone action"
+msgstr "i Igikorwa"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "First"
+msgstr "Itangira"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2497
+#, fuzzy
+msgid "Shows the first page"
+msgstr "i Itangira Ipaji"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+msgid "Previous"
+msgstr "Ibanjirije"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2498
+#, fuzzy
+msgid "Shows previous page"
+msgstr "Ibanjirije Ipaji"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+msgid "Next"
+msgstr "Ikurikira"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2499
+#, fuzzy
+msgid "Shows the next page"
+msgstr "i Komeza>> Ipaji"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Last"
+msgstr "Iheruka"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2500
+#, fuzzy
+msgid "Shows the last page"
+msgstr "i Iheruka Ipaji"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2510
+#, fuzzy
+msgid "Zooms 1:1"
+msgstr "1. 1."
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+#, fuzzy
+msgid "Zoom to fit"
+msgstr "Kuri"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2511
+#, fuzzy
+msgid "Zooms to fit the whole page"
+msgstr "Kuri i Ipaji"
+
+# sfx2/sdi\sfxslots.src:SID_HELP_ZOOMIN.text
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+msgid "Zoom in"
+msgstr "Gutubya"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2512
+#, fuzzy
+msgid "Zooms the page in"
+msgstr "i Ipaji in"
+
+# sfx2/sdi\sfxslots.src:SID_HELP_ZOOMOUT.text
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+msgid "Zoom out"
+msgstr "Gutubura"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2513
+#, fuzzy
+msgid "Zooms the page out"
+msgstr "i Ipaji Inyuma"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2522
+#, fuzzy
+msgid "Show multiple pages"
+msgstr "Igikubo Amapaji"
+
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
+#: libgnomeprintui/gnome-print-job-preview.c:2523
+msgid "Edit"
+msgstr "Kwandika"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+msgid "Use theme"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-job-preview.c:2524
+#, fuzzy
+msgid "Use _theme colors for content"
+msgstr "Amabara kugirango Ibikubiyemo"
+
+# sfx2/sdi\sfxslots.src:SID_PRINTPREVIEW.text
+#: libgnomeprintui/gnome-print-job-preview.c:2547
+msgid "Page Preview"
+msgstr "Kureba Urupapuro Mbere"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2548
+#, fuzzy
+msgid "The preview of a page in the document to be printed"
+msgstr "Igaragazambere Bya a Ipaji in i Inyandiko Kuri Byacapwe"
+
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\menue.src:RID_OBJECTMENU_CELLS.SID_FORMATPAGE.text
+# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
+# sc/source\ui\src\menue.src:RID_OBJECTMENU_EDIT.SID_FORMATPAGE.text
+#: libgnomeprintui/gnome-print-job-preview.c:2584
+#, fuzzy
+msgid "_Page: "
+msgstr "Ipaji..."
+
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\dialog\paragrph.src:RID_SVXPAGE_STD_PARAGRAPH.FT_LINEDIST.text
+# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
+# svx/source\form\fmstring.src:RID_STR_REC_FROM_TEXT.text
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: libgnomeprintui/gnome-print-job-preview.c:2592
+msgid "of"
+msgstr "Bya"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2599
+#, fuzzy
+msgid "Page total"
+msgstr "Igiteranyo"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2600
+#, fuzzy
+msgid "The total number of pages in the document"
+msgstr "Igiteranyo Umubare Bya Amapaji in i Inyandiko"
+
+#: libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Gnome Print Preview"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-paper-selector.c:438
+#, fuzzy
+msgid "Paper and Layout"
+msgstr "Na"
+
+#. Paper size selector
+#: libgnomeprintui/gnome-print-paper-selector.c:455
+#, fuzzy
+msgid "Paper _size:"
+msgstr "Ingano y'urupapuro:"
+
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_TIP_WIDTH.text
+#. Custom paper Width
+#: libgnomeprintui/gnome-print-paper-selector.c:469
+#, fuzzy
+msgid "_Width:"
+msgstr "Ubugari:"
+
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_TIP_HEIGHT.text
+#. Custom paper Height
+#: libgnomeprintui/gnome-print-paper-selector.c:485
+#, fuzzy
+msgid "_Height:"
+msgstr "Ubuhagarike:"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:508
+msgid "Metric selector"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-paper-selector.c:509
+#, fuzzy
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr ""
+"i Kuri Gukoresha Ryari: Igenamiterere i Ubugari Na Ubuhagarike Bya i "
+"urupapuro"
+
+#. Feed orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:512
+#, fuzzy
+msgid "_Feed orientation:"
+msgstr "Icyerekezo"
+
+#. Page orientation
+#: libgnomeprintui/gnome-print-paper-selector.c:528
+#, fuzzy
+msgid "Page _orientation:"
+msgstr "Icyerekezo"
+
+# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
+# sch/source\core\glob.src:STR_LAYOUT.text
+# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_POINT.1.TP_LAYOUT.text
+#. Layout
+#: libgnomeprintui/gnome-print-paper-selector.c:541
+#, fuzzy
+msgid "_Layout:"
+msgstr "Imigaragarire"
+
+# padmin/source\rtsetup.src:RID_RTS_PAPERPAGE.RID_RTS_PAPER_SLOT_TXT.text
+#. Paper source
+#: libgnomeprintui/gnome-print-paper-selector.c:554
+#, fuzzy
+msgid "Paper _tray:"
+msgstr "Agasaho k'impapuro"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:570
+#: libgnomeprintui/gnome-print-paper-selector.c:584
+msgid "Preview"
+msgstr "Igaragazambere"
+
+#: libgnomeprintui/gnome-print-paper-selector.c:585
+#, fuzzy
+msgid "Preview of the page size, orientation and layout"
+msgstr "Bya i Ipaji Ingano Icyerekezo Na Imigaragarire"
+
+# svx/source\dialog\page.src:RID_SVXPAGE_PAGE.FL_MARGIN.text
+#: libgnomeprintui/gnome-print-paper-selector.c:591
+msgid "Margins"
+msgstr "Marije"
+
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Randbetween.4.text
+#: libgnomeprintui/gnome-print-paper-selector.c:625
+msgid "Top"
+msgstr "Hejuru"
+
+# scaddins/source\analysis\analysis.src:RID_ANALYSIS_FUNCTION_DESCRIPTIONS.ANALYSIS_Randbetween.2.text
+#: libgnomeprintui/gnome-print-paper-selector.c:628
+msgid "Bottom"
+msgstr "Indiba"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.4.text
+#: libgnomeprintui/gnome-print-paper-selector.c:631
+msgid "Left"
+msgstr "Ibumoso"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.2.text
+#: libgnomeprintui/gnome-print-paper-selector.c:634
+msgid "Right"
+msgstr "Iburyo"
+
+# sfx2/sdi\sfxslots.src:SID_CONFIG.text
+#: libgnomeprintui/gnome-printer-selector.c:162
+#, fuzzy
+msgid "Co_nfigure"
+msgstr "Kugena Imiterere"
+
+#: libgnomeprintui/gnome-printer-selector.c:171
+#, fuzzy
+msgid "Adjust the settings of the selected printer"
+msgstr "i Amagenamiterere Bya i Byahiswemo Mucapyi"
+
+# wizards/source\euro\euro.src:STEP_LASTPAGE_+_3.text
+#: libgnomeprintui/gnome-printer-selector.c:195
+#, fuzzy
+msgid "_Settings:"
+msgstr "Amagenamiterere:"
+
+# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_LOCATION.text
+#: libgnomeprintui/gnome-printer-selector.c:204
+#, fuzzy
+msgid "_Location:"
+msgstr "Intaho:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:119
+#: libgnomeprintui/gnome-print-page-selector.c:608
+#, fuzzy
+msgid "Number of pages"
+msgstr "Umubare wa ma kopi:"
+
+#: libgnomeprintui/gnome-print-content-selector.c:122
+#: libgnomeprintui/gnome-print-page-selector.c:605
+#, fuzzy
+msgid "Current page"
+msgstr "Intondeke y'ishyira ku rupapuro"
+
+#: libgnomeprintui/gnome-print-content-selector.c:133
+#, fuzzy
+msgid "Print Content"
+msgstr "Intondeke y'ishyira ku rupapuro"
+
+# sfx2/sdi\sfxslots.src:SID_CONFIG.text
+#: libgnomeprintui/gnome-print-page-selector.c:602
+#, fuzzy
+msgid "Configuration"
+msgstr "Kugena Imiterere"
+
+#: libgnomeprintui/gnome-print-page-selector.c:731
+msgid "_Current"
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:743
+msgid "_From page "
+msgstr ""
+
+#: libgnomeprintui/gnome-print-page-selector.c:755
+msgid " to "
+msgstr ""
+
+# filter/source\pdf\impdialog.src:RID_PDF_EXPORT_DLG.RB_SELECTION.text
+#: libgnomeprintui/gnome-print-page-selector.c:773
+#, fuzzy
+msgid "_Selection: "
+msgstr "Ihitamo"
+
+#. Print only...
+#: libgnomeprintui/gnome-print-page-selector.c:785
+msgid "Print only..."
+msgstr ""
+
+#: libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: libgnomeprintui/gpaui/gpa-option-menu.c:229
+#, fuzzy
+msgid "No options are defined"
+msgstr "Amahitamo"
+
+# sfx2/source\dialog\printopt.src:TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.text
+#: libgnomeprintui/gpaui/gpa-print-to-file.c:258
+#, fuzzy
+msgid "Print to _file"
+msgstr "Gucapa ku dosiye"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Leta"
+
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr ""
+
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Agenda.Elements.Location.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Fax.Save.AutoPath.text
+# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Memo.Save.AutoDocName.text
+#: libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Ahantu"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:180
+#, fuzzy
+msgid "No printer selected"
+msgstr "Mucapyi Byahiswemo"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:191
+#, fuzzy
+msgid "No settings available"
+msgstr "Amagenamiterere Bihari"
+
+#: libgnomeprintui/gpaui/gpa-settings-selector.c:234
+#, fuzzy
+msgid "Add new settings"
+msgstr "Gishya Amagenamiterere"
+
+# #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.1.text
+# #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.2.text
+# #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
+# starmath/source\smres.src:RID_DISTANCEDIALOG.3.text
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+# vcl/source\src\units.src:SV_FUNIT_STRINGS.7.text
+#. Percent must be first
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:316
+#, fuzzy
+msgid "Pt"
+msgstr "pt"
+
+# vcl/source\src\units.src:SV_FUNIT_STRINGS.1.text
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "mm"
+
+# vcl/source\src\units.src:SV_FUNIT_STRINGS.2.text
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "cm"
+
+# vcl/source\src\units.src:SV_FUNIT_STRINGS.3.text
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "m"
+
+# vcl/source\src\units.src:SV_FUNIT_STRINGS.10.text
+#: libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "in"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, fuzzy, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Izina ry'idosiye: ni bushyinguro"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, fuzzy, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "i IDOSIYE"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:248
+#, fuzzy
+msgid "Please specify the location and filename of the output file:"
+msgstr "i Ahantu Na Izina ry'idosiye: Bya i Ibisohoka IDOSIYE"
+
+#: libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Amadosiye yose"

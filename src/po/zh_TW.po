@@ -1,0 +1,836 @@
+# Chinese (Taiwan) translation of libgnomeprintui.
+# Copyright (C) 2001. 02, 03, 04, 05, 06, 07 Free Software Foundation, Inc.
+# Joe Man <trmetal@yahoo.com.hk>, 2001
+# Abel Cheung <abel@oaka.org>, 2002, 2003, 2004.
+# Ching-Hung Lin <billlin@wshlab2.ee.kuas.edu.tw>, 2005
+# Ching-Hung Lin <2billlin@wshlab2.ee.kuas.edu.tw>, 2007.
+# Woodman Tuen <wmtuen@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui 2.18.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-07 14:33+0100\n"
+"PO-Revision-Date: 2008-02-16 02:26+0800\n"
+"Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
+"Language-Team: Chinese/Traditional <zh-l10n@lists.linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "文字"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "準備描繪的文字"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Glyphlist"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "顏色"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "文字顏色，以字串方式表示"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "文字顏色，以 R/G/B/A 數值合併後的整數表示"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "字型"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "以 GnomeFont 結構表示的字型"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "字型族系"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "列出可供使用的字型族系"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "樣式"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "字型樣式"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "列出選定的字型集中可使用的字款"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "字型大小(_S):"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "這個字型沒有提供範例"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "字型預覽"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "使用選定的字型顯示一些文字範例"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "字型選擇"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "預設設定"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "代表雙面列印的示範圖。"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "雙面(_D)"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "會以雙面方式列印。"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr "使用雙面列印時，代表第二頁會上下倒置的示範圖。"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "翻轉列印(_T)"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr "如果以雙面方式列印，第二頁會上下倒置。"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "列印時間(_P):"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "載入印表機設定時發生錯誤"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:882
+#: ../libgnomeprintui/gnome-print-page-selector.c:511
+msgid "Filter"
+msgstr "過濾條件"
+
+# 根據同事的說法，曾有程式稱這個為「數量」。
+# 我也想不出更好的，所以就用了。 -- Abel
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "列印份數"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "列印份數(_U):"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr "這個圖片代表當準備列印多份文件時，所有頁面的列印次序"
+
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "C_ollate"
+msgstr "順序(_O)"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr "是否逐份文件分開列印，而並非每次將一頁列印數份"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "反序(_R)"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "以相反的頁數順序來列印"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "印表機"
+
+# FIXME: is it "'Gnome Print' Dialog?" -- Abel
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "GNOME 列印對話方塊"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Job"
+msgstr "列印工作"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:590
+msgid "Print Range"
+msgstr "列印頁數範圍"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "紙張"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "配置"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "全部(_A)"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "選擇範圍(_S)"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "從(_F):"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "設定列印範圍的第一頁"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "至(_T):"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "設定列印範圍的最後一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "沒有可視的輸出被建立。"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1638
+msgid "all"
+msgstr "全部"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2448
+#: ../libgnomeprintui/gnome-print-job-preview.c:2449
+msgid "Number of pages horizontally"
+msgstr "水平頁數"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2452
+#: ../libgnomeprintui/gnome-print-job-preview.c:2453
+msgid "Number of pages vertically"
+msgstr "垂直頁數"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2456
+msgid "Print job"
+msgstr "列印工作"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Print"
+msgstr "列印"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2551
+msgid "Prints the current file"
+msgstr "列印目前的檔案"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Close"
+msgstr "關閉"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2552
+msgid "Closes print preview window"
+msgstr "關閉預覽列印視窗"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2559
+msgid "Cut"
+msgstr "剪下"
+
+#
+#: ../libgnomeprintui/gnome-print-job-preview.c:2560
+msgid "Copy"
+msgstr "複製"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2561
+msgid "Paste"
+msgstr "貼上"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo"
+msgstr "復原"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2572
+msgid "Undo the last action"
+msgstr "復原最後一個動作"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo"
+msgstr "取消復原"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2573
+msgid "Redo the undone action"
+msgstr "重複剛復原的操作程序"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "First"
+msgstr "首頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2582
+msgid "Show the first page"
+msgstr "顯示第一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Previous"
+msgstr "上一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2583
+msgid "Show previous page"
+msgstr "顯示上一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Next"
+msgstr "下一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2584
+msgid "Show the next page"
+msgstr "顯示下一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Last"
+msgstr "尾頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2585
+msgid "Show the last page"
+msgstr "顯示最後一頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Zoom 1:1"
+msgstr "原始大小"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit"
+msgstr "符合視窗大小"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Zoom to fit the whole page"
+msgstr "縮放成符合整頁大小"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom in"
+msgstr "拉近"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2597
+msgid "Zoom the page in"
+msgstr "將頁面拉近"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom out"
+msgstr "拉遠"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2598
+msgid "Zoom the page out"
+msgstr "將頁面拉遠"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2607
+msgid "Show multiple pages"
+msgstr "顯示多頁"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2608
+msgid "Edit"
+msgstr "編輯"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use theme"
+msgstr "使用佈景主題"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2609
+msgid "Use _theme colors for content"
+msgstr "列印內容時使用佈景主題色彩(_T)"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2632
+msgid "Page Preview"
+msgstr "頁面預覽"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2633
+msgid "The preview of a page in the document to be printed"
+msgstr "預覽準備列印的文件"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2669
+msgid "_Page: "
+msgstr "頁數(_P):"
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "of"
+msgstr "/"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2684
+msgid "Page total"
+msgstr "總頁數"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2685
+msgid "The total number of pages in the document"
+msgstr "該文件的總頁數"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2769
+msgid "Gnome Print Preview"
+msgstr "GNOME 預覽列印"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:858
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "頁數"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+#: ../libgnomeprintui/gnome-print-layout-selector.c:862
+msgid "Output width"
+msgstr "輸出寬度"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+#: ../libgnomeprintui/gnome-print-layout-selector.c:866
+msgid "Output height"
+msgstr "輸出高度"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+#: ../libgnomeprintui/gnome-print-layout-selector.c:870
+msgid "Input width"
+msgstr "輸入寬度"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:873
+#: ../libgnomeprintui/gnome-print-layout-selector.c:874
+msgid "Input height"
+msgstr "輸入高度"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:966
+msgid "_Plain"
+msgstr "普通(_P)"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:976
+msgid "_Handout: "
+msgstr "傳單（_H):"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:989
+msgid " pages on 1 page"
+msgstr " 頁縮小為 1 頁"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:996
+msgid "1 page _spread on "
+msgstr "1 頁放大為(_S)"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1009
+msgid " pages"
+msgstr " 頁"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1013
+msgid "Leaflet, folded once and _stapled"
+msgstr "單張，對摺及裝訂(_S)"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1017
+msgid "Leaflet, _folded twice"
+msgstr "單張，對摺兩次(_F)"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "目前頁面"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:518
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+msgid "Number of pages to select from"
+msgstr "選擇頁數"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:522
+#: ../libgnomeprintui/gnome-print-page-selector.c:523
+msgid "Number of selected pages"
+msgstr "已選頁數"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:605
+msgid "_All pages"
+msgstr "所有頁面(_A)"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:611
+msgid "_Even pages"
+msgstr "偶數頁(_E)"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:615
+msgid "_Odd pages"
+msgstr "奇數頁(_O)"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:624
+msgid "_Current page"
+msgstr "目前頁面(_C)"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:632
+msgid "_Page range: "
+msgstr "列印頁數範圍(_P):"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "預覽"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "預覽紙張的大小、方向及配置"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "寬度"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "高度"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "組態"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "紙張大小(_S):"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "寬度(_W):"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "高度(_H):"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "選取長度單位"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "設定紙張寬度及高度時所使用的單位"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "入紙方向(_F):"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "紙張方向(_O):"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "入紙匣(_T):"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "邊界"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "上"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "下"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "左"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "右"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "列印內容"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "設置(_N)"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "調整指定的印表機的設定"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:185
+msgid "Define a new local printer"
+msgstr "設定新的本機印表機"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:194
+msgid "_Settings:"
+msgstr "設定(_S):"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:203
+msgid "_Location:"
+msgstr "位置(_L):"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "未指定任何選項"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "列印至檔案(_F)"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "狀態"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "工作"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "位置"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "尚未選擇印表機"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "沒有可用的設定"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "加入新設定"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "點"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "毫米"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "公分"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "公尺"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "英吋"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "指定的檔案名稱“%s”是一個已存在的目錄。"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "確定要複寫 %s 這個檔案？"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "請指定要輸出檔案的位置與檔案名稱"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:262
+msgid "PDF Files"
+msgstr "PDF 檔案"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:267
+msgid "Postscript Files"
+msgstr "Postscript 檔案"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "所有檔案"
+
+#~ msgid "Expert mode"
+#~ msgstr "專家模式"
+
+#~ msgid "(%ix%i)=%i%s page(s) to (%ix%i)=%i%s"
+#~ msgstr "(%ix%i)=%i%s 頁變成 (%ix%i)=%i%s"
+
+#~ msgid " (rotated)"
+#~ msgstr "(旋轉)"
+
+#~ msgid "%i pages to 1"
+#~ msgstr "%i 頁縮小為 1 頁"
+
+#~ msgid "1 page to %i"
+#~ msgstr "1 頁放大為 %i 頁"
+
+#~ msgid "All pages to 1"
+#~ msgstr "全部頁面縮小為 1 頁"
+
+#~ msgid "Paper and Layout"
+#~ msgstr "紙張及配置"
+
+#~ msgid "_Current"
+#~ msgstr "目前的(_C)"
+
+#~ msgid "_From page "
+#~ msgstr "從頁面(_F) "
+
+#~ msgid " to "
+#~ msgstr " 到 "
+
+#~ msgid "_Selection: "
+#~ msgstr "選擇範圍(_S): "
+
+#~ msgid "Print only..."
+#~ msgstr "只有列印..."
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Type:"
+#~ msgstr "類型:"
+
+#~ msgid "Comment:"
+#~ msgstr "註解:"
+
+#~ msgid "Pr_inter:"
+#~ msgstr "印表機(_I):"
+
+#~ msgid "No printers could be loaded"
+#~ msgstr "無法載入任何印表機設定"
+
+#~ msgid ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">No visible output was created.</span></markup>"
+#~ msgstr ""
+#~ "<markup>1   <span foreground=\"red\" weight=\"ultrabold\" background="
+#~ "\"white\">沒有產生任何可列印的內容。</span></markup>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>預覽</b>"
+
+#~ msgid "<b>Printer</b>"
+#~ msgstr "<b>印表機<b>"
+
+#~ msgid "Select Printer"
+#~ msgstr "選擇印表機"
+
+#~ msgid "Manage printers"
+#~ msgstr "管理印表機"
+
+#~ msgid "Add new printer"
+#~ msgstr "新增印表機"
+
+#~ msgid "P_rinter"
+#~ msgstr "印表機(_R)"
+
+#~ msgid "Select printer model"
+#~ msgstr "選擇印表機型號"
+
+#~ msgid "Manufacturer"
+#~ msgstr "廠商"
+
+#~ msgid "Model"
+#~ msgstr "型號"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Add printer"
+#~ msgstr "新增印表機"
+
+#~ msgid "From PPD..."
+#~ msgstr "從 PPD 檔..."
+
+#~ msgid "extracts the font body "
+#~ msgstr "抽取字型檔主要內容"
+
+#~ msgid "decrypts the font body "
+#~ msgstr "將字型檔主要內容解碼"
+
+#~ msgid "PATH"
+#~ msgstr "路徑"
+
+#~ msgid "Bring up font dialog"
+#~ msgstr "顯示字型對話方塊"
+
+#~ msgid "Bring up printer dialog"
+#~ msgstr "顯示印表機對話方塊"
+
+#~ msgid "Bring up print dialog"
+#~ msgstr "顯示列印對話方塊"
+
+#~ msgid "Show paper dialog"
+#~ msgstr "顯示紙張設定對話方塊"
+
+#~ msgid "Printer default location"
+#~ msgstr "印表機的預設位置"
+
+#~ msgid "from:"
+#~ msgstr "從:"
+
+#~ msgid "to:"
+#~ msgstr "到:"
+
+#~ msgid "Line printer: %s"
+#~ msgstr "印表機：%s"
+
+#~ msgid "f_rom:"
+#~ msgstr "從(_R):"
+
+#~ msgid "_to:"
+#~ msgstr "到(_T):"
+
+#~ msgid "Back"
+#~ msgstr "上一頁"
+
+#~ msgid "Fit Wide"
+#~ msgstr "符合寬度"
+
+#~ msgid "Zooms to fit the width of the page"
+#~ msgstr "縮放成符合頁寬"
+
+#~ msgid "Fit Tall"
+#~ msgstr "符合高度"
+
+#~ msgid "Zooms to fit the height of the page"
+#~ msgstr "縮放成符合頁高"

@@ -1,0 +1,179 @@
+<!-- ##### SECTION Title ##### -->
+gnome-print-dialog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT GnomePrintDialog ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG GnomePrintDialog:content-selector ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:flags ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:notebook ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:page-selector ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:print-config ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:printer-selector ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG GnomePrintDialog:title ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT GnomePrintDialogClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM GnomePrintRangeType ##### -->
+<para>
+
+</para>
+
+@GNOME_PRINT_RANGETYPE_NONE: 
+@GNOME_PRINT_RANGETYPE_CUSTOM: 
+@GNOME_PRINT_RANGETYPE_PAGES: 
+
+<!-- ##### FUNCTION gnome_print_dialog_new ##### -->
+<para>
+
+</para>
+
+@gpj: 
+@title: 
+@flags: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_construct ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@title: 
+@flags: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_construct_range_custom ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@custom: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_construct_range_any ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@flags: 
+@range_widget: 
+@currentlabel: 
+@rangelabel: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_construct_range_page ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@flags: 
+@start: 
+@end: 
+@currentlabel: 
+@rangelabel: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_get_range ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_get_range_page ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@start: 
+@end: 
+@Returns: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_get_copies ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@copies: 
+@collate: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_set_copies ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@copies: 
+@collate: 
+
+
+<!-- ##### FUNCTION gnome_print_dialog_get_config ##### -->
+<para>
+
+</para>
+
+@gpd: 
+@Returns: 
+
+

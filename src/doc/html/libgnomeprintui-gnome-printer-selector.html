@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gnome-printer-selector</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.74.2">
+<link rel="home" href="index.html" title="GNOME Print UI Reference Manual">
+<link rel="up" href="ch02.html" title="API Reference">
+<link rel="prev" href="libgnomeprintui-gnome-print-dialog.html" title="gnome-print-dialog">
+<link rel="next" href="libgnomeprintui-gnome-print-job-preview.html" title="gnome-print-job-preview">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libgnomeprintui.html" title="GNOME Print UI Overview">
+<link rel="chapter" href="ch02.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgnomeprintui-gnome-print-dialog.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GNOME Print UI Reference Manual</th>
+<td><a accesskey="n" href="libgnomeprintui-gnome-print-job-preview.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgnomeprintui-gnome-printer-selector.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-printer-selector.description" class="shortcut">Description</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-printer-selector.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-printer-selector.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+</td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libgnomeprintui-gnome-printer-selector"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgnomeprintui-gnome-printer-selector.top_of_page"></a>gnome-printer-selector</span></h2>
+<p>gnome-printer-selector</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgnomeprintui-gnome-printer-selector.synopsis"></a><h2>Synopsis</h2>
+<a name="GnomePrinterSelector"></a><pre class="synopsis">
+                    <a class="link" href="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelector-struct" title="GnomePrinterSelector">GnomePrinterSelector</a>;
+                    <a class="link" href="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelectorClass" title="GnomePrinterSelectorClass">GnomePrinterSelectorClass</a>;
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-new-default" title="gnome_printer_selector_new_default ()">gnome_printer_selector_new_default</a>  (void);
+GtkWidget *         <a class="link" href="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-new" title="gnome_printer_selector_new ()">gnome_printer_selector_new</a>          (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);
+<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *  <a class="link" href="libgnomeprintui-gnome-printer-selector.html#gnome-printer-selector-get-config" title="gnome_printer_selector_get_config ()">gnome_printer_selector_get_config</a>   (<a class="link" href="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelector">GnomePrinterSelector</a> *psel);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-printer-selector.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBin
+                                 +----GPAWidget
+                                       +----GnomePrinterSelector
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-printer-selector.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+GnomePrinterSelector implements
+ GtkBuildable and  AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-printer-selector.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-printer-selector.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrinterSelector-struct"></a><h3>GnomePrinterSelector</h3>
+<pre class="programlisting">typedef struct _GnomePrinterSelector GnomePrinterSelector;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrinterSelectorClass"></a><h3>GnomePrinterSelectorClass</h3>
+<pre class="programlisting">typedef struct {
+	GPAWidgetClass gpa_widget_class;
+} GnomePrinterSelectorClass;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-printer-selector-new-default"></a><h3>gnome_printer_selector_new_default ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_printer_selector_new_default  (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-printer-selector-new"></a><h3>gnome_printer_selector_new ()</h3>
+<pre class="programlisting">GtkWidget *         gnome_printer_selector_new          (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-printer-selector-get-config"></a><h3>gnome_printer_selector_get_config ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *  gnome_printer_selector_get_config   (<a class="link" href="libgnomeprintui-gnome-printer-selector.html#GnomePrinterSelector">GnomePrinterSelector</a> *psel);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>psel</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

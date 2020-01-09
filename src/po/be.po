@@ -1,0 +1,675 @@
+# Беларускі пераклад libgnomeprintui.HEAD.
+# Copyright (C) 2001-2002,2003, 2004 Free Software Foundation, Inc.
+# Vital Khilko <dojlid@mova.org>, 2003.
+# Ales Nyakhaychyk <nab@mail.by>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomeprintui.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-22 06:41+0100\n"
+"PO-Revision-Date: 2006-04-07 12:52+0300\n"
+"Last-Translator: Ales Nyakhaychyk <nab@mail.by>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:128
+msgid "Text"
+msgstr "Тэкст"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:129
+msgid "Text to render"
+msgstr "Тэкст для адлюстраваньня"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:148
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:149
+msgid "Glyphlist"
+msgstr "Сьпіс гліфаў"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:155
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:163
+msgid "Color"
+msgstr "Колер"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:156
+msgid "Text color, as string"
+msgstr "Колер тэкста, як радок"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:164
+msgid "Text color, as an R/G/B/A combined integer"
+msgstr "Колер тэкста, як R/G/B/A камбінаваная цэлая"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:171
+msgid "Font"
+msgstr "Шрыфт"
+
+#: ../libgnomeprintui/gnome-canvas-hacktext.c:172
+msgid "Font as a GnomeFont struct"
+msgstr "Шрыфт як структура GnomeFont"
+
+#. Family frame
+#: ../libgnomeprintui/gnome-font-dialog.c:164
+#: ../libgnomeprintui/gnome-font-dialog.c:199
+msgid "Font family"
+msgstr "Сямейства шрыфта"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:200
+msgid "The list of font families available"
+msgstr "Сьпіс даступных сямействаў шрыфта"
+
+#. Style frame
+#: ../libgnomeprintui/gnome-font-dialog.c:209
+msgid "Style"
+msgstr "Стыль"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:250
+msgid "Font style"
+msgstr "Стыль шрыфта:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:251
+msgid "The list of styles available for the selected font family"
+msgstr "Сьпіс стыляў, якія даступны для выбранага сямейства шрыфта"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:281
+msgid "Font _size:"
+msgstr "_Памер шрыфта:"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:773
+msgid "This font does not have sample"
+msgstr "Гэты шрыфт ня мае ўзору"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:880
+msgid "Font Preview"
+msgstr "Перадпрагляд шрыфта"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:881
+msgid "Displays some example text in the selected font"
+msgstr "Адлюстроўвае выбраным шрыфтам пэўны тэкст"
+
+#: ../libgnomeprintui/gnome-font-dialog.c:896
+msgid "Font Selection"
+msgstr "Выбар шрыфта"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:252
+msgid "Default Settings"
+msgstr "Дапомныя ўсталёўкі"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:278
+msgid "Image showing pages being printed in duplex."
+msgstr "Відарыс паказвае старонкі, якія будуць друкавацца ў двубаковым рэжыме."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:282
+msgid "_Duplex"
+msgstr "_Двубаковы рэжым"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:288
+msgid "Pages are printed in duplex."
+msgstr "Стронкі для друку ў двубаковым рэжыме."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:296
+msgid ""
+"Image showing the second page of a duplex printed sequence to be printed "
+"upside down."
+msgstr "Відарыс паказвае другую старонку пасьлядоўнасьці двубаковага друку."
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:301
+msgid "_Tumble"
+msgstr "Ба_рдак"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:307
+msgid ""
+"If copies of the document are printed in duplex, the second page is flipped "
+"upside down,"
+msgstr ""
+"Калі копіі дакумэнта друкуюцца ў двубаковым рэжыме, другая старонка "
+"перагортваецца вонкавым бокам да долу,"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:327
+msgid "_Printing Time:"
+msgstr "_Час друку:"
+
+#: ../libgnomeprintui/gnome-print-config-dialog.c:353
+msgid "Error while loading printer configuration"
+msgstr "Памылка загрузкі наладак друкаркі"
+
+#: ../libgnomeprintui/gnome-print-copies.c:449
+#: ../libgnomeprintui/gnome-print-layout-selector.c:877
+#: ../libgnomeprintui/gnome-print-page-selector.c:508
+msgid "Filter"
+msgstr "Цэдла"
+
+#: ../libgnomeprintui/gnome-print-copies.c:547
+msgid "Copies"
+msgstr "Копіі"
+
+#: ../libgnomeprintui/gnome-print-copies.c:560
+msgid "N_umber of copies:"
+msgstr "Ко_лькасьць копіяў:"
+
+#: ../libgnomeprintui/gnome-print-copies.c:580
+msgid ""
+"Image showing the collation sequence when multiple copies of the document "
+"are printed"
+msgstr ""
+"Відарыс паказывае пасьлядоўнасьць супастаўленьня, калі некалькі копіяў "
+"дакумэнта друкуюцца"
+
+#. Collate
+#: ../libgnomeprintui/gnome-print-copies.c:583
+msgid "_Collate"
+msgstr "_Разьбіць па копіях"
+
+#: ../libgnomeprintui/gnome-print-copies.c:588
+msgid ""
+"If copies of the document are printed separately, one after another, rather "
+"than being interleaved"
+msgstr ""
+"Калі копіі дакумэнта друкуюцца асобна, адна пасьля другой, а ня перамешваюцца"
+
+#. Reverse
+#: ../libgnomeprintui/gnome-print-copies.c:591
+msgid "_Reverse"
+msgstr "_Адваротны парадак"
+
+#: ../libgnomeprintui/gnome-print-copies.c:594
+msgid "Reverse order of pages when printing"
+msgstr "Адваротны парадак друку старонак"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:473
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:169
+msgid "Printer"
+msgstr "Друкарка"
+
+#. Set up the dialog
+#: ../libgnomeprintui/gnome-print-dialog.c:626
+#: ../libgnomeprintui/gnome-print-dialog.c:683
+msgid "Gnome Print Dialog"
+msgstr "Дыялёг друку Gnome"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:706
+#: ../libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Job"
+msgstr "Заданьне"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:722
+#: ../libgnomeprintui/gnome-print-page-selector.c:587
+msgid "Print Range"
+msgstr "Прамежак друку"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:750
+#: ../libgnomeprintui/gnome-print-paper-selector.c:678
+msgid "Paper"
+msgstr "Папера"
+
+#. Layout page
+#: ../libgnomeprintui/gnome-print-dialog.c:758
+msgid "Layout"
+msgstr "Разьмеркаваньне"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:799
+msgid "_All"
+msgstr "_Усе"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:823
+msgid "_Selection"
+msgstr "_Вылучэньне"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1008
+msgid "_From:"
+msgstr "_Ад:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1021
+msgid "Sets the start of the range of pages to be printed"
+msgstr "Усталёўвае пачатак дыяпазона друку"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1023
+msgid "_To:"
+msgstr "_Да:"
+
+#: ../libgnomeprintui/gnome-print-dialog.c:1036
+msgid "Sets the end of the range of pages to be printed"
+msgstr "Усталёўвае канец дыяпазона друку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:566
+msgid "No visible output was created."
+msgstr "Бачны вывад ня быў створаны."
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:1682
+msgid "all"
+msgstr "усе"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2492
+#: ../libgnomeprintui/gnome-print-job-preview.c:2493
+msgid "Number of pages horizontally"
+msgstr "Гарызантальная колькасьць старонак"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2496
+#: ../libgnomeprintui/gnome-print-job-preview.c:2497
+msgid "Number of pages vertically"
+msgstr "Вэртыкальная колькасьць старонак"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2500
+msgid "Print job"
+msgstr "Заданьне"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Print"
+msgstr "Друк"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2595
+msgid "Prints the current file"
+msgstr "Друкуе бягучы файл"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Close"
+msgstr "Зачыніць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2596
+msgid "Closes print preview window"
+msgstr "Зачыняе вакно перадпрагляду"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2603
+msgid "Cut"
+msgstr "Выразаць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2604
+msgid "Copy"
+msgstr "Скапіяваць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2605
+msgid "Paste"
+msgstr "Уставіць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2616
+msgid "Undo"
+msgstr "Скасаваць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2616
+msgid "Undo the last action"
+msgstr "Скасаваць апошняе дзеяньне"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2617
+msgid "Redo"
+msgstr "Перарабіць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2617
+msgid "Redo the undone action"
+msgstr "Перарабіць скасаванае дзеяньне"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2626
+msgid "First"
+msgstr "Першая"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2626
+msgid "Shows the first page"
+msgstr "Адлюстраваць першую старонку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2627
+msgid "Previous"
+msgstr "Папярэдняя"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2627
+msgid "Shows previous page"
+msgstr "Адлюстроўвае папярэдняю старонку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2628
+msgid "Next"
+msgstr "Наступная"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2628
+msgid "Shows the next page"
+msgstr "Адлюстраваць наступную старонку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2629
+msgid "Last"
+msgstr "Апошняя"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2629
+msgid "Shows the last page"
+msgstr "Адлюстраваць апошняю старонку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2639
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2639
+msgid "Zooms 1:1"
+msgstr "Маштабаваць 1:1"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2640
+msgid "Zoom to fit"
+msgstr "Падагнаць маштаб"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2640
+msgid "Zooms to fit the whole page"
+msgstr "Маштабаваць на ўсю старонку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2641
+msgid "Zoom in"
+msgstr "Наблізіць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2641
+msgid "Zooms the page in"
+msgstr "Павялічыць маштаб старонкі"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2642
+msgid "Zoom out"
+msgstr "Аддаліць"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2642
+msgid "Zooms the page out"
+msgstr "Паменьшыць маштаб старонкі"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2651
+msgid "Show multiple pages"
+msgstr "Прагляд некалькіх старонак"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2652
+msgid "Edit"
+msgstr "Рэдагаваньне"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2653
+msgid "Use theme"
+msgstr "Ужыць тэму"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2653
+msgid "Use _theme colors for content"
+msgstr "Ужываць колеры _тэмы для зьместу"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2676
+msgid "Page Preview"
+msgstr "Перадпрагляд старонкі"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2677
+msgid "The preview of a page in the document to be printed"
+msgstr "Прагляд выгляд старонкі для друку"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2713
+msgid "_Page: "
+msgstr "С_таронка: "
+
+#. xgettext : There are a set of labels and a GtkEntry of the form _Page: <entry> of {total pages}
+#: ../libgnomeprintui/gnome-print-job-preview.c:2721
+msgid "of"
+msgstr "з"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2728
+msgid "Page total"
+msgstr "Агулам старонак"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2729
+msgid "The total number of pages in the document"
+msgstr "Агульная колькасьць старонак ў дакумэнце"
+
+#: ../libgnomeprintui/gnome-print-job-preview.c:2813
+msgid "Gnome Print Preview"
+msgstr "Перадпрагляд друку Gnome"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:853
+#: ../libgnomeprintui/gnome-print-content-selector.c:119
+msgid "Number of pages"
+msgstr "Колькасьць старонак"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:856
+#: ../libgnomeprintui/gnome-print-layout-selector.c:857
+msgid "Output width"
+msgstr "Шырыня вываду"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:860
+#: ../libgnomeprintui/gnome-print-layout-selector.c:861
+msgid "Output height"
+msgstr "Вышыня вываду"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:864
+#: ../libgnomeprintui/gnome-print-layout-selector.c:865
+msgid "Input width"
+msgstr "Шырыня ўводу"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:868
+#: ../libgnomeprintui/gnome-print-layout-selector.c:869
+msgid "Input height"
+msgstr "Вышыня ўводу"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:961
+msgid "_Plain"
+msgstr "_Просты"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:971
+msgid "_Handout: "
+msgstr "_Прыймальнік:"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:984
+msgid " pages on 1 page"
+msgstr " старонак на адным аркушы"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:991
+msgid "1 page _spread on "
+msgstr "раз_кідаць старонку па аркушах"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1004
+msgid " pages"
+msgstr " старонак"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1008
+msgid "Leaflet, folded once and _stapled"
+msgstr "Сагнутая аднойчы й пад_шытая брашура"
+
+#: ../libgnomeprintui/gnome-print-layout-selector.c:1012
+msgid "Leaflet, _folded twice"
+msgstr "Сагнутая ў_двая брашура"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:512
+#: ../libgnomeprintui/gnome-print-content-selector.c:122
+msgid "Current page"
+msgstr "Цяперашняя старонка"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:515
+#: ../libgnomeprintui/gnome-print-page-selector.c:516
+msgid "Number of pages to select from"
+msgstr "Колькасьць старонак выбару з"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:519
+#: ../libgnomeprintui/gnome-print-page-selector.c:520
+msgid "Number of selected pages"
+msgstr "Колькасьць вылучаных старонак"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:602
+msgid "_All pages"
+msgstr "_Усе старонкі"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:608
+msgid "_Even pages"
+msgstr "_Цотныя старонкі"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:612
+msgid "_Odd pages"
+msgstr "_Няцотныя старонкі"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:621
+msgid "_Current page"
+msgstr "Ця_перашняя старонка"
+
+#: ../libgnomeprintui/gnome-print-page-selector.c:629
+msgid "_Page range: "
+msgstr "Пра_межак старонак: "
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:597
+#: ../libgnomeprintui/gnome-print-paper-selector.c:741
+msgid "Preview"
+msgstr "Прагледзіць"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:598
+msgid "Preview of the page size, orientation and layout"
+msgstr "Прагледзіць памер паперы, арыентацыю й разьмяшчэньне"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:650
+msgid "Width"
+msgstr "Шырыня"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:653
+msgid "Height"
+msgstr "Вышыня"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:656
+msgid "Configuration"
+msgstr "Наладка"
+
+#. Paper size selector
+#: ../libgnomeprintui/gnome-print-paper-selector.c:695
+msgid "Paper _size:"
+msgstr "Памер _паперы:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:700
+msgid "_Width:"
+msgstr "_Шырыня:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:704
+msgid "_Height:"
+msgstr "_Вышыня:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:715
+msgid "Metric selector"
+msgstr "Выбар адзінак вымярэньня"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:717
+msgid ""
+"Specifies the metric to use when setting the width and height of the paper"
+msgstr "Вызначае адзінкі вымярэньня для вызначэньня шырыні й вышыні паперы"
+
+#. Feed orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:721
+msgid "_Feed orientation:"
+msgstr "Спагляданьне _падачы:"
+
+#. Page orientation
+#: ../libgnomeprintui/gnome-print-paper-selector.c:726
+msgid "Page _orientation:"
+msgstr "_Спагляданьне паперы:"
+
+#. Paper source
+#: ../libgnomeprintui/gnome-print-paper-selector.c:732
+msgid "Paper _tray:"
+msgstr "Сподак _паперы:"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:754
+msgid "Margins"
+msgstr "Палі"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:763
+msgid "Top"
+msgstr "Верхняе"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:767
+msgid "Bottom"
+msgstr "Ніжняе"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:771
+msgid "Left"
+msgstr "Левае"
+
+#: ../libgnomeprintui/gnome-print-paper-selector.c:775
+msgid "Right"
+msgstr "Правае"
+
+#. To translators: 'Print Content' can be a specific sheet, line x to y...
+#: ../libgnomeprintui/gnome-print-content-selector.c:134
+msgid "Print Content"
+msgstr "Зьмест друку"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:162
+msgid "Co_nfigure"
+msgstr "_Наладзіць"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:171
+msgid "Adjust the settings of the selected printer"
+msgstr "Наладзіць выбраную друкарку"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:195
+msgid "_Settings:"
+msgstr "_Усталёўкі:"
+
+#: ../libgnomeprintui/gnome-printer-selector.c:204
+msgid "_Location:"
+msgstr "_Разьмяшчэньне:"
+
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:179
+#: ../libgnomeprintui/gpaui/gpa-option-menu.c:229
+msgid "No options are defined"
+msgstr "Няма вызначаных выбараў"
+
+#: ../libgnomeprintui/gpaui/gpa-print-to-file.c:258
+msgid "Print to _file"
+msgstr "Надрукаваць у _файл"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:181
+msgid "State"
+msgstr "Стан"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:188
+msgid "Jobs"
+msgstr "Заданьні"
+
+#: ../libgnomeprintui/gpaui/gpa-printer-selector.c:195
+msgid "Location"
+msgstr "Разьмяшчэньне"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:180
+msgid "No printer selected"
+msgstr "Друкарка не выбрана"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:191
+msgid "No settings available"
+msgstr "Усталёўкі недаступныя"
+
+#: ../libgnomeprintui/gpaui/gpa-settings-selector.c:234
+msgid "Add new settings"
+msgstr "Дадаць новыя ўсталёўкі"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:315
+msgid "%"
+msgstr "%"
+
+#. Percent must be first
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:316
+msgid "Pt"
+msgstr "Кропкі"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:317
+msgid "mm"
+msgstr "мм"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:318
+msgid "cm"
+msgstr "см"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:319
+msgid "m"
+msgstr "м"
+
+#: ../libgnomeprintui/gpaui/gpa-spinbutton.c:320
+msgid "in"
+msgstr "цаляў"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:184
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:535
+#, c-format
+msgid "The specified filename \"%s\" is an existing directory."
+msgstr "Заданая назва файла \"%s\" - гэта існуючая тэчка."
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:203
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:557
+#, c-format
+msgid "Should the file %s be overwritten?"
+msgstr "Замяніць зьмест файла %s?"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:248
+msgid "Please specify the location and filename of the output file:"
+msgstr "Калі ласка, задайце знаходжаньне й назву файла вываду:"
+
+#: ../libgnomeprintui/gpaui/gpa-transport-selector.c:272
+msgid "All Files"
+msgstr "Усе файлы"
+

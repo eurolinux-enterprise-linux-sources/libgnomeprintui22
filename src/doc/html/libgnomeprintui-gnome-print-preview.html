@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gnome-print-preview</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.74.2">
+<link rel="home" href="index.html" title="GNOME Print UI Reference Manual">
+<link rel="up" href="ch02.html" title="API Reference">
+<link rel="prev" href="libgnomeprintui-gnome-print-paper-selector.html" title="gnome-print-paper-selector">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libgnomeprintui.html" title="GNOME Print UI Overview">
+<link rel="chapter" href="ch02.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libgnomeprintui-gnome-print-paper-selector.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GNOME Print UI Reference Manual</th>
+<td> </td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libgnomeprintui-gnome-print-preview.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-preview.description" class="shortcut">Description</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-preview.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                 | 
+                <a href="#libgnomeprintui-gnome-print-preview.properties" class="shortcut">Properties</a>
+</td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libgnomeprintui-gnome-print-preview"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libgnomeprintui-gnome-print-preview.top_of_page"></a>gnome-print-preview</span></h2>
+<p>gnome-print-preview</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libgnomeprintui-gnome-print-preview.synopsis"></a><h2>Synopsis</h2>
+<a name="GnomePrintPreview"></a><pre class="synopsis">
+                    <a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview-struct" title="GnomePrintPreview">GnomePrintPreview</a>;
+                    <a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreviewClass" title="GnomePrintPreviewClass">GnomePrintPreviewClass</a>;
+<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print.html#GnomePrintContext"
+>GnomePrintContext</a> * <a class="link" href="libgnomeprintui-gnome-print-preview.html#gnome-print-preview-new" title="gnome_print_preview_new ()">gnome_print_preview_new</a>             (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvas.html"
+>GnomeCanvas</a> *canvas);
+<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print.html#GnomePrintContext"
+>GnomePrintContext</a> * <a class="link" href="libgnomeprintui-gnome-print-preview.html#gnome-print-preview-new-full" title="gnome_print_preview_new_full ()">gnome_print_preview_new_full</a>        (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvas.html"
+>GnomeCanvas</a> *canvas,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a> *transform,
+                                                         const ArtDRect *region);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-preview.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print.html#GnomePrintContext"
+>GnomePrintContext</a>
+         +----GnomePrintPreview
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-preview.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--group" title='The "group" property'>group</a>"                    <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasGroup.html"
+>GnomeCanvasGroup</a>*     : Read / Write / Construct Only
+  "<a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--only-first" title='The "only-first" property'>only-first</a>"               <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--theme-compliance" title='The "theme-compliance" property'>theme-compliance</a>"         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="libgnomeprintui-gnome-print-preview.html#GnomePrintPreview--use-theme" title='The "use-theme" property'>use-theme</a>"                <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-preview.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-preview.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreview-struct"></a><h3>GnomePrintPreview</h3>
+<pre class="programlisting">typedef struct _GnomePrintPreview GnomePrintPreview;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreviewClass"></a><h3>GnomePrintPreviewClass</h3>
+<pre class="programlisting">typedef struct _GnomePrintPreviewClass GnomePrintPreviewClass;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-preview-new"></a><h3>gnome_print_preview_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print.html#GnomePrintContext"
+>GnomePrintContext</a> * gnome_print_preview_new             (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvas.html"
+>GnomeCanvas</a> *canvas);</pre>
+<p>
+Creates a new PrintPreview object that use the <em class="parameter"><code>canvas</code></em> GnomeCanvas 
+as its rendering backend.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>canvas</code></em> :</span></p></td>
+<td> Canvas on which we display the print preview
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A GnomePrintContext suitable for using with the GNOME print API.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="gnome-print-preview-new-full"></a><h3>gnome_print_preview_new_full ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print.html#GnomePrintContext"
+>GnomePrintContext</a> * gnome_print_preview_new_full        (<a
+href="/usr/share/gtk-doc/html/libgnomeprint/libgnomeprint-gnome-print-config.html#GnomePrintConfig"
+>GnomePrintConfig</a> *config,
+                                                         <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvas.html"
+>GnomeCanvas</a> *canvas,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gdouble"
+>gdouble</a> *transform,
+                                                         const ArtDRect *region);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>config</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>canvas</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>transform</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>region</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="libgnomeprintui-gnome-print-preview.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreview--group"></a><h3>The <code class="literal">"group"</code> property</h3>
+<pre class="programlisting">  "group"                    <a
+href="/usr/share/gtk-doc/html/libgnomecanvas/GnomeCanvasGroup.html"
+>GnomeCanvasGroup</a>*     : Read / Write / Construct Only</pre>
+<p>Group.</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreview--only-first"></a><h3>The <code class="literal">"only-first"</code> property</h3>
+<pre class="programlisting">  "only-first"               <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>Show only first page.</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreview--theme-compliance"></a><h3>The <code class="literal">"theme-compliance"</code> property</h3>
+<pre class="programlisting">  "theme-compliance"         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>Theme compliance.</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="GnomePrintPreview--use-theme"></a><h3>The <code class="literal">"use-theme"</code> property</h3>
+<pre class="programlisting">  "use-theme"                <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>Use theme.</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>
